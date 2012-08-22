@@ -1,7 +1,5 @@
 <ui>
 <toolbar name="Toolbar">
-	<toolitem name="Back" action="Back"/>
-	<toolitem name="Forward" action="Forward"/>
         <toolitem name="Up" action="Up"/>
  	<toolitem name="Reload" action="Reload"/>
         <toolitem name="Edit" action="Edit"/>

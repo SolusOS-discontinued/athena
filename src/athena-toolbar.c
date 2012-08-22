@@ -30,6 +30,7 @@
 #include "athena-location-bar.h"
 #include "athena-pathbar.h"
 #include "athena-window-private.h"
+#include "athena-actions.h"
 
 #include <libathena-private/athena-global-preferences.h>
 #include <libathena-private/athena-ui-utilities.h>
@@ -43,6 +44,8 @@ struct _AthenaToolbarPriv {
 	GtkWidget *path_bar;
 	GtkWidget *location_bar;
 	GtkWidget *search_bar;
+
+	GtkToolItem *back_forward;
 
 	gboolean show_main_bar;
 	gboolean show_location_entry;
@@ -116,6 +119,36 @@ toolbar_update_appearance (AthenaToolbar *self)
 	else {gtk_widget_show (widgetitem);}
 }
 
+static GtkWidget *
+toolbar_create_toolbutton (AthenaToolbar *self,
+			   gboolean create_toggle,
+			   const gchar *name,
+			   const gchar *icon_name)
+{
+	GtkWidget *button, *image;
+	GtkAction *action;
+
+	if (create_toggle) {
+		button = gtk_toggle_button_new ();
+	} else {
+		button = gtk_button_new ();
+	}
+
+	image = gtk_image_new ();
+	gtk_image_set_from_icon_name (GTK_IMAGE (image), icon_name,
+					GTK_ICON_SIZE_SMALL_TOOLBAR);
+
+	gtk_container_add (GTK_CONTAINER (button), image); // Force image to show
+	g_object_set (image, "margin", 3, NULL); // 3px margin around the image
+	gtk_widget_show (GTK_WIDGET (image));
+
+	action = gtk_action_group_get_action (self->priv->action_group, name);
+	gtk_activatable_set_related_action (GTK_ACTIVATABLE (button), action);
+	gtk_button_set_label (GTK_BUTTON (button), NULL);
+
+	return button;
+}
+
 static void
 athena_toolbar_constructed (GObject *obj)
 {
@@ -125,6 +158,10 @@ athena_toolbar_constructed (GObject *obj)
 	GtkStyleContext *context;
 
 	GtkWidget *sep_space;
+
+	GtkWidget *box;
+	GtkToolItem *back_forward;
+	GtkWidget *tool_button;
 
 	G_OBJECT_CLASS (athena_toolbar_parent_class)->constructed (obj);
 
@@ -143,6 +180,29 @@ athena_toolbar_constructed (GObject *obj)
 
 	context = gtk_widget_get_style_context (toolbar);
 	gtk_style_context_add_class (context, GTK_STYLE_CLASS_PRIMARY_TOOLBAR);
+
+	/* Back and Forward - Seen in Nautilus 3.5.9 */
+	back_forward = gtk_tool_item_new ();
+	box = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 0);
+
+	/* Back */
+	tool_button = toolbar_create_toolbutton (self,  FALSE, ATHENA_ACTION_BACK, "go-previous");
+	gtk_container_add (GTK_CONTAINER (box), GTK_WIDGET (tool_button));
+
+	/* Forward */
+	tool_button = toolbar_create_toolbutton (self, FALSE, ATHENA_ACTION_FORWARD, "go-next");
+	gtk_container_add (GTK_CONTAINER (box), GTK_WIDGET (tool_button));
+
+	gtk_style_context_add_class (gtk_widget_get_style_context (box),
+				     GTK_STYLE_CLASS_RAISED);
+	gtk_style_context_add_class (gtk_widget_get_style_context (box),
+				     GTK_STYLE_CLASS_LINKED);
+
+	gtk_container_add (GTK_CONTAINER (back_forward), box);
+	gtk_widget_show_all (GTK_WIDGET (back_forward));
+
+	gtk_toolbar_insert (GTK_TOOLBAR (self->priv->toolbar), back_forward, 0);
+	/* End of back/forward button */
 
 	sep_space = gtk_ui_manager_get_widget(self->priv->ui_manager, "/Toolbar/BeforeSearch");
 	gtk_separator_tool_item_set_draw (GTK_SEPARATOR_TOOL_ITEM (sep_space), FALSE);
