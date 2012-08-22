@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/org/gnome/athena">
+    <file compressed="true">athena-bookmarks-window.ui</file>
+    <file compressed="true">athena-file-management-properties.ui</file>
+    <file>athena-icon-view-ui.xml</file>
+    <file>athena-toolbar-ui.xml</file>
+    <file>athena-directory-view-ui.xml</file>
+    <file>athena-desktop-icon-view-ui.xml</file>
+    <file>athena-list-view-ui.xml</file>
+    <file>athena-shell-ui.xml</file>
+    <file alias="icons/thumbnail_frame.png">../icons/thumbnail_frame.png</file>
+    <file alias="icons/knob.png">../icons/knob.png</file>
+  </gresource>
+</gresources>

@@ -1,0 +1,76 @@
+<!-- ##### SECTION Title ##### -->
+AthenaColumn
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT AthenaColumnDetails ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT AthenaColumn ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ARG AthenaColumn:attribute ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG AthenaColumn:attribute-q ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG AthenaColumn:description ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG AthenaColumn:label ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG AthenaColumn:name ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG AthenaColumn:xalign ##### -->
+<para>
+
+</para>
+
+<!-- ##### FUNCTION athena_column_new ##### -->
+<para>
+
+</para>
+
+@name: 
+@attribute: 
+@label: 
+@description: 
+@Returns: 
+
+

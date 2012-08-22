@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>athena-info-provider</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.76.1">
+<link rel="home" href="index.html" title="Athena Extension Reference Manual">
+<link rel="up" href="ch01.html" title="Extension Interfaces">
+<link rel="prev" href="libathena-extension-athena-file-info.html" title="athena-file-info">
+<link rel="next" href="libathena-extension-athena-location-widget-provider.html" title="athena-location-widget-provider">
+<meta name="generator" content="GTK-Doc V1.18.1 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="libathena-extension-athena-file-info.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Athena Extension Reference Manual</th>
+<td><a accesskey="n" href="libathena-extension-athena-location-widget-provider.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#libathena-extension-athena-info-provider.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#libathena-extension-athena-info-provider.description" class="shortcut">Description</a>
+                   | 
+                  <a href="#libathena-extension-athena-info-provider.object-hierarchy" class="shortcut">Object Hierarchy</a>
+                   | 
+                  <a href="#libathena-extension-athena-info-provider.prerequisites" class="shortcut">Prerequisites</a>
+</td></tr>
+</table>
+<div class="refentry">
+<a name="libathena-extension-athena-info-provider"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="libathena-extension-athena-info-provider.top_of_page"></a>athena-info-provider</span></h2>
+<p>athena-info-provider</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<a name="libathena-extension-athena-info-provider.synopsis"></a><h2>Synopsis</h2>
+<a name="AthenaInfoProvider"></a><pre class="synopsis">                    <a class="link" href="libathena-extension-athena-info-provider.html#AthenaInfoProvider-struct" title="AthenaInfoProvider">AthenaInfoProvider</a>;
+struct              <a class="link" href="libathena-extension-athena-info-provider.html#AthenaInfoProviderIface" title="struct AthenaInfoProviderIface">AthenaInfoProviderIface</a>;
+<span class="returnvalue">void</span>                (<a class="link" href="libathena-extension-athena-info-provider.html#AthenaInfoProviderUpdateComplete" title="AthenaInfoProviderUpdateComplete ()">*AthenaInfoProviderUpdateComplete</a>)
+                                                        (<em class="parameter"><code><a class="link" href="libathena-extension-athena-info-provider.html#AthenaInfoProvider"><span class="type">AthenaInfoProvider</span></a> *provider</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="libathena-extension-athena-extension-types.html#AthenaOperationHandle" title="AthenaOperationHandle"><span class="type">AthenaOperationHandle</span></a> *handle</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="libathena-extension-athena-extension-types.html#AthenaOperationResult"><span class="type">AthenaOperationResult</span></a> result</code></em>,
+                                                         <em class="parameter"><code><span class="type">gpointer</span> user_data</code></em>);
+<a class="link" href="libathena-extension-athena-extension-types.html#AthenaOperationResult"><span class="returnvalue">AthenaOperationResult</span></a> <a class="link" href="libathena-extension-athena-info-provider.html#athena-info-provider-update-file-info" title="athena_info_provider_update_file_info ()">athena_info_provider_update_file_info</a>
+                                                        (<em class="parameter"><code><a class="link" href="libathena-extension-athena-info-provider.html#AthenaInfoProvider"><span class="type">AthenaInfoProvider</span></a> *provider</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="libathena-extension-athena-file-info.html#AthenaFileInfo"><span class="type">AthenaFileInfo</span></a> *file</code></em>,
+                                                         <em class="parameter"><code><span class="type">GClosure</span> *update_complete</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="libathena-extension-athena-extension-types.html#AthenaOperationHandle" title="AthenaOperationHandle"><span class="type">AthenaOperationHandle</span></a> **handle</code></em>);
+<span class="returnvalue">void</span>                <a class="link" href="libathena-extension-athena-info-provider.html#athena-info-provider-cancel-update" title="athena_info_provider_cancel_update ()">athena_info_provider_cancel_update</a>
+                                                        (<em class="parameter"><code><a class="link" href="libathena-extension-athena-info-provider.html#AthenaInfoProvider"><span class="type">AthenaInfoProvider</span></a> *provider</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="libathena-extension-athena-extension-types.html#AthenaOperationHandle" title="AthenaOperationHandle"><span class="type">AthenaOperationHandle</span></a> *handle</code></em>);
+<span class="returnvalue">void</span>                <a class="link" href="libathena-extension-athena-info-provider.html#athena-info-provider-update-complete-invoke" title="athena_info_provider_update_complete_invoke ()">athena_info_provider_update_complete_invoke</a>
+                                                        (<em class="parameter"><code><span class="type">GClosure</span> *update_complete</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="libathena-extension-athena-info-provider.html#AthenaInfoProvider"><span class="type">AthenaInfoProvider</span></a> *provider</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="libathena-extension-athena-extension-types.html#AthenaOperationHandle" title="AthenaOperationHandle"><span class="type">AthenaOperationHandle</span></a> *handle</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="libathena-extension-athena-extension-types.html#AthenaOperationResult"><span class="type">AthenaOperationResult</span></a> result</code></em>);
+</pre>
+</div>
+<div class="refsect1">
+<a name="libathena-extension-athena-info-provider.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="synopsis">
+  GInterface
+   +----AthenaInfoProvider
+</pre>
+</div>
+<div class="refsect1">
+<a name="libathena-extension-athena-info-provider.prerequisites"></a><h2>Prerequisites</h2>
+<p>
+AthenaInfoProvider requires
+ GObject.</p>
+</div>
+<div class="refsect1">
+<a name="libathena-extension-athena-info-provider.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1">
+<a name="libathena-extension-athena-info-provider.details"></a><h2>Details</h2>
+<div class="refsect2">
+<a name="AthenaInfoProvider-struct"></a><h3>AthenaInfoProvider</h3>
+<pre class="programlisting">typedef struct _AthenaInfoProvider AthenaInfoProvider;</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="AthenaInfoProviderIface"></a><h3>struct AthenaInfoProviderIface</h3>
+<pre class="programlisting">struct AthenaInfoProviderIface {
+	GTypeInterface g_iface;
+
+	AthenaOperationResult (*update_file_info) (AthenaInfoProvider     *provider,
+						     AthenaFileInfo         *file,
+						     GClosure                 *update_complete,
+						     AthenaOperationHandle **handle);
+	void                    (*cancel_update)    (AthenaInfoProvider     *provider,
+						     AthenaOperationHandle  *handle);
+};
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="AthenaInfoProviderUpdateComplete"></a><h3>AthenaInfoProviderUpdateComplete ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                (*AthenaInfoProviderUpdateComplete)
+                                                        (<em class="parameter"><code><a class="link" href="libathena-extension-athena-info-provider.html#AthenaInfoProvider"><span class="type">AthenaInfoProvider</span></a> *provider</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="libathena-extension-athena-extension-types.html#AthenaOperationHandle" title="AthenaOperationHandle"><span class="type">AthenaOperationHandle</span></a> *handle</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="libathena-extension-athena-extension-types.html#AthenaOperationResult"><span class="type">AthenaOperationResult</span></a> result</code></em>,
+                                                         <em class="parameter"><code><span class="type">gpointer</span> user_data</code></em>);</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="athena-info-provider-update-file-info"></a><h3>athena_info_provider_update_file_info ()</h3>
+<pre class="programlisting"><a class="link" href="libathena-extension-athena-extension-types.html#AthenaOperationResult"><span class="returnvalue">AthenaOperationResult</span></a> athena_info_provider_update_file_info
+                                                        (<em class="parameter"><code><a class="link" href="libathena-extension-athena-info-provider.html#AthenaInfoProvider"><span class="type">AthenaInfoProvider</span></a> *provider</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="libathena-extension-athena-file-info.html#AthenaFileInfo"><span class="type">AthenaFileInfo</span></a> *file</code></em>,
+                                                         <em class="parameter"><code><span class="type">GClosure</span> *update_complete</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="libathena-extension-athena-extension-types.html#AthenaOperationHandle" title="AthenaOperationHandle"><span class="type">AthenaOperationHandle</span></a> **handle</code></em>);</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="athena-info-provider-cancel-update"></a><h3>athena_info_provider_cancel_update ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                athena_info_provider_cancel_update
+                                                        (<em class="parameter"><code><a class="link" href="libathena-extension-athena-info-provider.html#AthenaInfoProvider"><span class="type">AthenaInfoProvider</span></a> *provider</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="libathena-extension-athena-extension-types.html#AthenaOperationHandle" title="AthenaOperationHandle"><span class="type">AthenaOperationHandle</span></a> *handle</code></em>);</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="athena-info-provider-update-complete-invoke"></a><h3>athena_info_provider_update_complete_invoke ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                athena_info_provider_update_complete_invoke
+                                                        (<em class="parameter"><code><span class="type">GClosure</span> *update_complete</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="libathena-extension-athena-info-provider.html#AthenaInfoProvider"><span class="type">AthenaInfoProvider</span></a> *provider</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="libathena-extension-athena-extension-types.html#AthenaOperationHandle" title="AthenaOperationHandle"><span class="type">AthenaOperationHandle</span></a> *handle</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="libathena-extension-athena-extension-types.html#AthenaOperationResult"><span class="type">AthenaOperationResult</span></a> result</code></em>);</pre>
+<p>
+</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.18.1</div>
+</body>
+</html>

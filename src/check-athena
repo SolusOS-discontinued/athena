@@ -1,0 +1,2 @@
+#!/bin/sh
+./athena --check --g-fatal-warnings

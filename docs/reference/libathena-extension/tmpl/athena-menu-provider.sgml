@@ -1,0 +1,74 @@
+<!-- ##### SECTION Title ##### -->
+athena-menu-provider
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT AthenaMenuProvider ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SIGNAL AthenaMenuProvider::items-updated ##### -->
+<para>
+
+</para>
+
+@athenamenuprovider: the object which received the signal.
+
+<!-- ##### STRUCT AthenaMenuProviderIface ##### -->
+<para>
+
+</para>
+
+@g_iface: 
+@get_file_items: 
+@get_background_items: 
+
+<!-- ##### FUNCTION athena_menu_provider_get_file_items ##### -->
+<para>
+
+</para>
+
+@provider: 
+@window: 
+@files: 
+@Returns: 
+
+
+<!-- ##### FUNCTION athena_menu_provider_get_background_items ##### -->
+<para>
+
+</para>
+
+@provider: 
+@window: 
+@current_folder: 
+@Returns: 
+
+
+<!-- ##### FUNCTION athena_menu_provider_emit_items_updated_signal ##### -->
+<para>
+
+</para>
+
+@provider: 
+
+

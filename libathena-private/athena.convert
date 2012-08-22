@@ -1,0 +1,73 @@
+[org.gnome.athena.preferences]
+tabs-open-position = /desktop/gnome/file_views/tabs_open_position
+always-use-browser = /apps/athena/preferences/always_use_browser
+always-use-location-entry = /apps/athena/preferences/always_use_location_entry
+show-up-icon-toolbar = /apps/athena/preferences/show-up-icon-toolbar
+show-edit-icon-toolbar = /apps/athena/preferences/show-edit-icon-toolbar
+show-reload-icon-toolbar = /apps/athena/preferences/show-reload-icon-toolbar
+show-home-icon-toolbar = /apps/athena/preferences/show-home-icon-toolbar
+show-computer-icon-toolbar = /apps/athena/preferences/show-computer-icon-toolbar
+show-search-icon-toolbar = /apps/athena/preferences/show-search-icon-toolbar
+show-label-search-icon-toolbar = /apps/athena/preferences/show-label-search-icon-toolbar
+confirm-trash = /apps/athena/preferences/confirm_trash
+enable-delete = /apps/athena/preferences/enable_delete
+show-icon-text = /apps/athena/preferences/show_icon_text
+show-directory-item-counts = /apps/athena/preferences/show_directory_item_counts
+click-policy = /apps/athena/preferences/click_policy
+executable-text-activation = /apps/athena/preferences/executable_text_activation
+install-mime-activation = /apps/athena/preferences/install_mime_activation
+mouse-use-extra-buttons = /apps/athena/preferences/mouse_use_extra_buttons
+mouse-forward-button = /apps/athena/preferences/mouse_forward_button
+mouse-back-button = /apps/athena/preferences/mouse_back_button
+show-image-thumbnails = /apps/athena/preferences/show_image_thumbnails
+thumbnail-limit = /apps/athena/preferences/thumbnail_limit
+show-advanced-permissions = /apps/athena/preferences/show_advanced_permissions
+sort-directories-first = /apps/athena/preferences/sort_directories_first
+default-sort-order = /apps/athena/icon_view/default_sort_order
+default-sort-in-reverse-order = /apps/athena/icon_view/default_sort_in_reverse_order
+desktop-is-home-dir = /apps/athena/preferences/desktop_is_home_dir
+default-folder-viewer = /apps/athena/preferences/default_folder_viewer
+date-format = /apps/athena/preferences/date_format
+show-hidden-files = /desktop/gnome/file_views/show_hidden_files
+
+[org.gnome.athena.icon-view]
+captions = /apps/athena/icon_view/captions
+labels-beside-icons = /apps/athena/icon_view/labels_beside_icons
+default-zoom-level = /apps/athena/icon_view/default_zoom_level
+thumbnail-size = /apps/athena/icon_view/thumbnail_size
+text-ellipsis-limit = /apps/athena/icon_view/text_ellipsis_limit
+
+[org.gnome.athena.compact-view]
+default-zoom-level = /apps/athena/compact_view/default_zoom_level
+all-columns-have-same-width = /apps/athena/compact_view/all_columns_have_same_width
+
+[org.gnome.athena.list-view]
+default-zoom-level = /apps/athena/list_view/default_zoom_level
+default-visible-columns = /apps/athena/list_view/default_visible_columns
+default-column-order = /apps/athena/list_view/default_column_order
+
+[org.gnome.athena.sidebar-panels.tree]
+show-only-directories = /apps/athena/sidebar_panels/tree/show_only_directories
+
+[org.gnome.athena.desktop]
+font = /apps/athena/preferences/desktop_font
+home-icon-visible = /apps/athena/desktop/home_icon_visible
+computer-icon-visible = /apps/athena/desktop/computer_icon_visible
+trash-icon-visible = /apps/athena/desktop/trash_icon_visible
+volumes-visible = /apps/athena/desktop/volumes_visible
+network-icon-visible = /apps/athena/desktop/network_icon_visible
+computer-icon-name = /apps/athena/desktop/computer_icon_name
+home-icon-name = /apps/athena/desktop/home_icon_name
+trash-icon-name = /apps/athena/desktop/trash_icon_name
+network-icon-name = /apps/athena/desktop/network_icon_name
+text-ellipsis-limit = /apps/athena/desktop/text_ellipsis_limit
+
+[org.gnome.athena.window-state]
+geometry = /apps/athena/preferences/navigation_window_saved_geometry
+maximized = /apps/athena/preferences/navigation_window_saved_maximized
+sidebar-width = /apps/athena/preferences/sidebar_width
+start-with-toolbar = /apps/athena/preferences/start_with_toolbar
+start-with-location-bar = /apps/athena/preferences/start_with_location_bar
+start-with-status-bar = /apps/athena/preferences/start_with_status_bar
+start-with-sidebar = /apps/athena/preferences/start_with_sidebar
+side-pane-view = /apps/athena/preferences/side_pane_view

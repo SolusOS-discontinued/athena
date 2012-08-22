@@ -1,0 +1,2 @@
+?package(athena):needs="X11" section="Applications/File Management" \
+  title="Athena" command="/usr/bin/athena" icon="/usr/share/pixmaps/athena.xpm"

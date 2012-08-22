@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE book PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "">
+<book xmlns="http://www.devhelp.net/book" title="Athena Extension Reference Manual" link="index.html" author="" name="libathena-extension" version="2" language="c">
+  <chapters>
+    <sub name="API Reference" link="pt01.html">
+      <sub name="Extension Interfaces" link="ch01.html">
+        <sub name="athena-column-provider" link="libathena-extension-athena-column-provider.html"/>
+        <sub name="AthenaColumn" link="libathena-extension-athena-column.html"/>
+        <sub name="athena-extension-types" link="libathena-extension-athena-extension-types.html"/>
+        <sub name="athena-file-info" link="libathena-extension-athena-file-info.html"/>
+        <sub name="athena-info-provider" link="libathena-extension-athena-info-provider.html"/>
+        <sub name="athena-location-widget-provider" link="libathena-extension-athena-location-widget-provider.html"/>
+        <sub name="athena-menu-provider" link="libathena-extension-athena-menu-provider.html"/>
+        <sub name="AthenaMenuItem" link="libathena-extension-athena-menu.html"/>
+        <sub name="athena-property-page-provider" link="libathena-extension-athena-property-page-provider.html"/>
+        <sub name="AthenaPropertyPage" link="libathena-extension-athena-property-page.html"/>
+      </sub>
+    </sub>
+    <sub name="Index" link="ix01.html"/>
+  </chapters>
+  <functions>
+    <keyword type="struct" name="AthenaColumnProvider" link="libathena-extension-athena-column-provider.html#AthenaColumnProvider-struct"/>
+    <keyword type="struct" name="struct AthenaColumnProviderIface" link="libathena-extension-athena-column-provider.html#AthenaColumnProviderIface"/>
+    <keyword type="function" name="athena_column_provider_get_columns ()" link="libathena-extension-athena-column-provider.html#athena-column-provider-get-columns"/>
+    <keyword type="struct" name="AthenaColumnDetails" link="libathena-extension-athena-column.html#AthenaColumnDetails"/>
+    <keyword type="struct" name="struct AthenaColumn" link="libathena-extension-athena-column.html#AthenaColumn-struct"/>
+    <keyword type="function" name="athena_column_new ()" link="libathena-extension-athena-column.html#athena-column-new"/>
+    <keyword type="property" name="The &quot;attribute&quot; property" link="libathena-extension-athena-column.html#AthenaColumn--attribute"/>
+    <keyword type="property" name="The &quot;attribute-q&quot; property" link="libathena-extension-athena-column.html#AthenaColumn--attribute-q"/>
+    <keyword type="property" name="The &quot;description&quot; property" link="libathena-extension-athena-column.html#AthenaColumn--description"/>
+    <keyword type="property" name="The &quot;label&quot; property" link="libathena-extension-athena-column.html#AthenaColumn--label"/>
+    <keyword type="property" name="The &quot;name&quot; property" link="libathena-extension-athena-column.html#AthenaColumn--name"/>
+    <keyword type="property" name="The &quot;xalign&quot; property" link="libathena-extension-athena-column.html#AthenaColumn--xalign"/>
+    <keyword type="macro" name="ATHENA_TYPE_OPERATION_RESULT" link="libathena-extension-athena-extension-types.html#ATHENA-TYPE-OPERATION-RESULT:CAPS"/>
+    <keyword type="struct" name="AthenaOperationHandle" link="libathena-extension-athena-extension-types.html#AthenaOperationHandle"/>
+    <keyword type="enum" name="enum AthenaOperationResult" link="libathena-extension-athena-extension-types.html#AthenaOperationResult-enum"/>
+    <keyword type="function" name="athena_operation_result_get_type ()" link="libathena-extension-athena-extension-types.html#athena-operation-result-get-type"/>
+    <keyword type="function" name="athena_module_initialize ()" link="libathena-extension-athena-extension-types.html#athena-module-initialize"/>
+    <keyword type="function" name="athena_module_shutdown ()" link="libathena-extension-athena-extension-types.html#athena-module-shutdown"/>
+    <keyword type="function" name="athena_module_list_types ()" link="libathena-extension-athena-extension-types.html#athena-module-list-types"/>
+    <keyword type="macro" name="ATHENA_FILE_DEFINED" link="libathena-extension-athena-file-info.html#ATHENA-FILE-DEFINED:CAPS"/>
+    <keyword type="typedef" name="AthenaFile" link="libathena-extension-athena-file-info.html#AthenaFile"/>
+    <keyword type="typedef" name="AthenaFileInfo" link="libathena-extension-athena-file-info.html#AthenaFileInfo"/>
+    <keyword type="struct" name="struct AthenaFileInfoIface" link="libathena-extension-athena-file-info.html#AthenaFileInfoIface"/>
+    <keyword type="function" name="athena_file_info_create ()" link="libathena-extension-athena-file-info.html#athena-file-info-create"/>
+    <keyword type="function" name="athena_file_info_create_for_uri ()" link="libathena-extension-athena-file-info.html#athena-file-info-create-for-uri"/>
+    <keyword type="function" name="athena_file_info_getter ()" link="libathena-extension-athena-file-info.html#athena-file-info-getter"/>
+    <keyword type="function" name="athena_file_info_lookup ()" link="libathena-extension-athena-file-info.html#athena-file-info-lookup"/>
+    <keyword type="function" name="athena_file_info_lookup_for_uri ()" link="libathena-extension-athena-file-info.html#athena-file-info-lookup-for-uri"/>
+    <keyword type="function" name="athena_file_info_list_copy ()" link="libathena-extension-athena-file-info.html#athena-file-info-list-copy"/>
+    <keyword type="function" name="athena_file_info_list_free ()" link="libathena-extension-athena-file-info.html#athena-file-info-list-free"/>
+    <keyword type="function" name="athena_file_info_is_gone ()" link="libathena-extension-athena-file-info.html#athena-file-info-is-gone"/>
+    <keyword type="function" name="athena_file_info_get_file_type ()" link="libathena-extension-athena-file-info.html#athena-file-info-get-file-type"/>
+    <keyword type="function" name="athena_file_info_get_location ()" link="libathena-extension-athena-file-info.html#athena-file-info-get-location"/>
+    <keyword type="function" name="athena_file_info_get_name ()" link="libathena-extension-athena-file-info.html#athena-file-info-get-name"/>
+    <keyword type="function" name="athena_file_info_get_uri ()" link="libathena-extension-athena-file-info.html#athena-file-info-get-uri"/>
+    <keyword type="function" name="athena_file_info_get_activation_uri ()" link="libathena-extension-athena-file-info.html#athena-file-info-get-activation-uri"/>
+    <keyword type="function" name="athena_file_info_get_parent_location ()" link="libathena-extension-athena-file-info.html#athena-file-info-get-parent-location"/>
+    <keyword type="function" name="athena_file_info_get_parent_uri ()" link="libathena-extension-athena-file-info.html#athena-file-info-get-parent-uri"/>
+    <keyword type="function" name="athena_file_info_get_mount ()" link="libathena-extension-athena-file-info.html#athena-file-info-get-mount"/>
+    <keyword type="function" name="athena_file_info_get_uri_scheme ()" link="libathena-extension-athena-file-info.html#athena-file-info-get-uri-scheme"/>
+    <keyword type="function" name="athena_file_info_get_parent_info ()" link="libathena-extension-athena-file-info.html#athena-file-info-get-parent-info"/>
+    <keyword type="function" name="athena_file_info_get_mime_type ()" link="libathena-extension-athena-file-info.html#athena-file-info-get-mime-type"/>
+    <keyword type="function" name="athena_file_info_is_mime_type ()" link="libathena-extension-athena-file-info.html#athena-file-info-is-mime-type"/>
+    <keyword type="function" name="athena_file_info_is_directory ()" link="libathena-extension-athena-file-info.html#athena-file-info-is-directory"/>
+    <keyword type="function" name="athena_file_info_can_write ()" link="libathena-extension-athena-file-info.html#athena-file-info-can-write"/>
+    <keyword type="function" name="athena_file_info_add_emblem ()" link="libathena-extension-athena-file-info.html#athena-file-info-add-emblem"/>
+    <keyword type="function" name="athena_file_info_get_string_attribute ()" link="libathena-extension-athena-file-info.html#athena-file-info-get-string-attribute"/>
+    <keyword type="function" name="athena_file_info_add_string_attribute ()" link="libathena-extension-athena-file-info.html#athena-file-info-add-string-attribute"/>
+    <keyword type="function" name="athena_file_info_invalidate_extension_info ()" link="libathena-extension-athena-file-info.html#athena-file-info-invalidate-extension-info"/>
+    <keyword type="struct" name="AthenaInfoProvider" link="libathena-extension-athena-info-provider.html#AthenaInfoProvider-struct"/>
+    <keyword type="struct" name="struct AthenaInfoProviderIface" link="libathena-extension-athena-info-provider.html#AthenaInfoProviderIface"/>
+    <keyword type="function" name="AthenaInfoProviderUpdateComplete ()" link="libathena-extension-athena-info-provider.html#AthenaInfoProviderUpdateComplete"/>
+    <keyword type="function" name="athena_info_provider_update_file_info ()" link="libathena-extension-athena-info-provider.html#athena-info-provider-update-file-info"/>
+    <keyword type="function" name="athena_info_provider_cancel_update ()" link="libathena-extension-athena-info-provider.html#athena-info-provider-cancel-update"/>
+    <keyword type="function" name="athena_info_provider_update_complete_invoke ()" link="libathena-extension-athena-info-provider.html#athena-info-provider-update-complete-invoke"/>
+    <keyword type="struct" name="AthenaLocationWidgetProvider" link="libathena-extension-athena-location-widget-provider.html#AthenaLocationWidgetProvider-struct"/>
+    <keyword type="struct" name="struct AthenaLocationWidgetProviderIface" link="libathena-extension-athena-location-widget-provider.html#AthenaLocationWidgetProviderIface"/>
+    <keyword type="function" name="athena_location_widget_provider_get_widget ()" link="libathena-extension-athena-location-widget-provider.html#athena-location-widget-provider-get-widget"/>
+    <keyword type="struct" name="AthenaMenuProvider" link="libathena-extension-athena-menu-provider.html#AthenaMenuProvider-struct"/>
+    <keyword type="struct" name="struct AthenaMenuProviderIface" link="libathena-extension-athena-menu-provider.html#AthenaMenuProviderIface"/>
+    <keyword type="function" name="athena_menu_provider_get_file_items ()" link="libathena-extension-athena-menu-provider.html#athena-menu-provider-get-file-items"/>
+    <keyword type="function" name="athena_menu_provider_get_background_items ()" link="libathena-extension-athena-menu-provider.html#athena-menu-provider-get-background-items"/>
+    <keyword type="function" name="athena_menu_provider_emit_items_updated_signal ()" link="libathena-extension-athena-menu-provider.html#athena-menu-provider-emit-items-updated-signal"/>
+    <keyword type="signal" name="The &quot;items-updated&quot; signal" link="libathena-extension-athena-menu-provider.html#AthenaMenuProvider-items-updated"/>
+    <keyword type="macro" name="ATHENA_TYPE_MENU_ITEM" link="libathena-extension-athena-menu.html#ATHENA-TYPE-MENU-ITEM:CAPS"/>
+    <keyword type="macro" name="ATHENA_MENU_ITEM()" link="libathena-extension-athena-menu.html#ATHENA-MENU-ITEM:CAPS"/>
+    <keyword type="macro" name="ATHENA_MENU_ITEM_CLASS()" link="libathena-extension-athena-menu.html#ATHENA-MENU-ITEM-CLASS:CAPS"/>
+    <keyword type="macro" name="ATHENA_MENU_IS_ITEM()" link="libathena-extension-athena-menu.html#ATHENA-MENU-IS-ITEM:CAPS"/>
+    <keyword type="macro" name="ATHENA_MENU_IS_ITEM_CLASS()" link="libathena-extension-athena-menu.html#ATHENA-MENU-IS-ITEM-CLASS:CAPS"/>
+    <keyword type="macro" name="ATHENA_MENU_ITEM_GET_CLASS()" link="libathena-extension-athena-menu.html#ATHENA-MENU-ITEM-GET-CLASS:CAPS"/>
+    <keyword type="struct" name="AthenaMenuPrivate" link="libathena-extension-athena-menu.html#AthenaMenuPrivate"/>
+    <keyword type="struct" name="AthenaMenuItemDetails" link="libathena-extension-athena-menu.html#AthenaMenuItemDetails"/>
+    <keyword type="struct" name="struct AthenaMenu" link="libathena-extension-athena-menu.html#AthenaMenu-struct"/>
+    <keyword type="struct" name="struct AthenaMenuItem" link="libathena-extension-athena-menu.html#AthenaMenuItem-struct"/>
+    <keyword type="function" name="athena_menu_new ()" link="libathena-extension-athena-menu.html#athena-menu-new"/>
+    <keyword type="function" name="athena_menu_append_item ()" link="libathena-extension-athena-menu.html#athena-menu-append-item"/>
+    <keyword type="function" name="athena_menu_get_items ()" link="libathena-extension-athena-menu.html#athena-menu-get-items"/>
+    <keyword type="function" name="athena_menu_item_list_free ()" link="libathena-extension-athena-menu.html#athena-menu-item-list-free"/>
+    <keyword type="function" name="athena_menu_item_get_type ()" link="libathena-extension-athena-menu.html#athena-menu-item-get-type"/>
+    <keyword type="function" name="athena_menu_item_new ()" link="libathena-extension-athena-menu.html#athena-menu-item-new"/>
+    <keyword type="function" name="athena_menu_item_activate ()" link="libathena-extension-athena-menu.html#athena-menu-item-activate"/>
+    <keyword type="function" name="athena_menu_item_set_submenu ()" link="libathena-extension-athena-menu.html#athena-menu-item-set-submenu"/>
+    <keyword type="property" name="The &quot;icon&quot; property" link="libathena-extension-athena-menu.html#AthenaMenuItem--icon"/>
+    <keyword type="property" name="The &quot;label&quot; property" link="libathena-extension-athena-menu.html#AthenaMenuItem--label"/>
+    <keyword type="property" name="The &quot;menu&quot; property" link="libathena-extension-athena-menu.html#AthenaMenuItem--menu"/>
+    <keyword type="property" name="The &quot;name&quot; property" link="libathena-extension-athena-menu.html#AthenaMenuItem--name"/>
+    <keyword type="property" name="The &quot;priority&quot; property" link="libathena-extension-athena-menu.html#AthenaMenuItem--priority"/>
+    <keyword type="property" name="The &quot;sensitive&quot; property" link="libathena-extension-athena-menu.html#AthenaMenuItem--sensitive"/>
+    <keyword type="property" name="The &quot;tip&quot; property" link="libathena-extension-athena-menu.html#AthenaMenuItem--tip"/>
+    <keyword type="signal" name="The &quot;activate&quot; signal" link="libathena-extension-athena-menu.html#AthenaMenuItem-activate"/>
+    <keyword type="struct" name="AthenaPropertyPageProvider" link="libathena-extension-athena-property-page-provider.html#AthenaPropertyPageProvider-struct"/>
+    <keyword type="struct" name="struct AthenaPropertyPageProviderIface" link="libathena-extension-athena-property-page-provider.html#AthenaPropertyPageProviderIface"/>
+    <keyword type="function" name="athena_property_page_provider_get_pages ()" link="libathena-extension-athena-property-page-provider.html#athena-property-page-provider-get-pages"/>
+    <keyword type="struct" name="AthenaPropertyPageDetails" link="libathena-extension-athena-property-page.html#AthenaPropertyPageDetails"/>
+    <keyword type="struct" name="struct AthenaPropertyPage" link="libathena-extension-athena-property-page.html#AthenaPropertyPage-struct"/>
+    <keyword type="function" name="athena_property_page_new ()" link="libathena-extension-athena-property-page.html#athena-property-page-new"/>
+    <keyword type="property" name="The &quot;label&quot; property" link="libathena-extension-athena-property-page.html#AthenaPropertyPage--label"/>
+    <keyword type="property" name="The &quot;name&quot; property" link="libathena-extension-athena-property-page.html#AthenaPropertyPage--name"/>
+    <keyword type="property" name="The &quot;page&quot; property" link="libathena-extension-athena-property-page.html#AthenaPropertyPage--page"/>
+  </functions>
+</book>

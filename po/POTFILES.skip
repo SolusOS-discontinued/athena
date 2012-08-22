@@ -1,0 +1,10 @@
+# List of source files that should NOT be translated.
+# Please keep this file sorted alphabetically.
+libbackground/applier.c
+data/athena-autorun-software.desktop.in
+data/athena-computer.desktop.in
+data/athena-file-management-properties.desktop.in
+data/athena-folder-handler.desktop.in
+data/athena-home.desktop.in
+data/athena.desktop.in
+data/athena-browser.desktop.in

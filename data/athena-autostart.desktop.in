@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Files
+Exec=athena -n
+OnlyShowIn=GNOME;Unity;
+AutostartCondition=GSettings org.gnome.desktop.background show-desktop-icons
