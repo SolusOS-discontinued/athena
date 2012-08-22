@@ -6,8 +6,8 @@
 Source: athena
 Section: gnome
 Priority: optional
-Maintainer: Josselin Mouette <joss@debian.org>
-Uploaders: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>, Michael Biebl <biebl@debian.org>
+Maintainer: Ikey Doherty <ikey@solusos.com>
+Uploaders: Ikey Doherty <ikey@solusos.com>
 Build-Depends: debhelper (>= 8),
                dh-autoreconf,
                cdbs (>= 0.4.90),
