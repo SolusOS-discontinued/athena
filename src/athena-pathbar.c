@@ -287,7 +287,7 @@ athena_path_bar_init (AthenaPathBar *path_bar)
 	gtk_widget_set_has_window (GTK_WIDGET (path_bar), FALSE);
         gtk_widget_set_redraw_on_allocate (GTK_WIDGET (path_bar), FALSE);
 
-        path_bar->spacing = 3;
+        path_bar->spacing = 0;
         path_bar->up_slider_button = get_slider_button (path_bar, GTK_ARROW_LEFT);
         path_bar->down_slider_button = get_slider_button (path_bar, GTK_ARROW_RIGHT);
         path_bar->icon_size = ATHENA_PATH_BAR_ICON_SIZE;
