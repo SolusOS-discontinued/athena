@@ -202,6 +202,7 @@ athena_toolbar_constructed (GObject *obj)
 	gtk_widget_show_all (GTK_WIDGET (back_forward));
 
 	gtk_toolbar_insert (GTK_TOOLBAR (self->priv->toolbar), back_forward, 0);
+	self->priv->back_forward = back_forward;
 	/* End of back/forward button */
 
 	sep_space = gtk_ui_manager_get_widget(self->priv->ui_manager, "/Toolbar/BeforeSearch");
