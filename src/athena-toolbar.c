@@ -217,7 +217,6 @@ athena_toolbar_constructed (GObject *obj)
 	search_item = gtk_tool_item_new ();
 	gtk_container_add (GTK_CONTAINER (search_item), GTK_WIDGET (tool_button));
 	gtk_widget_show_all (GTK_WIDGET (search_item));
-	gtk_style_context_add_class (gtk_widget_get_style_context (search_item), GTK_STYLE_CLASS_RAISED);
 	gtk_widget_set_name (search_item, "athena-search-button");
 	self->priv->search = search_item;
 	gtk_toolbar_insert (GTK_TOOLBAR (self->priv->toolbar), search_item, 1);
