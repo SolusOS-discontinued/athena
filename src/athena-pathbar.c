@@ -348,9 +348,6 @@ athena_path_bar_init (AthenaPathBar *path_bar)
                           G_CALLBACK (trash_state_changed_cb),
                           path_bar);
 
-	gtk_style_context_add_class (gtk_widget_get_style_context (GTK_WIDGET (path_bar)),
-                                     GTK_STYLE_CLASS_LINKED);
-
 }
 
 static void
