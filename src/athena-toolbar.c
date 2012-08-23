@@ -45,7 +45,9 @@ struct _AthenaToolbarPriv {
 	GtkWidget *location_bar;
 	GtkWidget *search_bar;
 
+	/* Buttons for the toolbar */
 	GtkToolItem *back_forward;
+	GtkToolItem *search;
 
 	gboolean show_main_bar;
 	gboolean show_location_entry;
@@ -113,7 +115,7 @@ toolbar_update_appearance (AthenaToolbar *self)
 	if ( icon_toolbar == FALSE ) { gtk_widget_hide (widgetitem); }
 	else {gtk_widget_show (widgetitem);}
 
-	widgetitem = gtk_ui_manager_get_widget (self->priv->ui_manager, "/Toolbar/Search");
+	widgetitem = self->priv->search;
 	icon_toolbar = g_settings_get_boolean (athena_preferences, ATHENA_PREFERENCES_SHOW_SEARCH_ICON_TOOLBAR);
 	if ( icon_toolbar == FALSE ) { gtk_widget_hide (widgetitem); }
 	else {gtk_widget_show (widgetitem);}
@@ -162,6 +164,7 @@ athena_toolbar_constructed (GObject *obj)
 	GtkWidget *box;
 	GtkToolItem *back_forward;
 	GtkWidget *tool_button;
+	GtkWidget *search_item;
 
 	G_OBJECT_CLASS (athena_toolbar_parent_class)->constructed (obj);
 
@@ -205,13 +208,22 @@ athena_toolbar_constructed (GObject *obj)
 	self->priv->back_forward = back_forward;
 	/* End of back/forward button */
 
+	/* Search button */
+	tool_button = toolbar_create_toolbutton (self, TRUE, ATHENA_ACTION_SEARCH, "edit-find");
+	search_item = gtk_tool_item_new ();
+	gtk_container_add (GTK_CONTAINER (search_item), GTK_WIDGET (tool_button));
+	gtk_widget_show_all (GTK_WIDGET (search_item));
+	gtk_style_context_add_class (gtk_widget_get_style_context (search_item), GTK_STYLE_CLASS_RAISED);
+	gtk_widget_set_name (search_item, "athena-search-button");
+	self->priv->search = search_item;
+	gtk_toolbar_insert (GTK_TOOLBAR (self->priv->toolbar), search_item, 1);
+	gtk_widget_set_margin_left (GTK_WIDGET (search_item), 20);
+
+	/* End of search button */
+
 	sep_space = gtk_ui_manager_get_widget(self->priv->ui_manager, "/Toolbar/BeforeSearch");
 	gtk_separator_tool_item_set_draw (GTK_SEPARATOR_TOOL_ITEM (sep_space), FALSE);
 	gtk_tool_item_set_expand (GTK_SEPARATOR_TOOL_ITEM (sep_space), TRUE);
-
-	search = gtk_ui_manager_get_widget (self->priv->ui_manager, "/Toolbar/Search");
-	gtk_style_context_add_class (gtk_widget_get_style_context (search), GTK_STYLE_CLASS_RAISED);
-	gtk_widget_set_name (search, "athena-search-button");
 
 	gtk_box_pack_start (GTK_BOX (self), self->priv->toolbar, TRUE, TRUE, 0);
 	gtk_widget_show_all (self->priv->toolbar);
@@ -221,6 +233,7 @@ athena_toolbar_constructed (GObject *obj)
 
 	/* regular path bar */
 	self->priv->path_bar = g_object_new (ATHENA_TYPE_PATH_BAR, NULL);
+	gtk_widget_set_margin_left (GTK_WIDGET (self->priv->path_bar), 20);
 	gtk_box_pack_start (GTK_BOX (hbox), self->priv->path_bar, TRUE, TRUE, 0);
 
 	/* entry-like location bar */

@@ -7,6 +7,5 @@
         <toolitem name="Computer" action="Computer"/>
 	<placeholder />
 	<separator name="BeforeSearch" />
-        <toolitem name="Search" action="Search"/>
 </toolbar>
 </ui>
