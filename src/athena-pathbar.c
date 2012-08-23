@@ -351,11 +351,6 @@ athena_path_bar_init (AthenaPathBar *path_bar)
 	gtk_style_context_add_class (gtk_widget_get_style_context (GTK_WIDGET (path_bar)),
                                      GTK_STYLE_CLASS_LINKED);
 
-	/** If this proves problematic with themes we'll just remove it */
-	gtk_style_context_add_class (gtk_widget_get_style_context (GTK_WIDGET (path_bar)),
-                                     GTK_STYLE_CLASS_RAISED);
-
-	gtk_widget_set_margin_left (GTK_WIDGET (path_bar), 2);
 }
 
 static void
