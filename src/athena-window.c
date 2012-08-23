@@ -592,7 +592,9 @@ athena_window_constructed (GObject *self)
 	gtk_widget_show (hpaned);
 	window->details->split_view_hpane = hpaned;
 
-	gtk_box_pack_start (GTK_BOX (vbox), window->details->statusbar, FALSE, FALSE, 0);
+	gtk_widget_set_hexpand (window->details->statusbar, TRUE);
+	gtk_widget_set_vexpand (window->details->statusbar, FALSE);
+	gtk_container_add (GTK_CONTAINER (grid), window->details->statusbar);
 
 	g_settings_bind_with_mapping (athena_window_state,
 				      ATHENA_WINDOW_STATE_START_WITH_STATUS_BAR,
