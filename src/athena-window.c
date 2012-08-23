@@ -556,6 +556,9 @@ athena_window_constructed (GObject *self)
 		(GTK_STATUSBAR (statusbar), "help_message");
 	/* Statusbar is packed in the subclasses */
 
+	/* Ensure the window has a resize grip */
+	gtk_window_set_has_resize_grip (GTK_WINDOW (window), TRUE);
+
 	athena_window_initialize_menus (window);
 	athena_window_initialize_actions (window);
 
