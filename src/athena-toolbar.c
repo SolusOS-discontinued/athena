@@ -136,6 +136,9 @@ toolbar_create_toolbutton (AthenaToolbar *self,
 		button = gtk_button_new ();
 	}
 
+	// Don't use focus for toolbar buttons, don't want them trapping the keyboard etc.
+	gtk_button_set_focus_on_click (GTK_BUTTON (button), FALSE);
+
 	image = gtk_image_new ();
 	gtk_image_set_from_icon_name (GTK_IMAGE (image), icon_name,
 					GTK_ICON_SIZE_SMALL_TOOLBAR);
