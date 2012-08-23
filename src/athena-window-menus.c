@@ -399,7 +399,7 @@ action_about_athena_callback (GtkAction *action,
 				 */
 			      "translator-credits", _("translator-credits"),
 			      "logo-icon-name", "system-file-manager",
-			      "website", "http://live.gnome.org/Athena",
+			      "website", "http://www.solusos.com/Athena",
 			      "website-label", _("Athena Web Site"),
 			      NULL);
 
