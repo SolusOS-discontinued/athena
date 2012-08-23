@@ -55,6 +55,11 @@
 #define ATHENA_ACTION_FOLDER_WINDOW "Folder Window"
 #define ATHENA_ACTION_NEW_TAB "New Tab"
 
+/* Added specifically for the view-toggler on the toolbar */
+#define ATHENA_ACTION_VIEW_ICONS "View Icons"
+#define ATHENA_ACTION_VIEW_LIST "View List"
+#define ATHENA_ACTION_VIEW_DETAILS "View Details"
+
 #define ATHENA_ACTION_OPEN "Open"
 #define ATHENA_ACTION_OPEN_ALTERNATE "OpenAlternate"
 #define ATHENA_ACTION_OPEN_IN_NEW_TAB "OpenInNewTab"
