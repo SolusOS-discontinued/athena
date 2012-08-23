@@ -48,6 +48,7 @@ struct _AthenaToolbarPriv {
 	/* Buttons for the toolbar */
 	GtkToolItem *back_forward;
 	GtkToolItem *search;
+	GtkToolItem *view_toggler;
 
 	gboolean show_main_bar;
 	gboolean show_location_entry;
@@ -165,7 +166,7 @@ athena_toolbar_constructed (GObject *obj)
 	GtkWidget *sep_space;
 
 	GtkWidget *box;
-	GtkToolItem *back_forward;
+	GtkToolItem *back_forward, *view_toggler;
 	GtkWidget *tool_button;
 	GtkWidget *search_item;
 
@@ -230,6 +231,30 @@ athena_toolbar_constructed (GObject *obj)
 
 	gtk_box_pack_start (GTK_BOX (self), self->priv->toolbar, TRUE, TRUE, 0);
 	gtk_widget_show_all (self->priv->toolbar);
+
+	/* Create the view toggler */
+	view_toggler = gtk_tool_item_new ();
+	box = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 0);
+	gtk_style_context_add_class (gtk_widget_get_style_context (box),
+				     GTK_STYLE_CLASS_RAISED);
+	gtk_style_context_add_class (gtk_widget_get_style_context (box),
+				     GTK_STYLE_CLASS_LINKED);
+
+	// View buttons.
+	tool_button = toolbar_create_toolbutton (self, TRUE, ATHENA_ACTION_VIEW_LIST, "view-list-compact");
+	gtk_container_add (GTK_CONTAINER (box), GTK_WIDGET (tool_button));
+	tool_button = toolbar_create_toolbutton (self, TRUE, ATHENA_ACTION_VIEW_ICONS, "view-list-icons");
+	gtk_container_add (GTK_CONTAINER (box), GTK_WIDGET (tool_button));
+	tool_button = toolbar_create_toolbutton (self, TRUE, ATHENA_ACTION_VIEW_DETAILS, "view-list-details");
+	gtk_container_add (GTK_CONTAINER (box), GTK_WIDGET (tool_button));
+
+	// Quick pointer to the view_toggler
+	self->priv->view_toggler = view_toggler;
+
+	// Whack it all onto the end of the toolbar now
+	gtk_container_add (GTK_CONTAINER (view_toggler), box);
+	gtk_widget_show_all (GTK_WIDGET (view_toggler));
+	gtk_toolbar_insert (GTK_TOOLBAR (self->priv->toolbar), view_toggler, -1);
 
 	hbox = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 0);
 	gtk_widget_show (hbox);
