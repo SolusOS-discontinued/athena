@@ -616,6 +616,21 @@ action_show_hide_sidebar_callback (GtkAction *action,
 }
 
 static void
+action_show_hide_menubar_callback (GtkAction *action, 
+				   gpointer user_data)
+{
+	AthenaWindow *window;
+
+	window = ATHENA_WINDOW (user_data);
+
+	if (gtk_toggle_action_get_active (GTK_TOGGLE_ACTION (action))) {
+		athena_window_show_menubar (window);
+	} else {
+		athena_window_hide_menubar (window);
+	}
+}
+
+static void
 action_split_view_callback (GtkAction *action,
 			    gpointer user_data)
 {
@@ -1067,6 +1082,11 @@ static const GtkToggleActionEntry main_toggle_entries[] = {
   /* tooltip */                  N_("Toggle the display of hidden files in the current window"),
                                  G_CALLBACK (action_show_hidden_files_callback),
                                  TRUE },
+  /* name, stock id */     { "Show Hide Menubar", NULL,
+  /* label, accelerator */   N_("_Menubar"), "F11",
+  /* tooltip */              N_("Change the visibility of this window's menubar"),
+			     G_CALLBACK (action_show_hide_menubar_callback),
+  /* is_active */            TRUE }, 
   /* name, stock id */     { "Show Hide Toolbar", NULL,
   /* label, accelerator */   N_("_Main Toolbar"), NULL,
   /* tooltip */              N_("Change the visibility of this window's main toolbar"),

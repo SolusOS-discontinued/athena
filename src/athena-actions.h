@@ -34,6 +34,7 @@
 #define ATHENA_ACTION_UP_ACCEL "UpAccel"
 #define ATHENA_ACTION_UP_ACCEL "UpAccel"
 #define ATHENA_ACTION_FORWARD "Forward"
+#define ATHENA_ACTION_SHOW_HIDE_MENUBAR "Show Hide Menubar"
 #define ATHENA_ACTION_SHOW_HIDE_TOOLBAR "Show Hide Toolbar"
 #define ATHENA_ACTION_SHOW_HIDE_SIDEBAR "Show Hide Sidebar"
 #define ATHENA_ACTION_SHOW_HIDE_STATUSBAR "Show Hide Statusbar"

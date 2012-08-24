@@ -136,6 +136,10 @@ void                 athena_window_push_status           (AthenaWindow *window,
 
 void     athena_window_hide_sidebar         (AthenaWindow *window);
 void     athena_window_show_sidebar         (AthenaWindow *window);
+
+void     athena_window_hide_menubar         (AthenaWindow *window);
+void     athena_window_show_menubar         (AthenaWindow *window);
+
 void     athena_window_back_or_forward      (AthenaWindow *window,
                                                gboolean        back,
                                                guint           distance,

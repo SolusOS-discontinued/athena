@@ -482,6 +482,27 @@ athena_window_show_sidebar (AthenaWindow *window)
 	g_settings_set_boolean (athena_window_state, ATHENA_WINDOW_STATE_START_WITH_SIDEBAR, TRUE);
 }
 
+/** hide_menubar and show_menubar follow traditional Nautilus styles of hide/show methods. Personally
+ * I think this should be all one method (toggle_menubar_visible (AthenaWindow *window, gboolean visible)
+ * Probably going to rip a lot of methods out in future */
+void
+athena_window_hide_menubar (AthenaWindow *window)
+{
+	DEBUG ("Called hide_menubar()");
+
+	gtk_widget_hide (window->details->menubar);
+}
+
+void
+athena_window_show_menubar (AthenaWindow *window)
+{
+	DEBUG ("Called show_menubar()");
+
+	athena_window_update_show_hide_menu_items (window);
+
+	gtk_widget_show (window->details->menubar);
+}
+
 static void
 side_pane_id_changed (AthenaWindow *window)
 {
