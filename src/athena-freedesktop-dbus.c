@@ -50,7 +50,7 @@ struct _AthenaFreedesktopDBus {
 	GDBusObjectManagerServer *object_manager;
 
 	/* Our DBus implementation skeleton */
-	AthenaFreedesktopFileManager1 *skeleton;
+	AthenaFreedesktopAthenaFileManager1 *skeleton;
 };
 
 struct _AthenaFreedesktopDBusClass {
@@ -69,7 +69,7 @@ G_DEFINE_TYPE (AthenaFreedesktopDBus, athena_freedesktop_dbus, G_TYPE_OBJECT);
 static AthenaFreedesktopDBus *singleton = NULL;
 
 static gboolean
-skeleton_handle_show_items_cb (AthenaFreedesktopFileManager1 *object,
+skeleton_handle_show_items_cb (AthenaFreedesktopAthenaFileManager1 *object,
 			       GDBusMethodInvocation *invocation,
 			       const gchar *const *uris,
 			       const gchar *startup_id,
@@ -95,12 +95,12 @@ skeleton_handle_show_items_cb (AthenaFreedesktopFileManager1 *object,
 		g_object_unref (file);
 	}
 
-	athena_freedesktop_file_manager1_complete_show_items (object, invocation);
+	athena_freedesktop_athena_file_manager1_complete_show_items (object, invocation);
 	return TRUE;
 }
 
 static gboolean
-skeleton_handle_show_folders_cb (AthenaFreedesktopFileManager1 *object,
+skeleton_handle_show_folders_cb (AthenaFreedesktopAthenaFileManager1 *object,
 				 GDBusMethodInvocation *invocation,
 				 const gchar *const *uris,
 				 const gchar *startup_id,
@@ -119,12 +119,12 @@ skeleton_handle_show_folders_cb (AthenaFreedesktopFileManager1 *object,
 		g_object_unref (file);
 	}
 
-	athena_freedesktop_file_manager1_complete_show_folders (object, invocation);
+	athena_freedesktop_athena_file_manager1_complete_show_folders (object, invocation);
 	return TRUE;
 }
 
 static gboolean
-skeleton_handle_show_item_properties_cb (AthenaFreedesktopFileManager1 *object,
+skeleton_handle_show_item_properties_cb (AthenaFreedesktopAthenaFileManager1 *object,
 					 GDBusMethodInvocation *invocation,
 					 const gchar *const *uris,
 					 const gchar *startup_id,
@@ -145,7 +145,7 @@ skeleton_handle_show_item_properties_cb (AthenaFreedesktopFileManager1 *object,
 
 	athena_file_list_free (files);
 
-	athena_freedesktop_file_manager1_complete_show_item_properties (object, invocation);
+	athena_freedesktop_athena_file_manager1_complete_show_item_properties (object, invocation);
 	return TRUE;
 }
 
@@ -174,9 +174,9 @@ bus_acquired_cb (GDBusConnection *conn,
 	DEBUG ("Bus acquired at %s", name);
 
 	fdb->connection = g_object_ref (conn);
-	fdb->object_manager = g_dbus_object_manager_server_new ("/org/freedesktop/FileManager1");
+	fdb->object_manager = g_dbus_object_manager_server_new ("/org/freedesktop/AthenaFileManager1");
 
-	fdb->skeleton = athena_freedesktop_file_manager1_skeleton_new ();
+	fdb->skeleton = athena_freedesktop_athena_file_manager1_skeleton_new ();
 
 	g_signal_connect (fdb->skeleton, "handle-show-items",
 			  G_CALLBACK (skeleton_handle_show_items_cb), fdb);
@@ -185,7 +185,7 @@ bus_acquired_cb (GDBusConnection *conn,
 	g_signal_connect (fdb->skeleton, "handle-show-item-properties",
 			  G_CALLBACK (skeleton_handle_show_item_properties_cb), fdb);
 
-	g_dbus_interface_skeleton_export (G_DBUS_INTERFACE_SKELETON (fdb->skeleton), fdb->connection, "/org/freedesktop/FileManager1", NULL);
+	g_dbus_interface_skeleton_export (G_DBUS_INTERFACE_SKELETON (fdb->skeleton), fdb->connection, "/org/freedesktop/AthenaFileManager1", NULL);
 
 	g_dbus_object_manager_server_set_connection (fdb->object_manager, fdb->connection);
 
@@ -241,7 +241,7 @@ athena_freedesktop_dbus_constructed (GObject *object)
 	g_application_hold (G_APPLICATION (fdb->application));
 
 	fdb->owner_id = g_bus_own_name (G_BUS_TYPE_SESSION,
-					"org.freedesktop.FileManager1",
+					"org.freedesktop.AthenaFileManager1",
 					G_BUS_NAME_OWNER_FLAGS_NONE,
 					bus_acquired_cb,
 					name_acquired_cb,
@@ -295,7 +295,7 @@ athena_freedesktop_dbus_init (AthenaFreedesktopDBus *fdb)
 	/* nothing */
 }
 
-/* Tries to own the org.freedesktop.FileManager1 service name */
+/* Tries to own the org.freedesktop.AthenaFileManager1 service name */
 void
 athena_freedesktop_dbus_start (AthenaApplication *app)
 {	
@@ -308,7 +308,7 @@ athena_freedesktop_dbus_start (AthenaApplication *app)
 				  NULL);
 }
 
-/* Releases the org.freedesktop.FileManager1 service name */
+/* Releases the org.freedesktop.AthenaFileManager1 service name */
 void
 athena_freedesktop_dbus_stop (void)
 {

@@ -22,13 +22,13 @@ mime_DATA = $(xml_files)
 servicedir = $(datadir)/dbus-1/services
 service_DATA = $(service_in_files:.service.in=.service)
 service_in_files = 				\
-	org.freedesktop.FileManager1.service.in	\
+	org.freedesktop.AthenaFileManager1.service.in	\
 	com.solusos.Athena.service.in
 
 com.solusos.Athena.service: com.solusos.Athena.service.in Makefile
 	$(AM_V_GEN) sed -e "s|\@bindir\@|$(bindir)|" $< > $@
 
-org.freedesktop.FileManager1.service: org.freedesktop.FileManager1.service.in Makefile
+org.freedesktop.AthenaFileManager1.service: org.freedesktop.AthenaFileManager1.service.in Makefile
 	$(AM_V_GEN) sed -e "s|\@bindir\@|$(bindir)|" $< > $@
 
 athenadatadir = $(datadir)/athena

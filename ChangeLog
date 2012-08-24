@@ -10757,7 +10757,7 @@ Date:	2011-12-14
     Merge branch 'freedesktop-dbus' - bgo#636269
 
     This adds an implementation for the DBus interface
-    org.freedesktop.FileManager1.
+    org.freedesktop.AthenaFileManager1.
 
     This lets applications call the file manager to show a file within
     a folder,
@@ -10770,7 +10770,7 @@ commit f01e2e9b5fa6dcd0514bdf5efe5f76b4312f1fd3
 Author: Federico Mena Quintero <federico@gnome.org>
 Date:	2011-12-14
 
-    Add an org.freedesktop.FileManager1.service file for DBus
+    Add an org.freedesktop.AthenaFileManager1.service file for DBus
 
     Even though this registers a service for a freedesktop name with
     a Gnome-specific
@@ -10783,7 +10783,7 @@ Date:	2011-12-14
     Signed-off-by: Federico Mena Quintero <federico@gnome.org>
 
 M	data/Makefile.am
-A	data/org.freedesktop.FileManager1.service.in
+A	data/org.freedesktop.AthenaFileManager1.service.in
 
 commit 73e5a35efcd7607d6a3ee5e8bd5e8278a86d6705
 Author: Federico Mena Quintero <federico@gnome.org>
@@ -11076,7 +11076,7 @@ commit 456afcbb6042c8f1ab73f240e5be5eabd681e090
 Author: Federico Mena Quintero <federico@gnome.org>
 Date:	2011-12-06
 
-    DBus boilerplate for handling the org.freedesktop.FileManager1 service
+    DBus boilerplate for handling the org.freedesktop.AthenaFileManager1 service
 
     Signed-off-by: Federico Mena Quintero <federico@gnome.org>
 
@@ -11099,7 +11099,7 @@ commit a3c387089e3bb9eaafe8b033bd334d151ccebe06
 Author: Akshay Gupta <kitallis@gmail.com>
 Date:	2011-12-06
 
-    Add declaration for the org.freedesktop.FileManager1 DBus interface
+    Add declaration for the org.freedesktop.AthenaFileManager1 DBus interface
 
     This is not in dbus-interfaces.xml as that one has a different
     namespace (com.solusos.Athena), and that makes the generated

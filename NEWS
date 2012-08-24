@@ -62,7 +62,7 @@ Major changes in 3.3.4 are:
 * libathena-extension GIR coverage has been improved
 
 Major changes in 3.3.3 are:
-* Implement the org.freedesktop.FileManager1 DBus interface
+* Implement the org.freedesktop.AthenaFileManager1 DBus interface
 * Show context menu for current folder when clicking empty space
   in list view
 * Sort XDG dirs in the places sidebar according to the current locale
