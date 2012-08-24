@@ -68,13 +68,13 @@ athena_global_preferences_init (void)
 
 	initialized = TRUE;
 
-	athena_preferences = g_settings_new("org.gnome.athena.preferences");
-	athena_window_state = g_settings_new("org.gnome.athena.window-state");
-	athena_icon_view_preferences = g_settings_new("org.gnome.athena.icon-view");
-	athena_list_view_preferences = g_settings_new("org.gnome.athena.list-view");
-	athena_compact_view_preferences = g_settings_new("org.gnome.athena.compact-view");
-	athena_desktop_preferences = g_settings_new("org.gnome.athena.desktop");
-	athena_tree_sidebar_preferences = g_settings_new("org.gnome.athena.sidebar-panels.tree");
+	athena_preferences = g_settings_new("com.solusos.athena.preferences");
+	athena_window_state = g_settings_new("com.solusos.athena.window-state");
+	athena_icon_view_preferences = g_settings_new("com.solusos.athena.icon-view");
+	athena_list_view_preferences = g_settings_new("com.solusos.athena.list-view");
+	athena_compact_view_preferences = g_settings_new("com.solusos.athena.compact-view");
+	athena_desktop_preferences = g_settings_new("com.solusos.athena.desktop");
+	athena_tree_sidebar_preferences = g_settings_new("com.solusos.athena.sidebar-panels.tree");
 	gnome_lockdown_preferences = g_settings_new("org.gnome.desktop.lockdown");
 	gnome_background_preferences = g_settings_new("org.gnome.desktop.background");
 }

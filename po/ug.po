@@ -1569,7 +1569,7 @@ msgstr "تەھرىرلەشنى قايتىلا"
 msgid "Redo the edit"
 msgstr "بۇ تەھرىرلەشنى قايتىلا"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:1
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:1
 msgid ""
 "A list of captions below an icon in the icon view and the desktop. The "
 "actual number of captions shown depends on the zoom level. Some possible "
@@ -1585,7 +1585,7 @@ msgstr ""
 "\"permissions\"(ھوقۇق)، \"octal_permissions\" (سەككىزلىك سىستېمىدىكى ھوقۇق)\n"
 "ۋە \"mime_type\"."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:2
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:2
 msgid ""
 "A string containing the saved geometry and coordinates string for navigation "
 "windows."
@@ -1593,7 +1593,7 @@ msgstr ""
 "يولباشچى كۆزنەكنىڭ گېئومېتىرىيىلىك شەكلى ۋە كوئوردېناتى بىر ھەرپ تىزمىسىغا "
 "ساقلانغان."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:4
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:4
 #, no-c-format
 msgid ""
 "A string specifying how parts of overlong file names should be replaced by "
@@ -1628,15 +1628,15 @@ msgstr ""
 "قىسقارتمايدۇ. ئىشلەتكىلى بولىدىغان كېڭەيت تارايت دەرىجىسى: ئەڭ كىچىك (%33)، "
 "كىچىكرەك (%50)، كىچىك (%66)، چوڭ (%150)، چوڭراق (%200)، ئەڭ چوڭ (%400)"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:5
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:5
 msgid "All columns have same width"
 msgstr "ھەممە ئىستوننىڭ كەڭلىكى ئوخشاش"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:6
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:6
 msgid "Always use the location entry, instead of the pathbar"
 msgstr "يول بالداقنى ئىشلەتمەي، ھەمىشە ئورۇن تۈرىنى ئىشلەت"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:7
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:7
 msgid ""
 "An integer specifying how parts of overlong file names should be replaced by "
 "ellipses on the desktop. If the number is larger than 0, the file name will "
@@ -1648,95 +1648,95 @@ msgstr ""
 "ئۇنداقتا ھۆججەت ئاتى بېرىلگەن قۇردىن ئاشمايدۇ. ئەگەر 0 گە تەڭ ياكى كىچىك "
 "بولسا ئۇنداقتا كۆرسىتىدىغان قۇر سانىنىڭ چەكلىمىسى بولمايدۇ."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:8
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:8
 msgid "Bulk rename utility"
 msgstr "ھۆججەت ئاتىنى توپ ئۆزگەرتىش قورالى"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:9
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:9
 msgid "Computer icon visible on desktop"
 msgstr "ئۈستەلئۈستىدە كومپيۇتېر سىنبەلگىسىنى كۆرسەت"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:10
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:10
 msgid "Date Format"
 msgstr "چېسلا قېلىپى"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:11
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:11
 msgid "Default Thumbnail Icon Size"
 msgstr "كۆڭۈلدىكى كىچىك سۈرەت سىنبەلگە چوڭلۇقى"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:12
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:12
 msgid "Default column order in the list view"
 msgstr "تىزىم كۆرۈنۈشىدە ئىشلىتىدىغان كۆڭۈلدىكى ئىستون تەرتىپى"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:13
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:13
 msgid "Default column order in the list view."
 msgstr "تىزىم كۆرۈنۈشىدە ئىشلىتىدىغان كۆڭۈلدىكى ئىستون تەرتىپى."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:14
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:14
 msgid "Default compact view zoom level"
 msgstr "كۆڭۈلدىكى ئىخچام كۆرۈنۈشنىڭ كېڭەيتىش تارايتىش دەرىجىسى"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:15
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:15
 msgid "Default folder viewer"
 msgstr "كۆڭۈلدىكى قىسقۇچ كۆرگۈچ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:16
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:16
 msgid "Default icon zoom level"
 msgstr "كۆڭۈلدىكى سىنبەلگە كېڭەيتىش تارايتىش دەرىجىسى"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:17
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:17
 msgid "Default list of columns visible in the list view"
 msgstr "تىزىم كۆرۈنۈشىدە كۆرۈنىدىغان ئىستونلارنىڭ كۆڭۈلدىكى تىزىملىكى"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:18
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:18
 msgid "Default list of columns visible in the list view."
 msgstr "تىزىم كۆرۈنۈشىدە كۆرۈنىدىغان ئىستونلارنىڭ كۆڭۈلدىكى تىزىملىكى."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:19
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:19
 msgid "Default list zoom level"
 msgstr "كۆڭۈلدىكى تىزىمنىڭ كېڭەيتىش تارايتىش دەرىجىسى"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:20
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:20
 msgid "Default sort order"
 msgstr "كۆڭۈلدىكى تەرتىپلەش تەرتىپى"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:21
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:21
 msgid "Default zoom level used by the compact view."
 msgstr "ئىخچام كۆرۈنۈشكە ئىشلىتىلىدىغان كۆڭۈلدىكى كېڭەيتىش تارايتىش دەرىجىسى"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:22
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:22
 msgid "Default zoom level used by the icon view."
 msgstr "سىنبەلگە كۆرۈنۈشكە ئىشلىتىلىدىغان كۆڭۈلدىكى كېڭەيتىش تارايتىش دەرىجىسى"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:23
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:23
 msgid "Default zoom level used by the list view."
 msgstr "تىزىم كۆرۈنۈشكە ئىشلىتىلىدىغان كۆڭۈلدىكى كېڭەيتىش تارايتىش دەرىجىسى"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:24
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:24
 msgid "Desktop computer icon name"
 msgstr "ئۈستەلئۈستىدىكى كومپيۇتېر ئاتى"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:25
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:25
 msgid "Desktop font"
 msgstr "ئۈستەلئۈستى خەت نۇسخا"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:26
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:26
 msgid "Desktop home icon name"
 msgstr "ئۈستەلئۈستى باش قىسقۇچ سىنبەلگە ئاتى"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:27
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:27
 msgid "Desktop trash icon name"
 msgstr "ئۈستەلئۈستى ئەخلەتخانا سىنبەلگە ئاتى"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:28
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:28
 msgid "Enables the classic Athena behavior, where all windows are browsers"
 msgstr "كلاسسىك Athena قىلمىشىنى قوزغات، ھەممە كۆزنەك توركۆرگۈ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:29
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:29
 msgid "Fade the background on change"
 msgstr "ئۆزگەرتكەندە تەگلىكنى سۇسلاشتۇر"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:30
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:30
 msgid ""
 "For users with mice that have \"Forward\" and \"Back\" buttons, this key "
 "will determine if any action is taken inside of Athena when either is "
@@ -1746,7 +1746,7 @@ msgstr ""
 "كۇنۇپكا خالىغان بىر توپچا بېسىلغاندا Athena نىڭ ئىچكى قىسمىدا قوزغالغان "
 "پائالىيەتنىڭ بار يوقلۇقىنى تەكشۈرىدۇ."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:31
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:31
 msgid ""
 "For users with mice that have buttons for \"Forward\" and \"Back\", this key "
 "will set which button activates the \"Back\" command in a browser window. "
@@ -1756,7 +1756,7 @@ msgstr ""
 "كۇنۇپكا قايسى توپچىنىڭ بىر توركۆرگۈ كۆزنىكىنىڭ «كەينى» بۇيرۇقىنى ئاكتىپلاشنى "
 "بەلگىلەيدۇ. ئىشلەتكىلى بولىدىغان قىممەت دائىرىسى 6 دىن 14 كېچە."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:32
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:32
 msgid ""
 "For users with mice that have buttons for \"Forward\" and \"Back\", this key "
 "will set which button activates the \"Forward\" command in a browser window. "
@@ -1766,11 +1766,11 @@ msgstr ""
 "كۇنۇپكا قايسى توپچىنىڭ بىر توركۆرگۈ كۆزنىكىنىڭ «ئالدى» بۇيرۇقىنى ئاكتىپلاشنى "
 "بەلگىلەيدۇ. ئىشلەتكىلى بولىدىغان قىممەت دائىرىسى 6 دىن 14 كېچە."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:33
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:33
 msgid "Home icon visible on desktop"
 msgstr "ئۈستەلئۈستىدە باش قىسقۇچ سىنبەلگىسىنى كۆرسەت"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:34
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:34
 msgid ""
 "If set to \"after-current-tab\", then new tabs are inserted after the "
 "current tab. If set to \"end\", then new tabs are appended to the end of the "
@@ -1780,7 +1780,7 @@ msgstr ""
 "بەتكۈچنىڭ كەينىگە قىستۇرۇلىدۇ. ئەگەر «ئاخىرى» غا تەڭشەلسە، ئۇنداقتا يېڭى "
 "بەتكۈچ بەتكۈچ تىزىمنىڭ ئاخىرىدا كۆرسىتىلىدۇ."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:35
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:35
 msgid ""
 "If set to true, Athena will only show folders in the tree side pane. "
 "Otherwise it will show both folders and files."
@@ -1788,24 +1788,24 @@ msgstr ""
 "ئەگەر true تەڭشەلسە، Athena دەرەخ يان كۆزنەكچىدىلا قىسقۇچ كۆرسىتىدۇ. "
 "ئۇنداق بولمىسا ھۆججەت ۋە قىسقۇچنى تەڭ كۆرسىتىدۇ."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:36
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:36
 msgid ""
 "If set to true, newly opened windows will have the location bar visible."
 msgstr "ئەگەر true تەڭشەلسە، يېڭى ئېچىلغان كۆزنەك ئورۇن بالداقتا كۆرۈنىدۇ."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:37
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:37
 msgid "If set to true, newly opened windows will have the side pane visible."
 msgstr "ئەگەر true تەڭشەلسە، يېڭى ئېچىلغان كۆزنەك يان كۆزنەكچىدە كۆرۈنىدۇ."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:38
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:38
 msgid "If set to true, newly opened windows will have the status bar visible."
 msgstr "ئەگەر true تەڭشەلسە، يېڭى ئېچىلغان كۆزنەك ھالەت بالداقتا كۆرۈنىدۇ."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:39
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:39
 msgid "If set to true, newly opened windows will have toolbars visible."
 msgstr "ئەگەر true تەڭشەلسە، يېڭى ئېچىلغان كۆزنەك قورال بالداقتا كۆرۈنىدۇ."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:40
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:40
 msgid ""
 "If set to true, then Athena browser windows will always use a textual "
 "input entry for the location toolbar, instead of the pathbar."
@@ -1813,7 +1813,7 @@ msgstr ""
 "ئەگەر true تەڭشەلسە، Athena كۆرگۈ ئورۇن قورال بالداقتا ھەمىشە تېكىست "
 "كىرگۈزۈش رامكىسى ئىشلىتىپ، يول بالداقنى ئىشلەتمەيدۇ."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:41
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:41
 msgid ""
 "If set to true, then Athena lets you edit and display file permissions in "
 "a more unix-like way, accessing some more esoteric options."
@@ -1822,7 +1822,7 @@ msgstr ""
 "ھوقۇقىنى تەھرىرلەش ۋە كۆرسىتىشىڭىزگە ھەمدە تېخىمۇ كۆپ مۇتلەق مەخپىي "
 "تاللانمىلارنى زىيارەت قىلىشىڭىزغا يول قويىدۇ."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:42
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:42
 msgid ""
 "If set to true, then Athena shows folders prior to showing files in the "
 "icon and list views."
@@ -1830,7 +1830,7 @@ msgstr ""
 "ئەگەر true تەڭشەلسە، Athena سىنبەلگە كۆرۈنۈشى ۋە تىزىم كۆرۈنۈشىدە قىسقۇچنى "
 "ھۆججەتتىن ئىلگىرى كۆرسىتىدۇ."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:43
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:43
 msgid ""
 "If set to true, then Athena will ask for confirmation when you attempt to "
 "delete files, or empty the Trash."
@@ -1838,7 +1838,7 @@ msgstr ""
 "ئەگەر true تەڭشەلسە، Athena سىز ھۆججەت ئۆچۈرمەكچى ياكى ئەخلەتخانىنى "
 "تازىلىماقچى بولغاندا جەزملەشنى تەلەپ قىلىدۇ."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:44
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:44
 msgid ""
 "If set to true, then Athena will have a feature allowing you to delete a "
 "file immediately and in-place, instead of moving it to the trash. This "
@@ -1848,7 +1848,7 @@ msgstr ""
 "ئالاھىدىلىكىنى قوزغىتىدۇ، ھۆججەت ئەخلەتخانىغا يۆتكەلمەيدۇ. بۇ ئالاھىدىلىك "
 "ناھايىتى خەتەرلىك، شۇڭا ئېھتىيات بىلەن ئىشلىتىڭ."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:45
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:45
 msgid ""
 "If set to true, then Athena will use a fade effect to change the desktop "
 "background."
@@ -1856,7 +1856,7 @@ msgstr ""
 "ئەگەر true تەڭشەلسە، Athena تەدرىجىي ئۆزگىرىش ئۈنۈمى بىلەن ئۈستەلئۈستى "
 "سىنبەلگىسىنىڭ تەگلىكىنى ئۆزگەرتىدۇ."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:46
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:46
 msgid ""
 "If set to true, then Athena will use the user's home folder as the "
 "desktop. If it is false, then it will use ~/Desktop as the desktop."
@@ -1864,7 +1864,7 @@ msgstr ""
 "ئەگەر true تەڭشەلسە، Athena ئىشلەتكۈچىنىڭ باش قىسقۇچىنى ئۈستەلئۈستى دەپ "
 "قارايدۇ. ئەگەر false تەڭشەلسە، ~/Desktop نى ئۈستەلئۈستى قىلىپ ئىشلىتىدۇ."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:47
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:47
 msgid ""
 "If set to true, then all Athena windows will be browser windows. This is "
 "how Athena used to behave before version 2.6, and some people prefer this "
@@ -1874,7 +1874,7 @@ msgstr ""
 "Athena نىڭ 2.6 نەشرىدىن ئىلگىرىكى قىلمىشى، ئۇنىڭ ئۈستىگە بۇ خىل قىلمىشنى "
 "ياقتۇرىدىغانلار بار."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:48
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:48
 msgid ""
 "If set to true, then hidden files are shown by default in the file manager. "
 "Hidden files are either dotfiles, listed in the folder's .hidden file or "
@@ -1885,7 +1885,7 @@ msgstr ""
 "كۆرسىتىلگەن ھۆججەت ياكى تەخمىنەن بەلگىسى (~) بىلەن ئاخىرلاشقان زاپاس "
 "ھۆججەتلەر."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:49
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:49
 msgid ""
 "If set, Athena will append URIs of selected files and treat the result as "
 "a command line for bulk renaming. Bulk rename applications can register "
@@ -1900,7 +1900,7 @@ msgstr ""
 "بولىدۇ. ئەگەر ئىجراچان ھۆججەت ئاتى مۇتلەق يول بولمىسا، يول ئىزدەشتىن "
 "ئىزدەيدۇ."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:50
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:50
 msgid ""
 "If this is set to true, an icon linking to the Network Servers view will be "
 "put on the desktop."
@@ -1908,7 +1908,7 @@ msgstr ""
 "ئەگەر true تەڭشەلسە، ئۈستەلئۈستىدە تور مۇلازىمېتىرىغا ئۇلىنىدىغان "
 "سىنبەلگىدىن بىرى قويۇلىدۇ."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:51
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:51
 msgid ""
 "If this is set to true, an icon linking to the computer location will be put "
 "on the desktop."
@@ -1916,7 +1916,7 @@ msgstr ""
 "ئەگەر true تەڭشەلسە، ئۈستەلئۈستىدە كومپيۇتېر ئورنىغا ئۇلىنىدىغان سىنبەلگىدىن "
 "بىرى قويۇلىدۇ."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:52
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:52
 msgid ""
 "If this is set to true, an icon linking to the home folder will be put on "
 "the desktop."
@@ -1924,7 +1924,7 @@ msgstr ""
 "ئەگەر true تەڭشەلسە، ئۈستەلئۈستىدە باش قىسقۇچقا ئۇلىنىدىغان سىنبەلگىدىن بىرى "
 "قويۇلىدۇ."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:53
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:53
 msgid ""
 "If this is set to true, an icon linking to the trash will be put on the "
 "desktop."
@@ -1932,7 +1932,7 @@ msgstr ""
 "ئەگەر true تەڭشەلسە، ئۈستەلئۈستىدە ئەخلەتخانىغا ئۇلىنىدىغان سىنبەلگىدىن بىرى "
 "قويۇلىدۇ."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:54
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:54
 msgid ""
 "If this is set to true, icons linking to mounted volumes will be put on the "
 "desktop."
@@ -1940,7 +1940,7 @@ msgstr ""
 "ئەگەر true تەڭشەلسە، ئۈستەلئۈستىدە ئېگەرلەنگەن دىسكىغا ئۇلىنىدىغان "
 "سىنبەلگىدىن بىرى قويۇلىدۇ."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:55
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:55
 msgid ""
 "If this preference is set, all columns in the compact view have the same "
 "width. Otherwise, the width of each column is determined seperately."
@@ -1948,7 +1948,7 @@ msgstr ""
 "بۇ مايىللىق تەڭشەلسە، ئىخچام كۆرۈنۈشتە ھەر قايسى ئىستونلار ئوخشاش كەڭلىككە "
 "ئىگە بولىدۇ. ئۇنداق بولمىسا ھەر بىر ئىستوننىڭ كەڭلىكى مۇستەقىل بەلگىلىنىدۇ."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:56
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:56
 msgid ""
 "If true, files in new windows will be sorted in reverse order. ie, if sorted "
 "by name, then instead of sorting the files from \"a\" to \"z\", they will be "
@@ -1960,13 +1960,13 @@ msgstr ""
 "دىن \"a\" غا تىزىلىدۇ؛ ئەگەر چوڭلۇقى بويىچە تىزىلسا ئەڭ چوڭ ھۆججەتنى ئەڭ "
 "ئالدىغا كىچىك ھۆججەتنى ئەڭ كەينىگە تىزىدۇ."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:57
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:57
 msgid ""
 "If true, labels will be placed beside icons rather than underneath them."
 msgstr ""
 "ئەگەر true تەڭشەلسە، تېكىست بەلگە سىنبەلگە ئاستىغا قويۇلماي يېنىغا قويۇلىدۇ."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:58
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:58
 msgid ""
 "Images over this size (in bytes) won't be thumbnailed. The purpose of this "
 "setting is to avoid thumbnailing large images that may take a long time to "
@@ -1977,39 +1977,39 @@ msgstr ""
 "ئېلىش چۈنكى ئۇنىڭغا كېتىدىغان ۋاقىت بەك كۆپ بولۇپ، ئىگىلەيدىغان ئەسلەكمۇ بەك "
 "كۆپ."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:59
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:59
 msgid "List of possible captions on icons"
 msgstr "سىنبەلگە تاللىيالايدىغان تېما تىزىمى"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:60
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:60
 msgid "Maximum image size for thumbnailing"
 msgstr "كىچىك سۈرەتنىڭ ئەڭ چوڭى"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:61
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:61
 msgid "Mouse button to activate the \"Back\" command in browser window"
 msgstr "توركۆرگۈ كۆزنىكىدە «كەينى» بۇيرۇقىنى ئاكتىپلايدىغان چاشقىنەك توپچىسى"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:62
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:62
 msgid "Mouse button to activate the \"Forward\" command in browser window"
 msgstr "توركۆرگۈ كۆزنىكىدە «ئالدى» بۇيرۇقىنى ئاكتىپلايدىغان چاشقىنەك توپچىسى"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:63
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:63
 msgid "Athena uses the users home folder as the desktop"
 msgstr "Athena ئىشلەتكۈچىنىڭ باش قىسقۇچىنى ئۈستەلئۈستى سۈپىتىدە ئىشلىتىدۇ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:64
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:64
 msgid "Network Servers icon visible on the desktop"
 msgstr "ئۈستەلئۈستىدە تور مۇلازىمېتىر سىنبەلگىسىنى كۆرسەت"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:65
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:65
 msgid "Network servers icon name"
 msgstr "تور مۇلازىمېتىر سىنبەلگە ئاتى"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:66
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:66
 msgid "Only show folders in the tree side pane"
 msgstr "دەرەخ يان كۆزنەكچىدىلا قىسقۇچ كۆرسەت"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:67
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:67
 msgid ""
 "Possible values are \"single\" to launch files on a single click, or \"double"
 "\" to launch them on a double click."
@@ -2017,51 +2017,51 @@ msgstr ""
 "ئىشلەتكىلى بولىدىغان قىممەت \"single\" (تاق چەككەندە) ھۆججەتنى قوزغات ياكى "
 "\"double\" (قوش چەككەندە) ھۆججەتنى قوزغات."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:68
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:68
 msgid "Put labels beside icons"
 msgstr "بەلگىنى سىنبەلگە يېنىدا كۆرسەت"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:69
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:69
 msgid "Reverse sort order in new windows"
 msgstr "يېڭى كۆزنەكتە ئەكسى تەرتىپتە تەرتىپلە"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:70
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:70
 msgid "Show advanced permissions in the file property dialog"
 msgstr "ھۆججەت خاسلىق سۆزلەشكۈدە ئالىي ھوقۇقنى كۆرسەت"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:71
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:71
 msgid "Show folders first in windows"
 msgstr "كۆزنەكتە ئالدى بىلەن قىسقۇچ كۆرسەت"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:72
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:72
 msgid "Show location bar in new windows"
 msgstr "يېڭى كۆزنەكتە ئورۇن بالداقنى كۆرسەت"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:73
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:73
 msgid "Show mounted volumes on the desktop"
 msgstr "ئۈستەلئۈستىدە ئېگەرلەنگەن دىسكىلارنى كۆرسەت"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:74
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:74
 msgid "Show side pane in new windows"
 msgstr "يېڭى كۆزنەكتە يان كۆزنەكچىنى كۆرسەت"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:75
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:75
 msgid "Show status bar in new windows"
 msgstr "يېڭى كۆزنەكتە قورال بالداقنى كۆرسەت"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:76
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:76
 msgid "Show the package installer for unknown mime types"
 msgstr "نامەلۇم mime تىپىغا بوغچا ئورناتقۇچنى كۆرسەت"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:77
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:77
 msgid "Show toolbar in new windows"
 msgstr "يېڭى كۆزنەكتە قورال بالداقنى كۆرسەت"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:78
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:78
 msgid "Side pane view"
 msgstr "يان كۆزنەكچە كۆرۈنۈش"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:79
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:79
 msgid ""
 "Speed tradeoff for when to preview a sound file when mousing over a files "
 "icon. If set to \"always\" then always plays the sound, even if the file is "
@@ -2074,7 +2074,7 @@ msgstr ""
 "سىستېمىسىدىكى ھۆججەتنىلا قويىدۇ. ئەگەر «ھەرگىز» گە تەڭشەلسە ئۇنداقتا ئاۋازنى "
 "ئالدىن كۆزەتمەيدۇ."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:80
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:80
 msgid ""
 "Speed tradeoff for when to show a preview of text file contents in the "
 "file's icon. If set to \"always\" then always show previews, even if the "
@@ -2089,7 +2089,7 @@ msgstr ""
 "«ھەرگىز» گە تەڭشەلسە ئۇنداقتا ھېچقانداق ئالدىن كۆزىتىش سانلىق مەلۇماتىنى "
 "ئوقۇمايدۇ."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:81
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:81
 msgid ""
 "Speed tradeoff for when to show an image file as a thumbnail. If set to "
 "\"always\" then always thumbnail, even if the folder is on a remote server. "
@@ -2104,7 +2104,7 @@ msgstr ""
 "تەڭشەلسە ئۇنداقتا ھېچقانداق سۈرەتنى ئالدىن كۆزەتمەي ئورتاق سىنبەلگىنىلا "
 "ئىشلىتىدۇ."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:82
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:82
 msgid ""
 "Speed tradeoff for when to show the number of items in a folder. If set to "
 "\"always\" then always show item counts, even if the folder is on a remote "
@@ -2117,15 +2117,15 @@ msgstr ""
 "سىستېمىسىدا ھۆججەتنىڭ سانىنى كۆرسىتىدۇ. ئەگەر «ھەرگىز» گە تەڭشەلسە ئۇنداقتا "
 "تۈر سانىنى ھېسابلىمايدۇ."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:83
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:83
 msgid "Text Ellipsis Limit"
 msgstr "تېكىست قىسقارتىش چېكى"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:84
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:84
 msgid "The default size of an icon for a thumbnail in the icon view."
 msgstr "سىنبەلگە كۆرۈنۈشىدە كىچىك سۈرەتنىڭ كۆڭۈلدىكى چوڭلۇقى"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:85
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:85
 msgid ""
 "The default sort-order for items in the icon view. Possible values are \"name"
 "\", \"size\", \"type\" and \"mtime\"."
@@ -2134,15 +2134,15 @@ msgstr ""
 "بولىدىغان قىممىتى: \"name\"(ئات)، \"size\"(چوڭلۇقى)، \"type\"(تىپ)، ۋە "
 "\"mtime\"(ئۆزگەرتكەن ۋاقىت)."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:86
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:86
 msgid "The default width of the side pane in new windows."
 msgstr "يېڭى كۆزنەكنىڭ يان كۆزنەكچىسىنىڭ كۆڭۈلدىكى كەڭلىكى"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:87
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:87
 msgid "The font _description used for the icons on the desktop."
 msgstr "ئۈستەلئۈستىدىكى سىنبەلگە چۈشەندۈرۈشىگە ئىشلىتىدىغان خەت نۇسخا(_D)."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:88
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:88
 msgid ""
 "The format of file dates. Possible values are \"locale\", \"iso\", and "
 "\"informal\"."
@@ -2150,15 +2150,15 @@ msgstr ""
 "ھۆججەت چېسلاسىنىڭ فورماتى. تاللىغىلى بولىدىغان قىممىتى \"locale\" (يەرلىك)، "
 "\"iso\" ۋە \"informal\" (غەيرىي رەسمىي)"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:89
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:89
 msgid "The geometry string for a navigation window."
 msgstr "يولباشچى كۆزنەكنىڭ گېئومېتىرىيىلىك ھەرپ تىزمىسى"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:90
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:90
 msgid "The side pane view to show in newly opened windows."
 msgstr "يېڭىدىن ئېچىلغان كۆزنەكتە كۆرسىتىدىغان يان كۆزنەكچە كۆرۈنۈشى"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:91
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:91
 msgid ""
 "This name can be set if you want a custom name for the computer icon on the "
 "desktop."
@@ -2166,7 +2166,7 @@ msgstr ""
 "ئەگەر ئۈستەلئۈستىدىكى كومپيۇتېر سىنبەلگىسىگە ئىختىيارى ئات بەلگىلىمەكچى "
 "بولسىڭىز بۇ جايدا تەڭشەڭ."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:92
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:92
 msgid ""
 "This name can be set if you want a custom name for the home icon on the "
 "desktop."
@@ -2174,7 +2174,7 @@ msgstr ""
 "ئەگەر ئۈستەلئۈستىدىكى باش مۇندەرىجە سىنبەلگىسىگە ئىختىيارى ئات بەلگىلىمەكچى "
 "بولسىڭىز بۇ جايدا تەڭشەڭ."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:93
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:93
 msgid ""
 "This name can be set if you want a custom name for the network servers icon "
 "on the desktop."
@@ -2182,7 +2182,7 @@ msgstr ""
 "ئەگەر ئۈستەلئۈستىدىكى تور مۇلازىمېتىر سىنبەلگىسىگە ئىختىيارى ئات "
 "بەلگىلىمەكچى بولسىڭىز بۇ جايدا تەڭشەڭ."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:94
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:94
 msgid ""
 "This name can be set if you want a custom name for the trash icon on the "
 "desktop."
@@ -2190,23 +2190,23 @@ msgstr ""
 "ئەگەر ئۈستەلئۈستىدىكى ئەخلەتخانا سىنبەلگىسىگە ئىختىيارى ئات بەلگىلىمەكچى "
 "بولسىڭىز بۇ جايدا تەڭشەڭ."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:95
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:95
 msgid "Trash icon visible on desktop"
 msgstr "ئۈستەلئۈستىدە ئەخلەتخانا سىنبەلگىسىنى كۆرسەت"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:96
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:96
 msgid "Type of click used to launch/open files"
 msgstr "ھۆججەت ئىجرا قىل/ئاچ ئۈچۈن ئىشلىتىلىدىغان تاق چېكىش تىپى"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:97
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:97
 msgid "Use extra mouse button events in Athena' browser window"
 msgstr "Athena كۆرگۈ كۆزنىكىدە قوشۇمچە چاشقىنەك توپچا ھادىسىسىنى قوزغات"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:98
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:98
 msgid "What to do with executable text files when activated"
 msgstr "ئىجراچان تېكىست ھۆججەتنى ئاكتىپلىغاندا قانداق مەشغۇلات قىلىنىدۇ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:99
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:99
 msgid ""
 "What to do with executable text files when they are activated (single or "
 "double clicked). Possible values are \"launch\" to launch them as programs, "
@@ -2219,7 +2219,7 @@ msgstr ""
 "مەشغۇلاتنى سورايدۇ، \"display\" (كۆرسەت) تېكىست ھۆججەتنىڭ مەزمۇنىنى "
 "كۆرسىتىدۇ."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:100
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:100
 msgid ""
 "When a folder is visited this viewer is used unless you have selected "
 "another view for that particular folder. Possible values are \"list-view\", "
@@ -2230,47 +2230,47 @@ msgstr ""
 "\"list-view\"(تىزىم كۆرۈنۈشى)، \"icon-view\"(سىنبەلگە كۆرۈنۈشى) ۋە \"compact-"
 "view\"«ئىخچام كۆرۈنۈش»."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:101
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:101
 msgid "When to show number of items in a folder"
 msgstr "قايسى ۋاقىتتا قىسقۇچتىكى تۈر سانى كۆرسىتىلىدۇ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:102
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:102
 msgid "When to show preview text in icons"
 msgstr "قايسى ۋاقىتتا سىنبەلگىدە تېكىست كۆرسىتىلىدۇ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:103
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:103
 msgid "When to show thumbnails of image files"
 msgstr "قايسى ۋاقىتتا سۈرەتنىڭ كىچىك سۈرىتى كۆرسىتىلىدۇ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:104
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:104
 msgid "Where to position newly open tabs in browser windows."
 msgstr "توركۆرگۈ كۆزنىكىدە يېڭى ئاچقان خەتكۈچلەر قانداق قويۇلىدۇ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:105
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:105
 msgid "Whether the navigation window should be maximized by default."
 msgstr "يولباشچى كۆزنەك كۆڭۈلدىكى ئەھۋالدا چوڭايتىلامدۇ يوق"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:106
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:106
 msgid "Whether the navigation window should be maximized."
 msgstr "يولباشچى كۆزنەك چوڭايتىلامدۇ يوق"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:107
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:107
 msgid "Whether to ask for confirmation when deleting files, or emptying Trash"
 msgstr "ھۆججەت ئۆچۈرۈش ياكى ئەخلەتخانا تازىلاشتا جەزملەشنى سورامدۇ يوق"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:108
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:108
 msgid "Whether to enable immediate deletion"
 msgstr "دەرھال ئۆچۈرۈشنى قوزغىتامدۇ يوق"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:109
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:109
 msgid "Whether to preview sounds when mousing over an icon"
 msgstr "چاشقىنەك سىنبەلگىنى كۆرسەتكەندە ئاۋازنى ئاڭلىتامدۇ يوق"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:110
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:110
 msgid "Whether to show hidden files"
 msgstr "يوشۇرۇن ھۆججەتنى كۆرسىتەمدۇ يوق"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:111
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:111
 msgid ""
 "Whether to show the user a package installer dialog in case an unknown mime "
 "type is opened, in order to search for an application to handle it."
@@ -2279,7 +2279,7 @@ msgstr ""
 "mime تىپىنى ئاچقاندا پروگراممىدىن بىرنى ئىزدەپ ئۇنى بىر تەرەپ قىلىشقا "
 "قۇلايلىق يارىتىدۇ."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:112
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:112
 msgid "Width of the side pane"
 msgstr "يان كۆزنەكچە كەڭلىكى"
 

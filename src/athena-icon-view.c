@@ -1385,7 +1385,7 @@ athena_icon_view_merge_menus (AthenaView *view)
 	g_object_unref (action_group); /* owned by ui manager */
 
 	icon_view->details->icon_merge_id =
-		gtk_ui_manager_add_ui_from_resource (ui_manager, "/org/gnome/athena/athena-icon-view-ui.xml", NULL);
+		gtk_ui_manager_add_ui_from_resource (ui_manager, "/com/solusos/athena/athena-icon-view-ui.xml", NULL);
 
 	/* Do one-time state-setting here; context-dependent state-setting
 	 * is done in update_menus.

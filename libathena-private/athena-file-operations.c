@@ -1284,7 +1284,7 @@ should_confirm_trash (void)
 	GSettings *prefs;
 	gboolean confirm_trash;
 
-	prefs = g_settings_new ("org.gnome.athena.preferences");
+	prefs = g_settings_new ("com.solusos.athena.preferences");
 	confirm_trash = g_settings_get_boolean (prefs, ATHENA_PREFERENCES_CONFIRM_TRASH);
 	g_object_unref (prefs);
 	return confirm_trash;

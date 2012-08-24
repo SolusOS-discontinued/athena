@@ -1973,13 +1973,13 @@ msgstr "Refés l'edició"
 msgid "Redo the edit"
 msgstr "Refés l'edició"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:1
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:1
 msgid "Where to position newly open tabs in browser windows."
 msgstr ""
 "On s'han d'ubicar les pestanyes noves que s'òbriguen en les finestres del "
 "navegador."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:2
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:2
 msgid ""
 "If set to \"after-current-tab\", then new tabs are inserted after the "
 "current tab. If set to \"end\", then new tabs are appended to the end of the "
@@ -1990,13 +1990,13 @@ msgstr ""
 "a «end», les pestanyes noves es col·locaran al final de la llista de "
 "pestanyes."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:3
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:3
 msgid "Enables the classic Athena behavior, where all windows are browsers"
 msgstr ""
 "Habilita el comportament clàssic del Athena, en què totes les finestres "
 "són navegadors"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:4
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:4
 msgid ""
 "If set to true, then all Athena windows will be browser windows. This is "
 "how Athena used to behave before version 2.6, and some people prefer this "
@@ -2006,12 +2006,12 @@ msgstr ""
 "finestres de navegació. Este era el comportament predeterminat de les "
 "versions del Athena anteriors a la 2.6, i alguns usuaris el prefereixen."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:5
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:5
 msgid "Always use the location entry, instead of the pathbar"
 msgstr ""
 "Utilitza sempre l'entrada de la ubicació en comptes de la barra de camins"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:6
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:6
 msgid ""
 "If set to true, then Athena browser windows will always use a textual "
 "input entry for the location toolbar, instead of the pathbar."
@@ -2020,13 +2020,13 @@ msgstr ""
 "utilitzaran sempre una entrada textual per a la barra d'eines d'ubicació, en "
 "comptes de la barra de camí."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:7
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:7
 msgid "Whether to ask for confirmation when deleting files, or emptying Trash"
 msgstr ""
 "Si s'ha de demanar confirmació quan se suprimisquen fitxers, o es buide la "
 "paperera"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:8
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:8
 msgid ""
 "If set to true, then Athena will ask for confirmation when you attempt to "
 "delete files, or empty the Trash."
@@ -2034,11 +2034,11 @@ msgstr ""
 "Si s'estableix a cert, el Athena demanarà que es confirme quan intenteu "
 "suprimir fitxers, o buidar la paperera."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:9
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:9
 msgid "Whether to enable immediate deletion"
 msgstr "Si s'ha d'habilitar la supressió immediata"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:10
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:10
 msgid ""
 "If set to true, then Athena will have a feature allowing you to delete a "
 "file immediately and in-place, instead of moving it to the trash. This "
@@ -2048,12 +2048,12 @@ msgstr ""
 "immediatament, sense moure'l a la paperera. Això pot ser perillós, així que "
 "aneu amb compte."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:11
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:11
 msgid "When to show preview text in icons"
 msgstr "Quan s'ha de mostrar el text de previsualització a les icones"
 
 #
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:12
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:12
 msgid ""
 "Speed tradeoff for when to show a preview of text file contents in the "
 "file's icon. If set to \"always\" then always show previews, even if the "
@@ -2069,12 +2069,12 @@ msgstr ""
 "s'estableix a «never» (mai), no es llegiran mai les dades de "
 "previsualització."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:13
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:13
 msgid "When to show number of items in a folder"
 msgstr "Quan s'ha de mostrar el nombre d'elements d'una carpeta"
 
 #
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:14
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:14
 msgid ""
 "Speed tradeoff for when to show the number of items in a folder. If set to "
 "\"always\" then always show item counts, even if the folder is on a remote "
@@ -2088,11 +2088,11 @@ msgstr ""
 "sistemes de fitxers locals. Si s'estableix a «never» (mai), no es comptaran "
 "mai els elements."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:15
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:15
 msgid "Type of click used to launch/open files"
 msgstr "Tipus de clic utilitzat per executar/obrir fitxers"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:16
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:16
 msgid ""
 "Possible values are \"single\" to launch files on a single click, or \"double"
 "\" to launch them on a double click."
@@ -2100,11 +2100,11 @@ msgstr ""
 "Els valors possibles són «single» per executar fitxers amb un sol clic, o "
 "«double» per executar-los amb un doble clic."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:17
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:17
 msgid "What to do with executable text files when activated"
 msgstr "Què fer amb fitxers de text executables quan s'activen"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:18
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:18
 msgid ""
 "What to do with executable text files when they are activated (single or "
 "double clicked). Possible values are \"launch\" to launch them as programs, "
@@ -2116,11 +2116,11 @@ msgstr ""
 "«ask» per preguntar què fer mitjançant un diàleg, i «display» per mostrar-"
 "los com a fitxers de text."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:19
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:19
 msgid "Show the package installer for unknown mime types"
 msgstr "Mostra l'instal·lador de paquets per als tipus MIME desconeguts"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:20
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:20
 msgid ""
 "Whether to show the user a package installer dialog in case an unknown mime "
 "type is opened, in order to search for an application to handle it."
@@ -2129,13 +2129,13 @@ msgstr ""
 "cas que s'òbriga un tipus MIME desconegut per cercar una aplicació per "
 "gestionar-lo."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:21
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:21
 msgid "Use extra mouse button events in Athena' browser window"
 msgstr ""
 "Utilitza els esdeveniments dels botons del ratolí addicionals en la finestra "
 "del navegador del Athena"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:22
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:22
 msgid ""
 "For users with mice that have \"Forward\" and \"Back\" buttons, this key "
 "will determine if any action is taken inside of Athena when either is "
@@ -2145,11 +2145,11 @@ msgstr ""
 "clau determinarà si es produirà una acció dins del Athena quan es prema "
 "qualsevol dels botons."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:23
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:23
 msgid "Mouse button to activate the \"Forward\" command in browser window"
 msgstr "Botó del ratolí per activar l'orde «Avant» a la finestra del navegador"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:24
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:24
 msgid ""
 "For users with mice that have buttons for \"Forward\" and \"Back\", this key "
 "will set which button activates the \"Forward\" command in a browser window. "
@@ -2159,12 +2159,12 @@ msgstr ""
 "clau establirà quin botó activarà l'orde «Avant» en una finestra del "
 "navegador. El rang de valors possibles és entre 6 i 14."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:25
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:25
 msgid "Mouse button to activate the \"Back\" command in browser window"
 msgstr ""
 "Botó del ratolí per activar l'orde «Arrere» a la finestra del navegador"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:26
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:26
 msgid ""
 "For users with mice that have buttons for \"Forward\" and \"Back\", this key "
 "will set which button activates the \"Back\" command in a browser window. "
@@ -2174,12 +2174,12 @@ msgstr ""
 "clau establirà quin botó activarà l'orde «Arrere» en una finestra del "
 "navegador. El rang de valors possibles és entre 6 i 14."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:27
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:27
 msgid "When to show thumbnails of image files"
 msgstr "Quan s'han de mostrar miniatures dels fitxers d'imatge"
 
 #
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:28
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:28
 msgid ""
 "Speed tradeoff for when to show an image file as a thumbnail. If set to "
 "\"always\" then always thumbnail, even if the folder is on a remote server. "
@@ -2194,11 +2194,11 @@ msgstr ""
 "estiguen en sistemes de fitxers locals. Si s'estableix a «never» (mai), no "
 "es fan miniatures i s'utilitzarà una icona genèrica."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:29
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:29
 msgid "Maximum image size for thumbnailing"
 msgstr "Mida màxima de les imatges a miniaturitzar"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:30
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:30
 msgid ""
 "Images over this size (in bytes) won't be thumbnailed. The purpose of this "
 "setting is to avoid thumbnailing large images that may take a long time to "
@@ -2208,11 +2208,11 @@ msgstr ""
 "La finalitat d'este paràmetre és evitar la creació de miniatures d'imatges "
 "grans que podrien trigar molt, o consumir massa memòria."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:31
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:31
 msgid "Show advanced permissions in the file property dialog"
 msgstr "Mostra els permisos avançats en el diàleg de propietats del fitxer"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:32
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:32
 msgid ""
 "If set to true, then Athena lets you edit and display file permissions in "
 "a more unix-like way, accessing some more esoteric options."
@@ -2221,11 +2221,11 @@ msgstr ""
 "visualitzar els permisos dels fitxers a l'estil UNIX, accedint a opcions més "
 "esotèriques."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:33
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:33
 msgid "Show folders first in windows"
 msgstr "Mostra abans les carpetes a les finestres"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:34
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:34
 msgid ""
 "If set to true, then Athena shows folders prior to showing files in the "
 "icon and list views."
@@ -2233,11 +2233,11 @@ msgstr ""
 "Si s'estableix a «True» (cert), el Athena mostrarà les carpetes abans que "
 "els fitxers a les vistes d'icona i de llista."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:35
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:35
 msgid "Default sort order"
 msgstr "Criteri d'ordenació predeterminat"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:36
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:36
 msgid ""
 "The default sort-order for items in the icon view. Possible values are \"name"
 "\", \"size\", \"type\" and \"mtime\"."
@@ -2246,11 +2246,11 @@ msgstr ""
 "valors possibles són «name» (nom), «size» (mida), «type» (tipus) i "
 "«mtime» (data de modificació)."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:37
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:37
 msgid "Reverse sort order in new windows"
 msgstr "Inverteix el criteri d'ordenació a les finestres noves"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:38
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:38
 msgid ""
 "If true, files in new windows will be sorted in reverse order. ie, if sorted "
 "by name, then instead of sorting the files from \"a\" to \"z\", they will be "
@@ -2263,11 +2263,11 @@ msgstr ""
 "la «a»; si es fa per mida, en comptes d'ordenar-se incrementalment "
 "s'ordenaran decrementalment."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:39
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:39
 msgid "Athena uses the users home folder as the desktop"
 msgstr "El Athena utilitza la carpeta de l'usuari com a escriptori"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:40
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:40
 msgid ""
 "If set to true, then Athena will use the user's home folder as the "
 "desktop. If it is false, then it will use ~/Desktop as the desktop."
@@ -2275,11 +2275,11 @@ msgstr ""
 "Si s'estableix a «True» (cert), el Athena utilitzarà la carpeta de "
 "l'usuari com a escriptori. Si és «False» (fals), utilitzarà el ~/Escriptori."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:41
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:41
 msgid "Default folder viewer"
 msgstr "Visualitzador de carpetes predeterminat"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:42
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:42
 msgid ""
 "When a folder is visited this viewer is used unless you have selected "
 "another view for that particular folder. Possible values are \"list-view\", "
@@ -2290,11 +2290,11 @@ msgstr ""
 "valors possibles són «list-view» (vista de llista), «icon-view» (vista "
 "d'icones) i «compact-view» (vista compacta)."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:43
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:43
 msgid "Date Format"
 msgstr "Format de la data"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:44
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:44
 msgid ""
 "The format of file dates. Possible values are \"locale\", \"iso\", and "
 "\"informal\"."
@@ -2302,11 +2302,11 @@ msgstr ""
 "El format de les dates dels fitxers. Els valors possibles són «locale», "
 "«iso» i «informal»."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:45
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:45
 msgid "Whether to show hidden files"
 msgstr "Si s'han de mostrar els fitxers ocults"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:46
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:46
 msgid ""
 "If set to true, then hidden files are shown by default in the file manager. "
 "Hidden files are either dotfiles, listed in the folder's .hidden file or "
@@ -2317,11 +2317,11 @@ msgstr ""
 "fitxer .hidden de la carpeta o són fitxers de còpia de seguretat que acaben "
 "amb una titlla (~)."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:47
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:47
 msgid "Bulk rename utility"
 msgstr "Eina de canvi de nom en gran quantitat"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:48
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:48
 msgid ""
 "If set, Athena will append URIs of selected files and treat the result as "
 "a command line for bulk renaming. Bulk rename applications can register "
@@ -2336,11 +2336,11 @@ msgstr ""
 "executable i les opcions de la línia d'ordes. Si el nom de l'executable no "
 "s'estableix com a camí complet, se cercarà en el camí de cerca."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:49
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:49
 msgid "List of possible captions on icons"
 msgstr "Llista dels títols possibles a les icones"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:50
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:50
 msgid ""
 "A list of captions below an icon in the icon view and the desktop. The "
 "actual number of captions shown depends on the zoom level. Some possible "
@@ -2355,39 +2355,39 @@ msgstr ""
 "d'accés), «owner» (propietari), «group» (grup), «permissions» (permisos), "
 "«octal_permissions» (permisos octals) i «mime_type» (tipus MIME)."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:51
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:51
 msgid "Put labels beside icons"
 msgstr "Posa les etiquetes al costat de les icones"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:52
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:52
 msgid ""
 "If true, labels will be placed beside icons rather than underneath them."
 msgstr ""
 "Si s'estableix a «True» (cert), les etiquetes es col·locaran al costat de "
 "les icones i no a sota."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:53
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:53
 msgid "Default icon zoom level"
 msgstr "Nivell d'ampliació predeterminat"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:54
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:54
 msgid "Default zoom level used by the icon view."
 msgstr "Nivell d'ampliació predeterminat utilitzat en la vista d'icones."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:55
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:55
 msgid "Default Thumbnail Icon Size"
 msgstr "Mida predeterminada de les icones de les miniatures"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:56
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:56
 msgid "The default size of an icon for a thumbnail in the icon view."
 msgstr ""
 "La mida predeterminada de les icones de les miniatures en la vista d'icones."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:57
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:57
 msgid "Text Ellipsis Limit"
 msgstr "Límit de text per als punts suspensius"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:59
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:59
 #, no-c-format
 msgid ""
 "A string specifying how parts of overlong file names should be replaced by "
@@ -2423,19 +2423,19 @@ msgstr ""
 "smaller (50%), small (66%), standard (100%), large (150%), larger (200%), "
 "largest (400%)"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:60
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:60
 msgid "Default compact view zoom level"
 msgstr "Nivell d'ampliació predeterminat de la vista compacta"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:61
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:61
 msgid "Default zoom level used by the compact view."
 msgstr "Nivell d'ampliació predeterminat utilitzat en la vista compacta."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:62
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:62
 msgid "All columns have same width"
 msgstr "Totes les columnes tenen la mateixa amplada"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:63
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:63
 msgid ""
 "If this preference is set, all columns in the compact view have the same "
 "width. Otherwise, the width of each column is determined seperately."
@@ -2444,35 +2444,35 @@ msgstr ""
 "tindran la mateixa amplada. Si no, es determinarà per separat l'amplada de "
 "cada columna."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:64
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:64
 msgid "Default list zoom level"
 msgstr "Nivell d'ampliació predeterminat de la llista"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:65
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:65
 msgid "Default zoom level used by the list view."
 msgstr "Nivell d'ampliació predeterminat utilitzat en la vista de llista."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:66
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:66
 msgid "Default list of columns visible in the list view"
 msgstr "Llista predeterminada de les columnes visibles a la vista de llista"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:67
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:67
 msgid "Default list of columns visible in the list view."
 msgstr "Llista predeterminada de les columnes visibles a la vista de llista."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:68
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:68
 msgid "Default column order in the list view"
 msgstr "Orde predeterminat de les columnes a la vista de llista"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:69
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:69
 msgid "Default column order in the list view."
 msgstr "Orde predeterminat de les columnes a la vista de llista."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:70
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:70
 msgid "Only show folders in the tree side pane"
 msgstr "Mostra només les carpetes a la subfinestra lateral d'arbre"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:71
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:71
 msgid ""
 "If set to true, Athena will only show folders in the tree side pane. "
 "Otherwise it will show both folders and files."
@@ -2481,21 +2481,21 @@ msgstr ""
 "Athena mostrarà només les carpetes. Si no, hi mostrarà tant les carpetes "
 "com els fitxers."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:72
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:72
 msgid "Desktop font"
 msgstr "Tipus de lletra de l'escriptori"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:73
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:73
 msgid "The font _description used for the icons on the desktop."
 msgstr ""
 "La _descripció del tipus de lletra utilitzada per a les icones de "
 "l'escriptori."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:74
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:74
 msgid "Home icon visible on desktop"
 msgstr "La icona de carpeta de l'usuari és visible a l'escriptori"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:75
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:75
 msgid ""
 "If this is set to true, an icon linking to the home folder will be put on "
 "the desktop."
@@ -2503,11 +2503,11 @@ msgstr ""
 "Si s'estableix a «True» (cert), s'afegirà una icona a l'escriptori amb un "
 "enllaç a la carpeta de l'usuari."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:76
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:76
 msgid "Computer icon visible on desktop"
 msgstr "Icona de l'ordinador visible a l'escriptori"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:77
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:77
 msgid ""
 "If this is set to true, an icon linking to the computer location will be put "
 "on the desktop."
@@ -2515,11 +2515,11 @@ msgstr ""
 "Si s'estableix a «True» (cert), s'afegirà una icona a l'escriptori amb un "
 "enllaç a la ubicació de l'ordinador."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:78
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:78
 msgid "Trash icon visible on desktop"
 msgstr "La icona de la paperera és visible a l'escriptori"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:79
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:79
 msgid ""
 "If this is set to true, an icon linking to the trash will be put on the "
 "desktop."
@@ -2527,11 +2527,11 @@ msgstr ""
 "Si s'estableix a «True» (cert), s'afegirà a l'escriptori una icona amb un "
 "enllaç a la paperera."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:80
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:80
 msgid "Show mounted volumes on the desktop"
 msgstr "Mostra els volums muntats a l'escriptori"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:81
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:81
 msgid ""
 "If this is set to true, icons linking to mounted volumes will be put on the "
 "desktop."
@@ -2539,11 +2539,11 @@ msgstr ""
 "Si s'estableix a «True» (cert), s'afegiran a l'escriptori icones amb "
 "enllaços als volums muntats."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:82
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:82
 msgid "Network Servers icon visible on the desktop"
 msgstr "La icona de servidors de xarxa és visible a l'escriptori"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:83
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:83
 msgid ""
 "If this is set to true, an icon linking to the Network Servers view will be "
 "put on the desktop."
@@ -2551,11 +2551,11 @@ msgstr ""
 "Si s'estableix a «True» (cert), s'afegirà a l'escriptori una icona amb un "
 "enllaç a la vista de servidors de xarxa."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:84
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:84
 msgid "Desktop computer icon name"
 msgstr "Nom de la icona «Ordinador» de l'escriptori"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:85
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:85
 msgid ""
 "This name can be set if you want a custom name for the computer icon on the "
 "desktop."
@@ -2563,11 +2563,11 @@ msgstr ""
 "Este nom es pot definir si voleu un nom personalitzat per a la icona "
 "«Ordinador» de l'escriptori."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:86
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:86
 msgid "Desktop home icon name"
 msgstr "Nom de la icona de la carpeta de l'usuari de l'escriptori"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:87
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:87
 msgid ""
 "This name can be set if you want a custom name for the home icon on the "
 "desktop."
@@ -2575,11 +2575,11 @@ msgstr ""
 "Este nom es pot definir si voleu un nom personalitzat per a la icona de la "
 "carpeta de l'usuari."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:88
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:88
 msgid "Desktop trash icon name"
 msgstr "Nom de la icona de la paperera de l'escriptori"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:89
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:89
 msgid ""
 "This name can be set if you want a custom name for the trash icon on the "
 "desktop."
@@ -2587,11 +2587,11 @@ msgstr ""
 "Este nom es pot definir si voleu un nom personalitzat per a la icona de la "
 "paperera de l'escriptori."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:90
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:90
 msgid "Network servers icon name"
 msgstr "Nom de la icona dels servidors de xarxa"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:91
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:91
 msgid ""
 "This name can be set if you want a custom name for the network servers icon "
 "on the desktop."
@@ -2599,7 +2599,7 @@ msgstr ""
 "Es pot definir este nom si en voleu un de personalitzat per a la icona dels "
 "servidors de xarxa a l'escriptori."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:92
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:92
 msgid ""
 "An integer specifying how parts of overlong file names should be replaced by "
 "ellipses on the desktop. If the number is larger than 0, the file name will "
@@ -2612,11 +2612,11 @@ msgstr ""
 "el número és 0 o inferior, no s'imposarà cap límit en el número de línies "
 "mostrades."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:93
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:93
 msgid "Fade the background on change"
 msgstr "Esvaeix el fons en canviar-lo"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:94
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:94
 msgid ""
 "If set to true, then Athena will use a fade effect to change the desktop "
 "background."
@@ -2625,11 +2625,11 @@ msgstr ""
 "per canviar el fons de l'escriptori."
 
 #
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:95
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:95
 msgid "The geometry string for a navigation window."
 msgstr "La cadena de geometria per a una finestra de navegació."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:96
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:96
 msgid ""
 "A string containing the saved geometry and coordinates string for navigation "
 "windows."
@@ -2637,69 +2637,69 @@ msgstr ""
 "Una cadena que conté la geometria i les coordenades alçades per a les "
 "finestres de navegació."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:97
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:97
 msgid "Whether the navigation window should be maximized."
 msgstr "Si la finestra de navegació s'hauria de maximitzar."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:98
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:98
 msgid "Whether the navigation window should be maximized by default."
 msgstr "Si la finestra de navegació s'hauria de maximitzar per defecte."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:99
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:99
 msgid "Width of the side pane"
 msgstr "Amplada de la subfinestra lateral"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:100
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:100
 msgid "The default width of the side pane in new windows."
 msgstr ""
 "L'amplada predeterminada de la subfinestra lateral de les finestres noves."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:101
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:101
 msgid "Show toolbar in new windows"
 msgstr "Mostra la barra d'eines a les finestres noves"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:102
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:102
 msgid "If set to true, newly opened windows will have toolbars visible."
 msgstr ""
 "Si s'estableix a «True» (cert), les finestres noves que s'òbriguen tindran "
 "les barres d'eines visibles."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:103
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:103
 msgid "Show location bar in new windows"
 msgstr "Mostra la barra d'ubicació a les finestres noves"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:104
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:104
 msgid ""
 "If set to true, newly opened windows will have the location bar visible."
 msgstr ""
 "Si s'estableix a «True» (cert), a les finestres noves que s'òbriguen s'hi "
 "podrà veure la barra d'ubicació."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:105
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:105
 msgid "Show status bar in new windows"
 msgstr "Mostra la barra d'estat a les finestres noves"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:106
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:106
 msgid "If set to true, newly opened windows will have the status bar visible."
 msgstr ""
 "Si s'estableix a «True» (cert), les finestres noves que s'òbriguen tindran "
 "la barra d'estat visible."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:107
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:107
 msgid "Show side pane in new windows"
 msgstr "Mostra la subfinestra lateral a les finestres noves"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:108
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:108
 msgid "If set to true, newly opened windows will have the side pane visible."
 msgstr ""
 "Si s'estableix a «True» (cert), les finestres noves que s'òbriguen tindran "
 "la subfinestra lateral visible."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:109
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:109
 msgid "Side pane view"
 msgstr "Visualització de la subfinestra lateral"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:110
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:110
 msgid "The side pane view to show in newly opened windows."
 msgstr ""
 "La visualització de la subfinestra lateral a mostrar a les noves finestres."

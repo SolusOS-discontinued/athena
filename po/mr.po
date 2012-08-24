@@ -1612,7 +1612,7 @@ msgstr "संपादीत बदल पुन्हा स्थापीत
 msgid "Redo the edit"
 msgstr "संपादीत बदल पुन्हा स्थापीत करा"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:1
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:1
 #| msgid ""
 #| "A list of captions below an icon in the icon view and the desktop. The "
 #| "actual number of captions shown depends on the zoom level. Possible "
@@ -1631,13 +1631,13 @@ msgstr ""
 "\"date_modified\", \"date_changed\", \"date_accessed\", \"owner\", \"group"
 "\", \"permissions\", \"octal_permissions\" व \"mime_type\"."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:2
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:2
 msgid ""
 "A string containing the saved geometry and coordinates string for navigation "
 "windows."
 msgstr "साठवलेली जिओमेट्रि व संचारन पटलकरीता कोऑर्डिनेट्स् स्ट्रिंग समाविष्ट असलेली स्ट्रिंग."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:4
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:4
 #, no-c-format
 msgid ""
 "A string specifying how parts of overlong file names should be replaced by "
@@ -1668,15 +1668,15 @@ msgstr ""
 "इतरांपेक्षा लहान (50%), लहान (66%), मानक (100%), मोठे (150%), इतरांपेक्षा मोठे "
 "(200%), सर्वात मोठे (400%)"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:5
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:5
 msgid "All columns have same width"
 msgstr "सर्व स्तंभची रूंदी समान आहे"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:6
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:6
 msgid "Always use the location entry, instead of the pathbar"
 msgstr "मार्गपट्टी ऐवजी,नेहमी स्थान प्रवेशाचा वापरा करा"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:7
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:7
 msgid ""
 "An integer specifying how parts of overlong file names should be replaced by "
 "ellipses on the desktop. If the number is larger than 0, the file name will "
@@ -1688,95 +1688,95 @@ msgstr ""
 "संख्या 0 किंवा त्यापेक्षा कमी असल्यावर, दर्शविण्याजोगी ओळींकरीता मर्यादा लागू केली जात "
 "नाही."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:8
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:8
 msgid "Bulk rename utility"
 msgstr "मोठे पुनःनामांकन युटिलिटि"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:9
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:9
 msgid "Computer icon visible on desktop"
 msgstr "डेस्कटॉपवर संगणकचिन्ह दिसत आहे"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:10
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:10
 msgid "Date Format"
 msgstr "दिनांकाचा आराखडा"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:11
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:11
 msgid "Default Thumbnail Icon Size"
 msgstr "मुलभूत थंबनेल चिन्ह आकार"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:12
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:12
 msgid "Default column order in the list view"
 msgstr "यादी दृश्यातील मुलभूत स्तंभ क्रमवारी"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:13
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:13
 msgid "Default column order in the list view."
 msgstr "यादी दृश्यातील मुलभूत स्तंभ क्रमवारी."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:14
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:14
 msgid "Default compact view zoom level"
 msgstr "मुलभूत चिन्ह लहान मोठे करण्याचे स्थर"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:15
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:15
 msgid "Default folder viewer"
 msgstr "मुलभूत फोल्डर दर्शिका"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:16
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:16
 msgid "Default icon zoom level"
 msgstr "मुलभूत चिन्ह लहान मोठे करण्याचे स्थर"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:17
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:17
 msgid "Default list of columns visible in the list view"
 msgstr "यादी दृश्यातील दृश्यीत मुलभूत स्तंभ क्रमवारी"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:18
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:18
 msgid "Default list of columns visible in the list view."
 msgstr "यादी दृश्यातील दृश्यीत मुलभूत स्तंभ क्रमवारी."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:19
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:19
 msgid "Default list zoom level"
 msgstr "लहान मोठे स्थर करण्याची मुलभूत यादी"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:20
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:20
 msgid "Default sort order"
 msgstr "मुलभूत क्रमवारी"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:21
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:21
 msgid "Default zoom level used by the compact view."
 msgstr "संक्षिप्त दृश्य द्वारे वापरले गेलेले मुलभूत झूम स्थर."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:22
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:22
 msgid "Default zoom level used by the icon view."
 msgstr "मुलभूत लहान मोठे करण्याचे स्थर चिन्ह दाखवातर्फे वापरले जाते."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:23
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:23
 msgid "Default zoom level used by the list view."
 msgstr "मुलभूत लहान मोठे करण्याचे स्थर यादी दाखवा तर्फे वापरले जाते."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:24
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:24
 msgid "Desktop computer icon name"
 msgstr "डेस्कटॉपवरील संगणक चिन्हाचे नाव"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:25
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:25
 msgid "Desktop font"
 msgstr "डेस्कटॉप फाँट"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:26
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:26
 msgid "Desktop home icon name"
 msgstr "डेस्कटॉपवरील मुख्य चिन्हाचे नाव"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:27
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:27
 msgid "Desktop trash icon name"
 msgstr "डेस्कटॉपवरील कचरापेटी चिन्हाचे नाव"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:28
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:28
 msgid "Enables the classic Athena behavior, where all windows are browsers"
 msgstr "नॉटिलस विशेष वागणुक कार्यनान्वीत करतो, जेथे सर्व चौकटी ब्राउजरस्वरूपात आहे"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:29
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:29
 msgid "Fade the background on change"
 msgstr "बदल केल्यावर पार्श्वभूमी निस्तेच करा"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:30
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:30
 msgid ""
 "For users with mice that have \"Forward\" and \"Back\" buttons, this key "
 "will determine if any action is taken inside of Athena when either is "
@@ -1785,7 +1785,7 @@ msgstr ""
 "ही कि \"पुढे\" व \"मागे\" माऊसचे बटन सक्षम असणाऱ्या वापरकर्त्यांकरीता, कुठलिही "
 "बटन दाबल्यास नॉटिलस मध्ये कुठल्या प्रकारची कृती कार्यान्वीत होते, ते ओळखते."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:31
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:31
 msgid ""
 "For users with mice that have buttons for \"Forward\" and \"Back\", this key "
 "will set which button activates the \"Back\" command in a browser window. "
@@ -1795,7 +1795,7 @@ msgstr ""
 "खिडकीत \"Back\" आदेश कुठल्या बटन द्वारे सक्रीय केले जाते, ते सेट करते. संभाव्य मूल्यांची "
 "व्यप्ती 6 व 14 च्या अंतर्गत आहे."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:32
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:32
 msgid ""
 "For users with mice that have buttons for \"Forward\" and \"Back\", this key "
 "will set which button activates the \"Forward\" command in a browser window. "
@@ -1805,11 +1805,11 @@ msgstr ""
 "खिडकीत \"Forward\" आदेश कुठल्या बटन द्वारे सक्रीय केले जाते, ते सेट करते. संभाव्य मूल्यांची "
 "व्यप्ती 6 व 14 च्या अंतर्गत आहे."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:33
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:33
 msgid "Home icon visible on desktop"
 msgstr "डेस्कटॉपवर दिसणारे मुख्य चिन्ह"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:34
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:34
 #| msgid ""
 #| "If set to \"after_current_tab\", then new tabs are inserted after the "
 #| "current tab. If set to \"end\", then new tabs are appended to the end of "
@@ -1822,7 +1822,7 @@ msgstr ""
 "\"after_current_tab\" असे निश्चित असल्यास, वर्तमान टॅब नंतर नविन टॅब अंतर्भूत होतात. "
 "\"end\" करीता निश्चित केल्यास, टॅब यादीच्या शेवटी नविन टॅब जोडले जातात."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:35
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:35
 msgid ""
 "If set to true, Athena will only show folders in the tree side pane. "
 "Otherwise it will show both folders and files."
@@ -1830,23 +1830,23 @@ msgstr ""
 "मुल्य खरे निश्चित केल्यास, नॉटिलस फक्त बाजुच्या पटल संरचनेवरील फोल्डर्स् दर्शवितो. नाहीतर "
 "दोन्ही फोल्डर्स् व फाइल दर्शविल्या जातील."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:36
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:36
 msgid "If set to true, newly opened windows will have the location bar visible."
 msgstr "मुल्य खरे निश्चित केल्यास, नुकतेच उघडलेल्या चौकटीत स्थान पट्टी दृश्यास येईल."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:37
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:37
 msgid "If set to true, newly opened windows will have the side pane visible."
 msgstr "मुल्य खरे निश्चित केल्यास, नुकतेच उघडलेल्या चौकटीत बाजुचे पटल दृश्यास येईल."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:38
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:38
 msgid "If set to true, newly opened windows will have the status bar visible."
 msgstr "मुल्य खरे निश्चित केल्यास, नुकतेच उघडलेल्या चौकटीत स्थिती पट्टी दृश्यास येईल."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:39
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:39
 msgid "If set to true, newly opened windows will have toolbars visible."
 msgstr "मुल्य खरे निश्चित केल्यास, नुकतेच उघडलेल्या चौकटीत स्थानपट्टी दृश्यास येईल."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:40
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:40
 msgid ""
 "If set to true, then Athena browser windows will always use a textual "
 "input entry for the location toolbar, instead of the pathbar."
@@ -1854,7 +1854,7 @@ msgstr ""
 "मुल्य खरे निश्चित केल्यास, नॉटिलस ब्राउजर चौकटी मार्गपट्टी ऐवजी, नेहमी स्थानपट्टीकरीता "
 "पाठ्य आगत नोंदणी वापरेल."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:41
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:41
 msgid ""
 "If set to true, then Athena lets you edit and display file permissions in "
 "a more unix-like way, accessing some more esoteric options."
@@ -1862,7 +1862,7 @@ msgstr ""
 "मुल्य खरे निश्चित केल्यास, नॉटिलस आपल्याला फाइल परवानगी अधिक unix-समान प्रकारे "
 "संपादन व दर्शवयास परवानगी देतो, काहिक गुपीत पर्याय वापरण्यास देखिल प्रवेश देतो."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:42
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:42
 msgid ""
 "If set to true, then Athena shows folders prior to showing files in the "
 "icon and list views."
@@ -1870,7 +1870,7 @@ msgstr ""
 "मुल्य खरे निश्चित केल्यास, नॉटिलस आपल्याला फोल्डर्स् फाइल परवानगी अधिक unix-समान "
 "प्रकारे संपादन व दर्शवयास परवानगी देतो, काहिक गुपीत पर्याय वापरण्यास देखिल प्रवेश देतो."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:43
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:43
 msgid ""
 "If set to true, then Athena will ask for confirmation when you attempt to "
 "delete files, or empty the Trash."
@@ -1878,7 +1878,7 @@ msgstr ""
 "मुल्य खरे निश्चित केल्यास, फाइल काढुन टाकतेवेळी, किंवा कचरापेटी रिक्त करतेवेळी नॉटिलस "
 "आपल्याकडुन खात्री करून घेईल."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:44
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:44
 msgid ""
 "If set to true, then Athena will have a feature allowing you to delete a "
 "file immediately and in-place, instead of moving it to the trash. This "
@@ -1887,14 +1887,14 @@ msgstr ""
 "मुल्य खरे निश्चित केल्यास, फाइल कचरापेटीत स्थानांतरीत करण्यापेक्षा लगेचच काढुन टाकण्यासाठी "
 "नॉटिलस एक विशेष उपलब्ध करून देतो. हे विशेष घातकही असु शकते, त्यामुळे सावधानता बाळगा."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:45
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:45
 #| msgid "If set to true, then Athena will draw the icons on the desktop."
 msgid ""
 "If set to true, then Athena will use a fade effect to change the desktop "
 "background."
 msgstr "खरे असल्यास, डेस्कटॉप पार्श्वभूमी बदलण्यासाठी नॉटिलस निस्तेज करा प्रभावाचा वापर करेल."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:46
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:46
 msgid ""
 "If set to true, then Athena will use the user's home folder as the "
 "desktop. If it is false, then it will use ~/Desktop as the desktop."
@@ -1902,7 +1902,7 @@ msgstr ""
 "खरे निश्चित केल्यास, नॉटिलस वापरकर्त्याची मुख्य फोल्डर यास डेस्कटॉप नुरूप वापर करू "
 "शकतो. खोटे असल्यास, ~/Desktop ला डेस्कटॉप नुरूप वापरले जाते."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:47
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:47
 msgid ""
 "If set to true, then all Athena windows will be browser windows. This is "
 "how Athena used to behave before version 2.6, and some people prefer this "
@@ -1911,7 +1911,7 @@ msgstr ""
 "खरे निश्चित केल्यास, सर्व नॉटिलस चौकटी ब्राऊजर चौकटी होतील. अशा रिती नॉटिलस "
 "आवृत्ती 2.6 च्या पूर्वी वागत असे, व काहीक लोक ही वागणूक पसंत करतात."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:48
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:48
 #| msgid ""
 #| "If set to true, then hidden files are shown in the file manager. Hidden "
 #| "files are either dotfiles or are listed in the folder's .hidden file."
@@ -1924,7 +1924,7 @@ msgstr ""
 "लपवलेल्या फाइल्स् एकतर डॉटफाइल्स् असतात, जे फोल्डरच्या .hidden फाइलमध्ये किंवा "
 "टिल्डे (~) सह समाप्त होणाऱ्या बॅकअप फाइल्स्मध्ये आढळतात."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:49
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:49
 msgid ""
 "If set, Athena will append URIs of selected files and treat the result as "
 "a command line for bulk renaming. Bulk rename applications can register "
@@ -1936,37 +1936,37 @@ msgstr ""
 "किला स्वल्पविराम-विभाजीत एक्जिक्यूटेबल नाव व कुठलेही आदेश ओळ पर्यायसह सेट करून मोठे पुनःनामांकन ॲप्लिकेशन्स् स्वतःला या किमध्ये नोंदणीकृत करू शकतात. "
 "एक्जिक्यूटेबल नावाला पूर्ण मार्गकरीता सेट न केल्यास, त्याला शोध मार्गात शोधले जाईल."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:50
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:50
 msgid ""
 "If this is set to true, an icon linking to the Network Servers view will be "
 "put on the desktop."
 msgstr "मुल्य खरे निश्चित केल्यास, नेटवर्क सर्व्हर दृश्यशी जुळवणी करणारे चिन्ह डेस्कटॉपवर दिसेल."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:51
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:51
 msgid ""
 "If this is set to true, an icon linking to the computer location will be put "
 "on the desktop."
 msgstr "मुल्य खरे निश्चित केल्यास, संगणक स्थळाशी जुळवणी करणारे चिन्ह डेस्कटॉपवर दिसेल."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:52
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:52
 msgid ""
 "If this is set to true, an icon linking to the home folder will be put on "
 "the desktop."
 msgstr "मुल्य खरे निश्चित केल्यास, मुख्य फोल्डरशी जुळवणी करणारे चिन्ह डेस्कटॉपवर दिसेल."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:53
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:53
 msgid ""
 "If this is set to true, an icon linking to the trash will be put on the "
 "desktop."
 msgstr "मुल्य खरे निश्चित केल्यास, कचरापेटीशी जुळवणी करणारे चिन्ह डेस्कटॉपवर दिसेल."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:54
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:54
 msgid ""
 "If this is set to true, icons linking to mounted volumes will be put on the "
 "desktop."
 msgstr "हे खरे असल्यास, आरोहीत खंडकरीता जुळवणी स्थापीत करणारी चिन्ह डेस्कटॉपवर दर्शविल्या जातील."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:55
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:55
 msgid ""
 "If this preference is set, all columns in the compact view have the same "
 "width. Otherwise, the width of each column is determined seperately."
@@ -1974,7 +1974,7 @@ msgstr ""
 "ही प्राधान्यक्रम निश्चित केल्यावर, संक्षिप्त दृश्यातील सर्व स्तंभची रूंदी समान राहील. "
 "नाहीतर, प्रत्येक स्तंभची रूंदी वेगळेरित्या तपासली जाईल."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:56
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:56
 msgid ""
 "If true, files in new windows will be sorted in reverse order. ie, if sorted "
 "by name, then instead of sorting the files from \"a\" to \"z\", they will be "
@@ -1986,11 +1986,11 @@ msgstr ""
 "\" या क्रमानुसारे लावा; जर आकारनुसारे क्रमवारी लावल्यास, वाढीव रूपी क्रमवारी "
 "करण्याऐवजी ढासळत्या रूपी क्रमवारी केली जाईल."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:57
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:57
 msgid "If true, labels will be placed beside icons rather than underneath them."
 msgstr "खरे असल्यास, लेबलची मांडणी चिन्हांच्या खालच्या बाजुस नसून त्यांच्या जवळ घट्टरीत्या केली जाईल."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:58
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:58
 msgid ""
 "Images over this size (in bytes) won't be thumbnailed. The purpose of this "
 "setting is to avoid thumbnailing large images that may take a long time to "
@@ -2000,39 +2000,39 @@ msgstr ""
 "आकाराची प्रतिमांना थंबनेल करण्यापासून थांबविण्याकरीता आहे कारण त्यास दाखल वायला अधिक "
 "वेळ किंवा जास्त स्मृतीची गरज भासते."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:59
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:59
 msgid "List of possible captions on icons"
 msgstr "चिन्हांवरील स्वीकार्य कॅपशनची यादी"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:60
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:60
 msgid "Maximum image size for thumbnailing"
 msgstr "थंबनेलिंग करीता कमाल चित्राचे आकार"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:61
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:61
 msgid "Mouse button to activate the \"Back\" command in browser window"
 msgstr "ब्राऊजर खिडकीत \"Back\" आदेश सक्रीय करण्यासाठी माऊस बटन"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:62
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:62
 msgid "Mouse button to activate the \"Forward\" command in browser window"
 msgstr "ब्राऊजर खिडकीत \"Forward\" आदेश सक्रीय करण्यासाठी माऊस बटन"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:63
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:63
 msgid "Athena uses the users home folder as the desktop"
 msgstr "नॉटिलस वापरकर्त्याचे मुख्य फोल्डर डेस्कटॉपच्या स्वरूपात वापरतो"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:64
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:64
 msgid "Network Servers icon visible on the desktop"
 msgstr "नेटवर्क सर्व्हर चिन्ह डेस्कटॉपवर दिसत आहे"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:65
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:65
 msgid "Network servers icon name"
 msgstr "नेटवर्क सर्व्हर चिन्ह"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:66
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:66
 msgid "Only show folders in the tree side pane"
 msgstr "फक्त रचनात्मक बाजूच्या पटलातील फोल्डर्स् दाखवा"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:67
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:67
 msgid ""
 "Possible values are \"single\" to launch files on a single click, or \"double"
 "\" to launch them on a double click."
@@ -2040,51 +2040,51 @@ msgstr ""
 "एका क्लिकवर फाइल दाखल करण्याकरीता अपेक्षित मुल्य \"single\" आहे, किंवा दोनवेळा क्लिक "
 "केल्यावर अपेक्षित मुल्य \"double\" आहे."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:68
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:68
 msgid "Put labels beside icons"
 msgstr "चिन्हांच्या शेजारी लेबल्स ठेवा"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:69
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:69
 msgid "Reverse sort order in new windows"
 msgstr "नवीन चौकटीत छाणणीची पध्दती उलटी करा"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:70
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:70
 msgid "Show advanced permissions in the file property dialog"
 msgstr "फाइल गुणधर्म संवादपट मध्ये प्रगत परवानगी दाखवा"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:71
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:71
 msgid "Show folders first in windows"
 msgstr "चौकटीत प्रथम फोल्डर्स् दाखवा"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:72
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:72
 msgid "Show location bar in new windows"
 msgstr "नविन चौकटीत ठिकाणदर्शक पट्टी दाखवा"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:73
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:73
 msgid "Show mounted volumes on the desktop"
 msgstr "डेस्कटॉपवर आरोहीत खंड दाखवा"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:74
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:74
 msgid "Show side pane in new windows"
 msgstr "नवीन चौकटीत बाजूचे पटल दाखवा"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:75
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:75
 msgid "Show status bar in new windows"
 msgstr "नविन चौकटीत स्थिती पट्टी दाखवा"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:76
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:76
 msgid "Show the package installer for unknown mime types"
 msgstr "अपरिचीत mime प्रकार करीता संकुल प्रतिष्ठापक दाखवा"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:77
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:77
 msgid "Show toolbar in new windows"
 msgstr "नविन चौकटीत साधन पट्टी दाखवा"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:78
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:78
 msgid "Side pane view"
 msgstr "बाजुचे पटल दाखवा"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:79
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:79
 #| msgid ""
 #| "Speed tradeoff for when to preview a sound file when mousing over a files "
 #| "icon. If set to \"always\" then always plays the sound, even if the file "
@@ -2101,7 +2101,7 @@ msgstr ""
 "\" निश्चित केल्यास फक्त स्थानीय फाइल प्रणालीचे पूर्वदृश्य चालवा. \"never\" निश्चित केल्यास "
 "ध्वनी कधिही पूर्वदृश्यीत केल्या जात नाही."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:80
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:80
 #| msgid ""
 #| "Speed tradeoff for when to show a preview of text file contents in the "
 #| "file's icon. If set to \"always\" then always show previews, even if the "
@@ -2120,7 +2120,7 @@ msgstr ""
 "निश्चित केल्यास फक्त स्थानीय फाइल प्रणालीचे पूर्वदृश्य दृश्यीत केरा. \"never\" निश्चित "
 "केल्यास कधिही पूर्वदृश्यीत माहिती वाचण्याची चिंता करू नका."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:81
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:81
 #| msgid ""
 #| "Speed tradeoff for when to show an image file as a thumbnail. If set to "
 #| "\"always\" then always thumbnail, even if the folder is on a remote "
@@ -2139,7 +2139,7 @@ msgstr ""
 "स्थानीय फाइल प्रणाली थंबनेल दाखवा. \"never\" निश्चित केल्यास कधिही प्रतिमांना थंबनेल "
 "करण्याची चिंता करू नका, फक्त मुलभूत चिन्ह वापरा."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:82
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:82
 #| msgid ""
 #| "Speed tradeoff for when to show the number of items in a folder. If set "
 #| "to \"always\" then always show item counts, even if the folder is on a "
@@ -2157,15 +2157,15 @@ msgstr ""
 "केल्यास फक्त स्थानीय फाइल प्रणाली प्रमाण दाखवा. \"never\" निश्चित केल्यास कधिही घटक "
 "प्रमाण मुल्यांकण करण्याची चिंता करू नका."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:83
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:83
 msgid "Text Ellipsis Limit"
 msgstr "पाठ्य एलीपसीस् मर्यादा"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:84
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:84
 msgid "The default size of an icon for a thumbnail in the icon view."
 msgstr "चिन्ह दाखवातील थंबनेल करीता मुलभूत चिन्ह आकार."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:85
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:85
 #| msgid ""
 #| "The default sort-order for the items in the list view. Possible values "
 #| "are \"name\", \"size\", \"type\", and \"modification_date\"."
@@ -2176,31 +2176,31 @@ msgstr ""
 "यादी दृश्ययातील घटकांकरीता मुलभूत क्रम-रीत.स्वीकार्य मुल्य आहे \"name\", \"size\", "
 "\"type\", व \"mtime\"."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:86
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:86
 msgid "The default width of the side pane in new windows."
 msgstr "नव्या चौकटीतील बाजुच्या पटलाची मुलभूत रूंदी."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:87
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:87
 #| msgid "The font description used for the icons on the desktop."
 msgid "The font _description used for the icons on the desktop."
 msgstr "डेस्कटॉपवरील चिन्हांकरीता वापरलेले फाँट वर्णन (_d)."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:88
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:88
 msgid ""
 "The format of file dates. Possible values are \"locale\", \"iso\", and "
 "\"informal\"."
 msgstr "फाइल दिनांकचे स्वरूप. स्वीकार्य मुल्य आहे \"locale\", \"iso\", व \"informal\"."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:89
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:89
 #| msgid "Open this folder in a navigation window"
 msgid "The geometry string for a navigation window."
 msgstr "संचारन पटलकरीता जिओमेट्रि स्ट्रिंग."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:90
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:90
 msgid "The side pane view to show in newly opened windows."
 msgstr "बाजुचे पटल दृश्य नव्या उघडलेल्या चौकटीत दाखवा."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:91
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:91
 msgid ""
 "This name can be set if you want a custom name for the computer icon on the "
 "desktop."
@@ -2208,7 +2208,7 @@ msgstr ""
 "जर तुम्हाला डेस्कटॉपवरील संगणक चिन्हाकरीता इच्छिक नाव द्याचे असेल तर हे नाव निश्चित केल्या "
 "जाऊ शकते."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:92
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:92
 msgid ""
 "This name can be set if you want a custom name for the home icon on the "
 "desktop."
@@ -2216,7 +2216,7 @@ msgstr ""
 "जर तुम्हाला डेस्कटॉपवरील मुख्य चिन्हाकरीता इच्छिक नाव द्याचे असेल तर हे नाव निश्चित केल्या "
 "जाऊ शकते."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:93
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:93
 msgid ""
 "This name can be set if you want a custom name for the network servers icon "
 "on the desktop."
@@ -2224,7 +2224,7 @@ msgstr ""
 "जर तुम्हाला डेस्कटॉपवरील नेटवर्क सर्व्हर चिन्हाकरीता इच्छिक नाव द्याचे असेल तर हे नाव "
 "निश्चित केल्या जाऊ शकते."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:94
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:94
 msgid ""
 "This name can be set if you want a custom name for the trash icon on the "
 "desktop."
@@ -2232,23 +2232,23 @@ msgstr ""
 "जर तुम्हाला डेस्कटॉपवरील कचरापेटी चिन्हाकरीता इच्छिक नाव द्याचे असेल तर हे नाव निश्चित "
 "केल्या जाऊ शकते."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:95
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:95
 msgid "Trash icon visible on desktop"
 msgstr "डेस्कटॉपवर दिसणारे कचरापेटी चिन्ह"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:96
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:96
 msgid "Type of click used to launch/open files"
 msgstr "फाइल दाखलकरण्यासाठी/उगडण्यासाठी वापरण्यात येणारी क्लिक प्रकार"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:97
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:97
 msgid "Use extra mouse button events in Athena' browser window"
 msgstr "नॉटिलस च्या ब्राऊजर खिडकीत अगाऊ माऊस बटन घटनांचा वापर करा"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:98
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:98
 msgid "What to do with executable text files when activated"
 msgstr "जेव्हा सक्रिय होतात तेव्हा त्या कार्यान्वित मजकूर फाइल्सचे काय करायचे"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:99
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:99
 msgid ""
 "What to do with executable text files when they are activated (single or "
 "double clicked). Possible values are \"launch\" to launch them as programs, "
@@ -2259,7 +2259,7 @@ msgstr ""
 "त्याचे काय करायचे. स्वीकार्य मुल्य आहे \"launch\" अनुप्रयोग दाखल करण्याकरीता, \"ask\" "
 "संवादपटच्या मदतीने विचारण्याकरीता, व \"display\" पाठ्य फाइल स्वरूपी दर्शविण्याकरीता."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:100
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:100
 #| msgid ""
 #| "When a folder is visited this viewer is used unless you have selected "
 #| "another view for that particular folder. Possible values are \"list_view"
@@ -2273,47 +2273,47 @@ msgstr ""
 "पहाण्याकरीता या दर्शकाचे वापर केले जाईल. स्वीकार्य मुल्य \"list_view\", \"icon_view\" "
 "व \"compact_view\" आहे."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:101
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:101
 msgid "When to show number of items in a folder"
 msgstr "संचयीकेतील एकूण घटके कधी दाखवायचे"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:102
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:102
 msgid "When to show preview text in icons"
 msgstr "चिन्हामधील वाक्यरचना आधिच केव्हा पाहायची"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:103
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:103
 msgid "When to show thumbnails of image files"
 msgstr "प्रतिमा फाइल्सचे थंबनेल्स कधी पहायचे"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:104
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:104
 msgid "Where to position newly open tabs in browser windows."
 msgstr "ब्राउजर चौकटीत नविन उघडलेले टॅब कुठे स्थीत करायचे."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:105
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:105
 msgid "Whether the navigation window should be maximized by default."
 msgstr "संचारन पटल पूर्वनिर्धारितपणे वाढवायचे."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:106
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:106
 msgid "Whether the navigation window should be maximized."
 msgstr "संचारन पटल पूर्वनिर्धारितपणे कमी करायचे."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:107
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:107
 msgid "Whether to ask for confirmation when deleting files, or emptying Trash"
 msgstr "कचरापेटी रिक्त करतेवेळी, किंवा फाइल काढुन टाकतेवेळी खात्री करायची"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:108
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:108
 msgid "Whether to enable immediate deletion"
 msgstr "त्वरीत घालवण्याची प्रक्रिया सुरू करायची"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:109
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:109
 msgid "Whether to preview sounds when mousing over an icon"
 msgstr "चिन्हावरून माउस हलवितेवेळी आवाज पूर्वदृश्यीत करायचे का"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:110
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:110
 msgid "Whether to show hidden files"
 msgstr "लपवलेल्या फाइल्स दाखवायचे"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:111
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:111
 msgid ""
 "Whether to show the user a package installer dialog in case an unknown mime "
 "type is opened, in order to search for an application to handle it."
@@ -2321,7 +2321,7 @@ msgstr ""
 "अपरिचीत mime प्रकार खुले असल्यास, ऍप्लिकेशन द्वारे हाताळण्याजोगी वापरकर्त्याला संकुल "
 "प्रतिष्ठापक संवाद दाखवायचे का."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:112
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:112
 msgid "Width of the side pane"
 msgstr "बाजूच्या कप्पयाची रूंद"
 

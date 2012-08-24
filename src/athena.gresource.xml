@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
-  <gresource prefix="/org/gnome/athena">
+  <gresource prefix="/com/solusos/athena">
     <file compressed="true">athena-bookmarks-window.ui</file>
     <file compressed="true">athena-file-management-properties.ui</file>
     <file>athena-icon-view-ui.xml</file>

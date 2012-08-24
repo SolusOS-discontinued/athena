@@ -1998,11 +1998,11 @@ msgstr "Tee muokkaus uudelleen"
 msgid "Redo the edit"
 msgstr "Tee muokkaus uudelleen"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:1
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:1
 msgid "Where to position newly open tabs in browser windows."
 msgstr "Mihin uudet välilehdet sijoitetaan selainikkunoissa."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:2
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:2
 msgid ""
 "If set to \"after-current-tab\", then new tabs are inserted after the "
 "current tab. If set to \"end\", then new tabs are appended to the end of the "
@@ -2012,13 +2012,13 @@ msgstr ""
 "jälkeen.  Jos arvo on ”end”, lisätään uudet välilehdet välilehtiluettelon "
 "loppuun."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:3
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:3
 msgid "Enables the classic Athena behavior, where all windows are browsers"
 msgstr ""
 "Ottaa käyttöön ”klassisen” Nautiluksen toiminnan, jossa jokainen ikkuna on "
 "selain"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:4
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:4
 msgid ""
 "If set to true, then all Athena windows will be browser windows. This is "
 "how Athena used to behave before version 2.6, and some people prefer this "
@@ -2027,11 +2027,11 @@ msgstr ""
 "Jos tosi, niin kaikki Athena-ikkunat ovat selainikkunoita. Athena toimi "
 "näin versioon 2.6 saakka, ja eräät saattavat pitää entisestä tavasta enemmän."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:5
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:5
 msgid "Always use the location entry, instead of the pathbar"
 msgstr "Käytä aina sijaintia polkupalkin sijasta"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:6
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:6
 msgid ""
 "If set to true, then Athena browser windows will always use a textual "
 "input entry for the location toolbar, instead of the pathbar."
@@ -2039,13 +2039,13 @@ msgstr ""
 "Jos tosi, Nautiluksen selausikkunat käyttävät aina tekstimuotoista "
 "syötekenttä sijainnin näyttämiseen polkupalkin sijasta."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:7
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:7
 msgid "Whether to ask for confirmation when deleting files, or emptying Trash"
 msgstr ""
 "Kysytäänkö varmistusta, kun tiedostoja siirretään roskakoriin tai roskakoria "
 "tyhjennetään"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:8
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:8
 msgid ""
 "If set to true, then Athena will ask for confirmation when you attempt to "
 "delete files, or empty the Trash."
@@ -2053,11 +2053,11 @@ msgstr ""
 "Jos tosi, Athena kysyy varmistusta kun siirrät tiedostoja roskakoriin tai "
 "tyhjennät roskakorin."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:9
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:9
 msgid "Whether to enable immediate deletion"
 msgstr "Onko välitön poistaminen käytössä"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:10
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:10
 msgid ""
 "If set to true, then Athena will have a feature allowing you to delete a "
 "file immediately and in-place, instead of moving it to the trash. This "
@@ -2066,11 +2066,11 @@ msgstr ""
 "Jos tosi, Athena sallii tiedostojen poistamisen välittömästi roskakoriin "
 "siirtämisen sijasta. Tätä käytettäessä kannattaa olla varovainen."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:11
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:11
 msgid "When to show preview text in icons"
 msgstr "Milloin näyttää esikatseluteksti kuvakkeissa"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:12
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:12
 msgid ""
 "Speed tradeoff for when to show a preview of text file contents in the "
 "file's icon. If set to \"always\" then always show previews, even if the "
@@ -2083,11 +2083,11 @@ msgstr ""
 "etäpalvelimella. Jos ”local-only”, esikatselu näkyy vain paikallisilla "
 "tiedostojärjestelmillä. Jos ”never”, esikatselu ei näy."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:13
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:13
 msgid "When to show number of items in a folder"
 msgstr "Milloin kansion sisältämien kohteiden määrä näkyy"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:14
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:14
 msgid ""
 "Speed tradeoff for when to show the number of items in a folder. If set to "
 "\"always\" then always show item counts, even if the folder is on a remote "
@@ -2100,11 +2100,11 @@ msgstr ""
 "paikallisilla tiedostojärjestelmillä. Jos arvo on ”never”, kohteiden "
 "lukumäärät eivät näy."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:15
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:15
 msgid "Type of click used to launch/open files"
 msgstr "Tiedostojen käynnistämiseen tai avaamiseen käytettävä napsautustapa"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:16
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:16
 msgid ""
 "Possible values are \"single\" to launch files on a single click, or \"double"
 "\" to launch them on a double click."
@@ -2112,11 +2112,11 @@ msgstr ""
 "Mahdollisia arvoja ovat ”single” tiedostojen käynnistämiseen yhdellä "
 "napsautuksella tai ”double” kaksoisnapsautuksella."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:17
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:17
 msgid "What to do with executable text files when activated"
 msgstr "Mitä tehdä suoritettavilla tekstitiedostoilla kun ne aktivoidaan"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:18
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:18
 msgid ""
 "What to do with executable text files when they are activated (single or "
 "double clicked). Possible values are \"launch\" to launch them as programs, "
@@ -2128,11 +2128,11 @@ msgstr ""
 "eli tiedosto käynnistetään kuten ohjelma; ”ask”, eli näytetään valintaikkuna "
 "ja ”display”, eli tiedosto näytetään tekstitiedostona."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:19
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:19
 msgid "Show the package installer for unknown mime types"
 msgstr "Näytetäänkö pakettiasentaja tuntemattomille MIME-tyypeille"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:20
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:20
 msgid ""
 "Whether to show the user a package installer dialog in case an unknown mime "
 "type is opened, in order to search for an application to handle it."
@@ -2141,11 +2141,11 @@ msgstr ""
 "tuntemattoman MIME-tyypin mukainen kohde, jotta tälle tyypille voidaan etsiä "
 "käsittelevää sen sovellusta."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:21
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:21
 msgid "Use extra mouse button events in Athena' browser window"
 msgstr "Käytetäänkö Nautiluksen selainikkunoissa hiiren lisäpainikkeita"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:22
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:22
 msgid ""
 "For users with mice that have \"Forward\" and \"Back\" buttons, this key "
 "will determine if any action is taken inside of Athena when either is "
@@ -2154,11 +2154,11 @@ msgstr ""
 "Jos käyttäjän hiiressä on ”Eteenpäin”- ja ”Taaksepäin”-napit, tämä avain "
 "määrittää mitä tapahtuu painettaessa näitä nappeja nautiluksessa."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:23
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:23
 msgid "Mouse button to activate the \"Forward\" command in browser window"
 msgstr "Selainikkunassa ”Eteenpäin”-toiminnon käynnistävä hiiren nappi"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:24
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:24
 msgid ""
 "For users with mice that have buttons for \"Forward\" and \"Back\", this key "
 "will set which button activates the \"Forward\" command in a browser window. "
@@ -2168,11 +2168,11 @@ msgstr ""
 "määrittää mikä nappi käynnistää ”Eteenpäin”-komennon selainikkunassa. "
 "Mahdolliset arvot ovat väliltä 6-14."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:25
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:25
 msgid "Mouse button to activate the \"Back\" command in browser window"
 msgstr "Selainikkunassa ”Takaisin”-toiminnon käynnistävä hiiren nappi"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:26
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:26
 msgid ""
 "For users with mice that have buttons for \"Forward\" and \"Back\", this key "
 "will set which button activates the \"Back\" command in a browser window. "
@@ -2182,11 +2182,11 @@ msgstr ""
 "määrittää mikä nappi käynnistää ”Takaisin”-komennon selainikkunassa. "
 "Mahdolliset arvot ovat väliltä 6-14."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:27
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:27
 msgid "When to show thumbnails of image files"
 msgstr "Näkyvätkö kuvatiedostojen pienoiskuvat"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:28
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:28
 msgid ""
 "Speed tradeoff for when to show an image file as a thumbnail. If set to "
 "\"always\" then always thumbnail, even if the folder is on a remote server. "
@@ -2200,11 +2200,11 @@ msgstr ""
 "tiedostojärjestelmillä. Jos ”never”, pienoiskuvan sijaan näkyy yleinen "
 "kuvake."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:29
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:29
 msgid "Maximum image size for thumbnailing"
 msgstr "Suurin koko kuville, joista tehdään pienoiskuvia"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:30
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:30
 msgid ""
 "Images over this size (in bytes) won't be thumbnailed. The purpose of this "
 "setting is to avoid thumbnailing large images that may take a long time to "
@@ -2214,11 +2214,11 @@ msgstr ""
 "tarkoituksena on estää pienoiskuvien teko suurista kuvista, mikä voi kestää "
 "kauan tai viedä paljon muistia."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:31
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:31
 msgid "Show advanced permissions in the file property dialog"
 msgstr "Näytä oikeuksien lisäasetukset tiedoston ominaisuusikkunassa"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:32
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:32
 msgid ""
 "If set to true, then Athena lets you edit and display file permissions in "
 "a more unix-like way, accessing some more esoteric options."
@@ -2226,11 +2226,11 @@ msgstr ""
 "Jos tosi, Athena sallii joidenkin unix-tyylisten vaikeatajuisempien "
 "asetusten muuttamisen tiedoston asetusikkunassa."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:33
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:33
 msgid "Show folders first in windows"
 msgstr "Näytä kansiot ikkunoissa ensimmäisinä"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:34
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:34
 msgid ""
 "If set to true, then Athena shows folders prior to showing files in the "
 "icon and list views."
@@ -2238,11 +2238,11 @@ msgstr ""
 "Jos tosi, Athena näyttää kansiot kuvakenäkymissä ja luetteloissa "
 "tiedostoja ennen."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:35
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:35
 msgid "Default sort order"
 msgstr "Oletusarvoinen järjestys"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:36
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:36
 msgid ""
 "The default sort-order for items in the icon view. Possible values are \"name"
 "\", \"size\", \"type\" and \"mtime\"."
@@ -2250,11 +2250,11 @@ msgstr ""
 "Kuvakenäkymän oletusarvoinen järjestys. Mahdollisia arvoja ovat "
 "”name” (nimi), ”size” (koko), ”type” (tyyppi) ja ”mtime” (muokkausaika)."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:37
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:37
 msgid "Reverse sort order in new windows"
 msgstr "Käänteinen järjestys uusissa ikkunoissa"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:38
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:38
 msgid ""
 "If true, files in new windows will be sorted in reverse order. ie, if sorted "
 "by name, then instead of sorting the files from \"a\" to \"z\", they will be "
@@ -2266,11 +2266,11 @@ msgstr ""
 "eikä A-Ö; jos tiedostot ovat koon mukaisessa järjestyksessä, suurimmat "
 "tulevat ensimmäisinä pienimpien sijaan."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:39
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:39
 msgid "Athena uses the users home folder as the desktop"
 msgstr "Athena käyttää käyttäjän kotikansiota työpöytänä"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:40
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:40
 msgid ""
 "If set to true, then Athena will use the user's home folder as the "
 "desktop. If it is false, then it will use ~/Desktop as the desktop."
@@ -2278,11 +2278,11 @@ msgstr ""
 "Jos tosi, Athena näyttää käyttäjän kotikansion työpöytänä. Jos epätosi, "
 "niin työpöytänä näkyy kansio ~/Desktop."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:41
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:41
 msgid "Default folder viewer"
 msgstr "Oletusarvoinen kansion näkymä"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:42
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:42
 msgid ""
 "When a folder is visited this viewer is used unless you have selected "
 "another view for that particular folder. Possible values are \"list-view\", "
@@ -2292,11 +2292,11 @@ msgstr ""
 "erikseen valittu kyseiselle kansiolle. Kelvollisia arvoja ovat ”list-view”, "
 "”icon-view” ja ”compact-view”."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:43
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:43
 msgid "Date Format"
 msgstr "Päiväyksen muoto"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:44
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:44
 msgid ""
 "The format of file dates. Possible values are \"locale\", \"iso\", and "
 "\"informal\"."
@@ -2305,11 +2305,11 @@ msgstr ""
 "asetusten mukainen), ”iso” (ISO-standardin mukainen) ja "
 "”informal” (epämuodollinen)."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:45
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:45
 msgid "Whether to show hidden files"
 msgstr "Näkyvätkö piilotiedostot"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:46
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:46
 msgid ""
 "If set to true, then hidden files are shown by default in the file manager. "
 "Hidden files are either dotfiles, listed in the folder's .hidden file or "
@@ -2319,11 +2319,11 @@ msgstr ""
 "joko pisteellä alkavia, lueteltuna kansiossa olevassa .hidden-tiedostossa "
 "tai tildeen (~) päättyviä varmuuskopiotiedostoja."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:47
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:47
 msgid "Bulk rename utility"
 msgstr "Joukoittainen uudelleennimeämistyökalu"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:48
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:48
 msgid ""
 "If set, Athena will append URIs of selected files and treat the result as "
 "a command line for bulk renaming. Bulk rename applications can register "
@@ -2338,11 +2338,11 @@ msgstr ""
 "ja mahdolliset komentorivivalitsimet. Mikäli ajotiedostona ei ole "
 "täydellinen polku, ajotiedostoa etsitään hakupolusta."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:49
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:49
 msgid "List of possible captions on icons"
 msgstr "Luettelo mahdollisista kuvakkeiden teksteistä"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:50
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:50
 msgid ""
 "A list of captions below an icon in the icon view and the desktop. The "
 "actual number of captions shown depends on the zoom level. Some possible "
@@ -2358,36 +2358,36 @@ msgstr ""
 "”permissions” (oikeudet), ”octal_permissions” (oikeudet oktaalilukuna) ja "
 "”mime_type” (MIME-tyyppi)."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:51
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:51
 msgid "Put labels beside icons"
 msgstr "Näytä nimiöt kuvakkeiden vierellä"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:52
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:52
 msgid ""
 "If true, labels will be placed beside icons rather than underneath them."
 msgstr "Jos tosi, nimiöt ovat kuvakkeiden vierellä, eivät niiden alla."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:53
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:53
 msgid "Default icon zoom level"
 msgstr "Oletusarvoinen kuvakkeiden mittakaava"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:54
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:54
 msgid "Default zoom level used by the icon view."
 msgstr "Kuvakenäkymän oletusarvoinen mittakaava."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:55
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:55
 msgid "Default Thumbnail Icon Size"
 msgstr "Pienoiskuvien oletuskoko"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:56
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:56
 msgid "The default size of an icon for a thumbnail in the icon view."
 msgstr "Kuvakenäkymän pienoiskuvien oletuskoko."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:57
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:57
 msgid "Text Ellipsis Limit"
 msgstr "Tekstin typistysraja"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:59
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:59
 #, no-c-format
 msgid ""
 "A string specifying how parts of overlong file names should be replaced by "
@@ -2420,19 +2420,19 @@ msgstr ""
 "(50%), small (66%), standard (100%), large (150%), larger (200%), largest "
 "(400%)"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:60
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:60
 msgid "Default compact view zoom level"
 msgstr "Oletusarvoinen tiiviin asettelun mittakaava"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:61
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:61
 msgid "Default zoom level used by the compact view."
 msgstr "Tiivisnäkymän oletusarvoinen mittakaava."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:62
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:62
 msgid "All columns have same width"
 msgstr "Kaikki sarakkeet ovat saman levyisiä"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:63
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:63
 msgid ""
 "If this preference is set, all columns in the compact view have the same "
 "width. Otherwise, the width of each column is determined seperately."
@@ -2440,35 +2440,35 @@ msgstr ""
 "Jos tämä on asetettu, kaikki tiiviin näkymän sarakkeet ovat samanlevyisiä. "
 "Muussa tapauksessa kunkin sarakkeen leveys määritellään erikseen."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:64
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:64
 msgid "Default list zoom level"
 msgstr "Oletusarvoinen luettelon mittakaava"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:65
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:65
 msgid "Default zoom level used by the list view."
 msgstr "Luettelonäkymän oletusarvoinen mittakaava."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:66
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:66
 msgid "Default list of columns visible in the list view"
 msgstr "Oletusarvoinen luettelo luettelonäkymässä näkyvistä sarakkeista"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:67
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:67
 msgid "Default list of columns visible in the list view."
 msgstr "Oletusarvoinen luettelo luettelonäkymässä näkyvistä sarakkeista."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:68
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:68
 msgid "Default column order in the list view"
 msgstr "Luettelonäkymän oletusarvoinen sarakejärjestys"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:69
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:69
 msgid "Default column order in the list view."
 msgstr "Luettelonäkymän oletusarvoinen sarakejärjestys."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:70
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:70
 msgid "Only show folders in the tree side pane"
 msgstr "Näytä vain kansiot puusivupaneelissa"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:71
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:71
 msgid ""
 "If set to true, Athena will only show folders in the tree side pane. "
 "Otherwise it will show both folders and files."
@@ -2476,59 +2476,59 @@ msgstr ""
 "Jos tosi, Athena näyttää vain kansiot puusivupaneelissa. Muulloin sekä "
 "tiedostot että kansiot näkyvät."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:72
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:72
 msgid "Desktop font"
 msgstr "Työpöydän kirjasin"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:73
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:73
 msgid "The font _description used for the icons on the desktop."
 msgstr "Työpöydän kuvakkeiden kirjasimen _kirjasinkuvaus."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:74
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:74
 msgid "Home icon visible on desktop"
 msgstr "Koti-kuvake näkyy työpöydällä"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:75
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:75
 msgid ""
 "If this is set to true, an icon linking to the home folder will be put on "
 "the desktop."
 msgstr "Jos tosi, kotikansion kuvake näkyy työpöydällä."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:76
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:76
 msgid "Computer icon visible on desktop"
 msgstr "Tietokone-kuvake näkyy työpöydällä"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:77
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:77
 msgid ""
 "If this is set to true, an icon linking to the computer location will be put "
 "on the desktop."
 msgstr "Jos tosi, tietokonesijainnin kuvake näkyy työpöydällä."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:78
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:78
 msgid "Trash icon visible on desktop"
 msgstr "Roskakori näkyy työpöydällä"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:79
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:79
 msgid ""
 "If this is set to true, an icon linking to the trash will be put on the "
 "desktop."
 msgstr "Jos tosi, roskakorin kuvake näkyy työpöydällä."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:80
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:80
 msgid "Show mounted volumes on the desktop"
 msgstr "Näytä liitetyt asemat työpöydällä"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:81
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:81
 msgid ""
 "If this is set to true, icons linking to mounted volumes will be put on the "
 "desktop."
 msgstr "Jos tosi, liitettyjen asemien kuvakkeet näkyvät työpöydällä."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:82
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:82
 msgid "Network Servers icon visible on the desktop"
 msgstr "Näytä Verkkopalvelimien kuvake työpöydällä"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:83
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:83
 msgid ""
 "If this is set to true, an icon linking to the Network Servers view will be "
 "put on the desktop."
@@ -2536,11 +2536,11 @@ msgstr ""
 "Jos tosi, näytetään työpöydällä kuvake, joka avattaessa näyttää "
 "verkkopalvelimet-näkymän."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:84
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:84
 msgid "Desktop computer icon name"
 msgstr "Työpöydän tietokone-kuvakkeen nimi"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:85
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:85
 msgid ""
 "This name can be set if you want a custom name for the computer icon on the "
 "desktop."
@@ -2548,11 +2548,11 @@ msgstr ""
 "Tämän nimen voi asettaa, jos haluaa vaihtaa työpöydän tietokone-kuvakkeen "
 "nimeksi jotakin muuta."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:86
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:86
 msgid "Desktop home icon name"
 msgstr "Koti-työpöytäkuvakkeen nimi"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:87
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:87
 msgid ""
 "This name can be set if you want a custom name for the home icon on the "
 "desktop."
@@ -2560,11 +2560,11 @@ msgstr ""
 "Tämän nimen voi asettaa, jos haluaa vaihtaa työpöydän koti-kuvakkeen nimeksi "
 "jotakin muuta."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:88
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:88
 msgid "Desktop trash icon name"
 msgstr "Roskakori-työpöytäkuvakkeen nimi"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:89
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:89
 msgid ""
 "This name can be set if you want a custom name for the trash icon on the "
 "desktop."
@@ -2572,11 +2572,11 @@ msgstr ""
 "Tämän nimen voi asettaa, jos haluaa vaihtaa työpöydän roskakori-kuvakkeen "
 "nimeksi jotakin muuta."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:90
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:90
 msgid "Network servers icon name"
 msgstr "Verkkopalvelimien kuvakkeen nimi"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:91
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:91
 msgid ""
 "This name can be set if you want a custom name for the network servers icon "
 "on the desktop."
@@ -2584,7 +2584,7 @@ msgstr ""
 "Tämän nimen voi asettaa, jos haluat vaihtaa työpöydän verkkopalvelimien "
 "kuvakkeen nimeksi jotakin muuta."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:92
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:92
 msgid ""
 "An integer specifying how parts of overlong file names should be replaced by "
 "ellipses on the desktop. If the number is larger than 0, the file name will "
@@ -2596,81 +2596,81 @@ msgstr ""
 "esitetä useammalla kuin arvon määrällä rivejä. Jos arvo on 0 tai pienempi, "
 "ei tiedostonimen rivimäärä ole rajoitettu."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:93
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:93
 msgid "Fade the background on change"
 msgstr "Häivytä taustakuva vaihdettaessa"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:94
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:94
 msgid ""
 "If set to true, then Athena will use a fade effect to change the desktop "
 "background."
 msgstr "Jos tosi, Athena vaihtaa työpöydän taustan häivytysefektillä."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:95
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:95
 msgid "The geometry string for a navigation window."
 msgstr "Selausikkunan geometriamerkkijono."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:96
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:96
 msgid ""
 "A string containing the saved geometry and coordinates string for navigation "
 "windows."
 msgstr ""
 "Selausikkunoiden tallennetun geometrian ja koordinaatit sisältä merkkijono."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:97
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:97
 msgid "Whether the navigation window should be maximized."
 msgstr "Suurennetaanko selausikkuna."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:98
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:98
 msgid "Whether the navigation window should be maximized by default."
 msgstr "Suurennetaanko selausikkuna oletusarvoisesti."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:99
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:99
 msgid "Width of the side pane"
 msgstr "Sivupaneelin leveys"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:100
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:100
 msgid "The default width of the side pane in new windows."
 msgstr "Uusien ikkunoiden sivupaneelin oletusarvoinen leveys."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:101
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:101
 msgid "Show toolbar in new windows"
 msgstr "Näytä työkalupalkit uusissa ikkunoissa"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:102
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:102
 msgid "If set to true, newly opened windows will have toolbars visible."
 msgstr "Jos tosi, työkalupalkit näkyvät uusissa ikkunoissa."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:103
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:103
 msgid "Show location bar in new windows"
 msgstr "Näytä sijaintipalkki uusissa ikkunoissa"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:104
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:104
 msgid ""
 "If set to true, newly opened windows will have the location bar visible."
 msgstr "Jos tosi, sijaintipalkki näkyy uusissa ikkunoissa."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:105
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:105
 msgid "Show status bar in new windows"
 msgstr "Näytä tilarivi uusissa ikkunoissa"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:106
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:106
 msgid "If set to true, newly opened windows will have the status bar visible."
 msgstr "Jos tosi, tilarivi näkyy uusissa ikkunoissa."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:107
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:107
 msgid "Show side pane in new windows"
 msgstr "Näytä sivupaneeli uusissa ikkunoissa"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:108
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:108
 msgid "If set to true, newly opened windows will have the side pane visible."
 msgstr "Jos tosi, sivupaneeli näkyy uusissa ikkunoissa."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:109
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:109
 msgid "Side pane view"
 msgstr "Sivupaneelinäkymä"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:110
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:110
 msgid "The side pane view to show in newly opened windows."
 msgstr "Uusissa ikkunoissa näkyvä sivupaneeli."
 

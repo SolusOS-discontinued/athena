@@ -1972,440 +1972,440 @@ msgstr "Pakartoti pakeitimą"
 msgid "Redo the edit"
 msgstr "Pakartoti pakeitimą"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:1
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:1
 msgid "Where to position newly open tabs in browser windows."
 msgstr "Naujų atvertų kortelių padėtis naršyklės languose."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:2
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:2
 msgid "If set to \"after-current-tab\", then new tabs are inserted after the current tab. If set to \"end\", then new tabs are appended to the end of the tab list."
 msgstr "Jei nustatyta į „after_current_tab“, naujos kortelės įterpiamos po dabartinės kortelės. Jei nustatyta į „end“, naujos kortelės pridedamos kortelių sąrašo gale."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:3
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:3
 msgid "Enables the classic Athena behavior, where all windows are browsers"
 msgstr "Įjungia klasikinę Athena elgseną, kai visi langai yra naršyklės"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:4
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:4
 msgid "If set to true, then all Athena windows will be browser windows. This is how Athena used to behave before version 2.6, and some people prefer this behavior."
 msgstr "Jei reikšmė teigiama, visi Athena langai bus naršyklės langai. Taip Athena elgdavosi versijose, ankstesnėse nei 2.6, ir kai kuriems žmonėms labiau patinka tokia elgsena."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:5
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:5
 msgid "Always use the location entry, instead of the pathbar"
 msgstr "Vietoje kelio juostos, visada naudoti vietos įvesties laukelį"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:6
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:6
 msgid "If set to true, then Athena browser windows will always use a textual input entry for the location toolbar, instead of the pathbar."
 msgstr "Jei reikšmė teigiama, Athena naršyklės languose vietos įrankių juostai visada bus naudojamas teksto įvesties laukelis, o ne kelio juosta."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:7
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:7
 msgid "Whether to ask for confirmation when deleting files, or emptying Trash"
 msgstr "Ar klausti patvirtinimo trinant failus arba išvalant šiukšlinę"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:8
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:8
 msgid "If set to true, then Athena will ask for confirmation when you attempt to delete files, or empty the Trash."
 msgstr "Jei reikšmė teigiama, bandant ištrinti failus arba išvalyti šiukšlinę, Athena paklaus patvirtinimo."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:9
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:9
 msgid "Whether to enable immediate deletion"
 msgstr "Ar įjungti tiesioginį ištrynimą"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:10
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:10
 msgid "If set to true, then Athena will have a feature allowing you to delete a file immediately and in-place, instead of moving it to the trash. This feature can be dangerous, so use caution."
 msgstr "Jei reikšmė teigiama, atsiras galimybė ištrinti failus iš karto, neperkeliant jų į šiukšlinę. Ši galimybė gali būti pavojinga, todėl naudokite atsargiai."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:11
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:11
 msgid "When to show preview text in icons"
 msgstr "Kada rodyti tekstinio failo turinį piktogramose"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:12
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:12
 msgid "Speed tradeoff for when to show a preview of text file contents in the file's icon. If set to \"always\" then always show previews, even if the folder is on a remote server. If set to \"local-only\" then only show previews for local file systems. If set to \"never\" then never bother to read preview data."
 msgstr "Kada rodyti tekstinių failų turinio iškarpą vietoj tekstinio failo piktogramos. Jei nustatyta „always“, visada rodyti turinį, net jei failas yra nutolusiame serveryje. Jei nustatyta „local_only“, tai rodyti tik vietinių failų turinį. Jei nustatyta „never“, niekada neskaityti tekstinių failų turinio."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:13
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:13
 msgid "When to show number of items in a folder"
 msgstr "Kada rodyti elementų skaičių aplanke"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:14
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:14
 msgid "Speed tradeoff for when to show the number of items in a folder. If set to \"always\" then always show item counts, even if the folder is on a remote server. If set to \"local-only\" then only show counts for local file systems. If set to \"never\" then never bother to compute item counts."
 msgstr "Kada rodyti aplanke esančių elementų skaičių. Jei nustatyta „always“, visada rodyti elementų skaičių, net jei aplankas yra nutolusiame serveryje. Jei nustatyta „local_only“, tai rodyti tik vietinių aplankų elementų skaičių. Jei nustatyta „never“, niekada neskaičiuoti elementų."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:15
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:15
 msgid "Type of click used to launch/open files"
 msgstr "Failų paleidimo/atvėrimo pele būdas"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:16
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:16
 msgid "Possible values are \"single\" to launch files on a single click, or \"double\" to launch them on a double click."
 msgstr "Galimos reikšmės yra „single“ – paleisti failus vienu pelės spustelėjimu, arba „double“ – dvigubu spustelėjimu."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:17
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:17
 msgid "What to do with executable text files when activated"
 msgstr "Ką daryti su vykdomaisiais tekstiniais failais, kai jie aktyvuojami"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:18
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:18
 msgid "What to do with executable text files when they are activated (single or double clicked). Possible values are \"launch\" to launch them as programs, \"ask\" to ask what to do via a dialog, and \"display\" to display them as text files."
 msgstr "Ką daryti, kai bandoma atverti vykdomąjį tekstinį failą. Galimos reikšmės yra „launch“ – paleisti juos kaip programas, „ask“ – paklausti, ką daryti, ir „display“ – parodyti kaip tekstą."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:19
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:19
 msgid "Show the package installer for unknown mime types"
 msgstr "Rodyti paketų diegyklę nežinomiems mime tipams"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:20
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:20
 msgid "Whether to show the user a package installer dialog in case an unknown mime type is opened, in order to search for an application to handle it."
 msgstr "Ar rodyti naudotojui paketų diegyklės dialogą tuo atveju, kai atveriamas nežinomo mime tipo failas, siekiant rasti programą, galinčią jį atverti."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:21
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:21
 msgid "Use extra mouse button events in Athena' browser window"
 msgstr "Naudoti papildomus mygtukų įvykius Athena naršyklės languose"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:22
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:22
 msgid "For users with mice that have \"Forward\" and \"Back\" buttons, this key will determine if any action is taken inside of Athena when either is pressed."
 msgstr "Naudotojams, kurių pelė turi „Pirmyn“ ir „Atgal“ mygtukus, šis raktas nurodo, ar Athena programoje atliekamas koks nors veiksmas, kuomet paspaudžiamas vienas iš jų."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:23
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:23
 msgid "Mouse button to activate the \"Forward\" command in browser window"
 msgstr "Pelės mygtukas, suaktyvinantis komandą „Pirmyn“ naršyklės lange"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:24
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:24
 msgid "For users with mice that have buttons for \"Forward\" and \"Back\", this key will set which button activates the \"Forward\" command in a browser window. Possible values range between 6 and 14."
 msgstr "Naudotojams, kurių pelė turi „Pirmyn“ ir „Atgal“ mygtukus, šis raktas nurodo, kuris mygtukas suaktyvina komandą „Pirmyn“ naršyklės lange. Galimos reikšmės tarp 6 ir 14."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:25
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:25
 msgid "Mouse button to activate the \"Back\" command in browser window"
 msgstr "Pelės mygtukas, suaktyvinantis komandą „Atgal“ naršyklės lange"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:26
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:26
 msgid "For users with mice that have buttons for \"Forward\" and \"Back\", this key will set which button activates the \"Back\" command in a browser window. Possible values range between 6 and 14."
 msgstr "Naudotojams, kurių pelė turi „Pirmyn“ ir „Atgal“ mygtukus, šis raktas nurodo, kuris mygtukas suaktyvina komandą „Atgal“ naršyklės lange. Galimos reikšmės tarp 6 ir 14."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:27
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:27
 msgid "When to show thumbnails of image files"
 msgstr "Kada rodyti paveikslų miniatiūras"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:28
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:28
 msgid "Speed tradeoff for when to show an image file as a thumbnail. If set to \"always\" then always thumbnail, even if the folder is on a remote server. If set to \"local-only\" then only show thumbnails for local file systems. If set to \"never\" then never bother to thumbnail images, just use a generic icon."
 msgstr "Kada rodyti paveikslėlio failą kaip miniatiūrą. Jei nustatyta „always“, visada rodyti miniatiūrą, net jei failas yra nutolusiame serveryje. Jei nustatyta „local_only“, tai rodyti tik vietinių failų miniatiūras. Jei nustatyta „never“, niekada nedaryti paveikslėlių miniatiūrų, tiesiog naudoti paprastą piktogramą."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:29
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:29
 msgid "Maximum image size for thumbnailing"
 msgstr "Maksimalus paveikslėlio dydis miniatiūrų kūrimui"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:30
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:30
 msgid "Images over this size (in bytes) won't be thumbnailed. The purpose of this setting is to avoid thumbnailing large images that may take a long time to load or use lots of memory."
 msgstr "Paveikslėliams, didesniems už šį dydį, nebus kuriamos miniatiūros. Šio nustatymo tikslas yra išvengti didelių paveikslėlių miniatiūrų kūrimo, kas gali ilgai užtrukti ir naudoti daug atminties."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:31
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:31
 msgid "Show advanced permissions in the file property dialog"
 msgstr "Rodyti sudėtingesnius leidimus failų savybių dialoge"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:32
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:32
 msgid "If set to true, then Athena lets you edit and display file permissions in a more unix-like way, accessing some more esoteric options."
 msgstr "Jei reikšmė teigiama, Athena leidžia keisti ir rodyti failų leidimus labiau unix įprastu būdu, prieinant prie kai kurių labiau ezoterinių parinkčių."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:33
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:33
 msgid "Show folders first in windows"
 msgstr "Languose pirmiau rodyti aplankus"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:34
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:34
 msgid "If set to true, then Athena shows folders prior to showing files in the icon and list views."
 msgstr "Jei reikšmė teigiama, visi aplankai rodomi prieš failus piktogramų ir sąrašo vaizduose."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:35
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:35
 msgid "Default sort order"
 msgstr "Numatytoji rikiavimo tvarka"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:36
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:36
 msgid "The default sort-order for items in the icon view. Possible values are \"name\", \"size\", \"type\" and \"mtime\"."
 msgstr "Numatytoji elementų rikiavimo tvarka piktogramų vaizde. Galimos reikšmės yra „name“, „size“, „type“ ir „mtime“."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:37
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:37
 msgid "Reverse sort order in new windows"
 msgstr "Atvirkštine rikiavimo tvarka naujuose languose"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:38
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:38
 msgid "If true, files in new windows will be sorted in reverse order. ie, if sorted by name, then instead of sorting the files from \"a\" to \"z\", they will be sorted from \"z\" to \"a\"; if sorted by size, instead of being incrementally they will be sorted decrementally."
 msgstr "Jei reikšmė teigiama, elementai naujuose languose įprastai rikiuojami atvirkštine tvarka. Pvz., jei rikiuojama pagal pavadinimą, tai vietoj rikiavimo nuo „a“ iki „z“ bus rikiuojama nuo „z“ iki „a“; jei rikiuojama pagal dydį, vietoj didėjančios tvarkos bus naudojama mažėjanti."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:39
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:39
 msgid "Athena uses the users home folder as the desktop"
 msgstr "Nutilus naudoja naudotojo namų aplanką kaip darbastalį"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:40
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:40
 msgid "If set to true, then Athena will use the user's home folder as the desktop. If it is false, then it will use ~/Desktop as the desktop."
 msgstr "Jei reikšmė teigiama, Athena naudos naudotojo namų aplanką kaip darbastalį. Priešingu atveju darbastaliui bus naudojamas aplankas ~/Desktop."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:41
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:41
 msgid "Default folder viewer"
 msgstr "Numatytoji aplankų peržiūros programa"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:42
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:42
 msgid "When a folder is visited this viewer is used unless you have selected another view for that particular folder. Possible values are \"list-view\", \"icon-view\" and \"compact-view\"."
 msgstr "Aplankai bus rodomi šiuo vaizdu, nebent naudotojas konkretiems aplankams pasirinko kitą vaizdą. Galimos reikšmės: „list-view“, „icon-view“ ir „compact-view“."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:43
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:43
 msgid "Date Format"
 msgstr "Datos formatas"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:44
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:44
 msgid "The format of file dates. Possible values are \"locale\", \"iso\", and \"informal\"."
 msgstr "Failų datų formatas. Galimos reikšmės yra „locale“, „iso“ ir „informal“."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:45
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:45
 msgid "Whether to show hidden files"
 msgstr "Ar rodyti paslėptus failus"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:46
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:46
 msgid "If set to true, then hidden files are shown by default in the file manager. Hidden files are either dotfiles, listed in the folder's .hidden file or backup files ending with a tilde (~)."
 msgstr "Jei reikšmė teigiama, yra rodomi slepiamieji failai – t.y. failai, kurių pavadinimas prasideda tašku ar baigiasi simboliu „~“ (atsarginės kopijos), taip pat kai failų pavadinimai yra įrašyti aplanke esančiame .hidden faile."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:47
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:47
 msgid "Bulk rename utility"
 msgstr "Masinio pervadinimo priemonė"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:48
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:48
 msgid "If set, Athena will append URIs of selected files and treat the result as a command line for bulk renaming. Bulk rename applications can register themselves in this key by setting the key to a space-separated string of their executable name and any command line options. If the executable name is not set to a full path, it will be searched for in the search path."
 msgstr "Jei nustatyta, Athena pridės pasirinktų failų URI ir traktuos rezultatą kaip komandų eilutę masiniam pervadinimui. Masinio pervadinimo programos gali prisiregistruoti šiame rakte nustatydamos raktą į tarpais skiriamą eilutę iš jų programų pavadinimų ir bet kokių komandų eilutės parinkčių. Jei programa nenurodyta su pilnu keliu, jos bus ieškoma paieškos kelyje."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:49
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:49
 msgid "List of possible captions on icons"
 msgstr "Galimų užrašų šalia piktogramų sąrašas"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:50
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:50
 msgid "A list of captions below an icon in the icon view and the desktop. The actual number of captions shown depends on the zoom level. Some possible values are: \"size\", \"type\", \"date_modified\", \"date_changed\", \"date_accessed\", \"owner\", \"group\", \"permissions\", \"octal_permissions\" and \"mime_type\"."
 msgstr "Sąrašas užrašų, rodomų po piktogramomis darbastalyje bei piktogramų vaizde. Rodomų užrašų kiekis priklauso nuo mastelio. Galimų reikšmių pavyzdžiai: „size“, „type“, „date_modified“, „date_changed“, „date_accessed“, „owner“, „group“, „permissions“, „octal_permissions“ ir „mime_type“."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:51
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:51
 msgid "Put labels beside icons"
 msgstr "Rodyti užrašus greta piktogramų"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:52
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:52
 msgid "If true, labels will be placed beside icons rather than underneath them."
 msgstr "Jei reikšmė teigiama, užrašai bus rodomi greta piktogramų, o ne po jomis."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:53
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:53
 msgid "Default icon zoom level"
 msgstr "Numatytasis piktogramų vaizdo mastelis"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:54
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:54
 msgid "Default zoom level used by the icon view."
 msgstr "Piktogramų vaizde naudojamas numatytasis mastelis."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:55
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:55
 msgid "Default Thumbnail Icon Size"
 msgstr "Numatytasis miniatiūrų piktogramų dydis"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:56
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:56
 msgid "The default size of an icon for a thumbnail in the icon view."
 msgstr "Numatytasis miniatiūros piktogramos dydis piktogramų vaizde."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:57
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:57
 msgid "Text Ellipsis Limit"
 msgstr "Teksto elipsės riba"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:59
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:59
 #, no-c-format
 msgid "A string specifying how parts of overlong file names should be replaced by ellipses, depending on the zoom level. Each of the list entries is of the form \"Zoom Level:Integer\". For each specified zoom level, if the given integer is larger than 0, the file name will not exceed the given number of lines. If the integer is 0 or smaller, no limit is imposed on the specified zoom level. A default entry of the form \"Integer\" without any specified zoom level is also allowed. It defines the maximum number of lines for all other zoom levels. Examples: 0 - always display overlong file names; 3 - shorten file names if they exceed three lines; smallest:5,smaller:4,0 - shorten file names if they exceed five lines for zoom level \"smallest\". Shorten file names if they exceed four lines for zoom level \"smaller\". Do not shorten file names for other zoom levels. Available zoom levels: smallest (33%), smaller (50%), small (66%), standard (100%), large (150%), larger (200%), largest (400%)"
 msgstr "Eilutė, nurodanti kaip atsižvelgiant į mastelį turėtų būti pakeičiamos per ilgų failų vardų dalys. Kiekvieno šio sąrašo įrašo forma – „Mastelis:Sveikasis skaičius“. Kiekvienam nurodytam masteliui, jei nurodytas sveikasis skaičius didesnis už 0, failo vardas neviršys nurodyto eilučių skaičiaus. Jeigu šis skaičius yra 0 ar mažesnis, nurodytas mastelis neribojamas. Taip pat leidžiamas numatytasis įrašas, kurio forma yra – „Sveikasis skaičius“, be nurodyto mastelio. Jis nurodo didžiausią galimą visų kitų mastelių eilučių skaičių. Pavyzdžiai: 0 – visada rodyti per ilgus failų vardus; 3 – trumpinti failų vardus, jei jie viršija 3 eilutes; smallest:5,smaller:4,0 – trumpinti failų vardus, jei jie viršija penkias eilutes, naudojant mastelį „smallest“, trumpinti, jei failų vardai viršija keturias eilutes, naudojant mastelį „smaller“. Netrumpinti failų vardų naudojant kitus mastelius. Galimi masteliai: smallest (33%), smaller (50%), small (66%), standard (100%), large (150%), larger (200%), largest (400%)"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:60
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:60
 msgid "Default compact view zoom level"
 msgstr "Numatytasis glausto vaizdo mastelis"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:61
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:61
 msgid "Default zoom level used by the compact view."
 msgstr "Glaustame vaizde naudojamas numatytasis mastelis."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:62
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:62
 msgid "All columns have same width"
 msgstr "Visi stulpeliai yra tokio pat pločio"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:63
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:63
 msgid "If this preference is set, all columns in the compact view have the same width. Otherwise, the width of each column is determined seperately."
 msgstr "Jei nustatytas šis parametras, visi stulpeliai glaustame vaizde bus to paties pločio. Priešingu atveju, kiekvieno stulpelio plotis bus nurodomas atskirai."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:64
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:64
 msgid "Default list zoom level"
 msgstr "Numatytasis sąrašo vaizdo mastelis"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:65
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:65
 msgid "Default zoom level used by the list view."
 msgstr "Sąrašo vaizde naudojamas numatytasis mastelis."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:66
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:66
 msgid "Default list of columns visible in the list view"
 msgstr "Numatytasis sąrašo vaizde matomų skilčių sąrašas"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:67
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:67
 msgid "Default list of columns visible in the list view."
 msgstr "Numatytasis sąrašo vaizde matomų skilčių sąrašas."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:68
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:68
 msgid "Default column order in the list view"
 msgstr "Numatytoji skilčių tvarka sąrašo vaizde"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:69
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:69
 msgid "Default column order in the list view."
 msgstr "Numatytoji skilčių tvarka sąrašo vaizde."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:70
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:70
 msgid "Only show folders in the tree side pane"
 msgstr "Šoniniame polangyje esančiame medyje rodyti tik aplankus"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:71
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:71
 msgid "If set to true, Athena will only show folders in the tree side pane. Otherwise it will show both folders and files."
 msgstr "Jei reikšmė teigiama, šoniniame polangyje esančiame medyje bus rodomi tik aplankai. Kitu atveju rodomi tiek aplankai, tiek failai."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:72
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:72
 msgid "Desktop font"
 msgstr "Darbastalio šriftas"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:73
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:73
 msgid "The font _description used for the icons on the desktop."
 msgstr "Šrifto _aprašymas, naudojamas šalia darbastalio piktogramų."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:74
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:74
 msgid "Home icon visible on desktop"
 msgstr "Darbastalyje matoma namų piktograma"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:75
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:75
 msgid "If this is set to true, an icon linking to the home folder will be put on the desktop."
 msgstr "Jei reikšmė teigiama, darbastalyje bus rodoma naudotojo namų aplanko piktograma."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:76
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:76
 msgid "Computer icon visible on desktop"
 msgstr "Darbastalyje matoma kompiuterio piktograma"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:77
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:77
 msgid "If this is set to true, an icon linking to the computer location will be put on the desktop."
 msgstr "Jei reikšmė teigiama, darbastalyje bus rodoma kompiuterio piktograma."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:78
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:78
 msgid "Trash icon visible on desktop"
 msgstr "Šiukšlinės piktograma matoma darbastalyje"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:79
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:79
 msgid "If this is set to true, an icon linking to the trash will be put on the desktop."
 msgstr "Jei reikšmė teigiama, darbastalyje bus rodoma šiukšlinės piktograma."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:80
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:80
 msgid "Show mounted volumes on the desktop"
 msgstr "Darbastalyje rodyti prijungtų skirsnių piktogramas"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:81
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:81
 msgid "If this is set to true, icons linking to mounted volumes will be put on the desktop."
 msgstr "Jei reikšmė teigiama, darbastalyje bus rodomos prijungtų skirsnių piktogramos."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:82
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:82
 msgid "Network Servers icon visible on the desktop"
 msgstr "Tinklo serverių piktograma matoma darbastalyje"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:83
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:83
 msgid "If this is set to true, an icon linking to the Network Servers view will be put on the desktop."
 msgstr "Jei reikšmė teigiama, darbastalyje bus rodoma Tinklo serverių piktograma."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:84
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:84
 msgid "Desktop computer icon name"
 msgstr "Kompiuterio piktogramos darbastalyje pavadinimas"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:85
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:85
 msgid "This name can be set if you want a custom name for the computer icon on the desktop."
 msgstr "Šį pavadinimą galima nustatyti, jeigu norite pasirinktinio kompiuterio piktogramos darbastalyje pavadinimo."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:86
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:86
 msgid "Desktop home icon name"
 msgstr "Namų piktogramos darbastalyje pavadinimas"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:87
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:87
 msgid "This name can be set if you want a custom name for the home icon on the desktop."
 msgstr "Naudotojo pasirinktas pavadinimas namų piktogramai darbastalyje."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:88
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:88
 msgid "Desktop trash icon name"
 msgstr "Šiukšlinės piktogramos darbastalyje pavadinimas"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:89
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:89
 msgid "This name can be set if you want a custom name for the trash icon on the desktop."
 msgstr "Naudotojo pasirinktas pavadinimas šiukšlinės piktogramai darbastalyje."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:90
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:90
 msgid "Network servers icon name"
 msgstr "Tinklo serverių piktogramos pavadinimas"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:91
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:91
 msgid "This name can be set if you want a custom name for the network servers icon on the desktop."
 msgstr "Galite nurodyti šį pavadinimą, jeigu norite pasirinktinio tinklo serverių piktogramos darbastalyje pavadinimo."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:92
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:92
 msgid "An integer specifying how parts of overlong file names should be replaced by ellipses on the desktop. If the number is larger than 0, the file name will not exceed the given number of lines. If the number is 0 or smaller, no limit is imposed on the number of displayed lines."
 msgstr "Sveikasis skaičius, nurodantis kaip per ilgų failų vardų dalys turėtų būti darbastalyje pakeistos elipsėmis. Jeigu skaičius didesnis už 0, tuomet failo vardas neviršys nurodyto eilučių skaičiaus. Jeigu šis skaičius yra 0 ar mažesnis, rodomų eilučių skaičius – neribojamas."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:93
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:93
 msgid "Fade the background on change"
 msgstr "Keičiant fono paveikslą naudoti išnykimo efektą"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:94
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:94
 msgid "If set to true, then Athena will use a fade effect to change the desktop background."
 msgstr "Jei reikšmė teigiama, Athena naudos palaipsninio pakeitimo efektą darbastalio fono pakeitimui."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:95
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:95
 msgid "The geometry string for a navigation window."
 msgstr "Navigacijos lango geometrijos eilutė."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:96
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:96
 msgid "A string containing the saved geometry and coordinates string for navigation windows."
 msgstr "Simbolių eilutė, nurodanti išsaugotą navigacijos langų dydį ir koordinates."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:97
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:97
 msgid "Whether the navigation window should be maximized."
 msgstr "Ar navigacijos langas turi būti išdidintas."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:98
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:98
 msgid "Whether the navigation window should be maximized by default."
 msgstr "Ar navigacijos langas turi būti numatytai išdidintas."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:99
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:99
 msgid "Width of the side pane"
 msgstr "Šoninio polangio plotis"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:100
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:100
 msgid "The default width of the side pane in new windows."
 msgstr "Numatytasis šoninio polangio plotis naujuose languose."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:101
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:101
 msgid "Show toolbar in new windows"
 msgstr "Rodyti įrankių juostą naujuose languose"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:102
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:102
 msgid "If set to true, newly opened windows will have toolbars visible."
 msgstr "Jei reikšmė teigiama, atvertuose languose bus rodomos įrankių juostos."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:103
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:103
 msgid "Show location bar in new windows"
 msgstr "Rodyti vietos juostą naujuose languose"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:104
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:104
 msgid "If set to true, newly opened windows will have the location bar visible."
 msgstr "Jei reikšmė teigiama, atvertuose languose bus rodoma vietos juosta."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:105
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:105
 msgid "Show status bar in new windows"
 msgstr "Rodyti būsenos juostą naujuose languose"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:106
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:106
 msgid "If set to true, newly opened windows will have the status bar visible."
 msgstr "Jei reikšmė teigiama, atvertuose languose bus rodoma būsenos juosta."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:107
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:107
 msgid "Show side pane in new windows"
 msgstr "Rodyti šoninį polangį naujuose languose"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:108
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:108
 msgid "If set to true, newly opened windows will have the side pane visible."
 msgstr "Jei reikšmė teigiama, atvertuose languose bus rodomas šoninis polangis."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:109
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:109
 msgid "Side pane view"
 msgstr "Šoninio polangio vaizdas"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:110
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:110
 msgid "The side pane view to show in newly opened windows."
 msgstr "Šoninio polangio vaizdas rodytinas naujai atvertuose languose."
 

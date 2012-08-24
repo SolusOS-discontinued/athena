@@ -41,7 +41,7 @@ libathena-private/athena-search-directory-file.c
 libathena-private/athena-tree-view-drag-dest.c
 libathena-private/athena-undo-signal-handlers.c
 libathena-private/athena-vfs-file.c
-libathena-private/org.gnome.athena.gschema.xml.in
+libathena-private/com.solusos.athena.gschema.xml.in
 athena-sendto-extension/athena-nste.c
 src/athena-application.c
 src/athena-autorun-software.c

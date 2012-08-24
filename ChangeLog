@@ -13228,7 +13228,7 @@ Date:	2011-08-30
 
 M	libathena-private/athena-global-preferences.h
 M	libathena-private/athena.convert
-M	libathena-private/org.gnome.athena.gschema.xml.in
+M	libathena-private/com.solusos.athena.gschema.xml.in
 M	src/athena-file-management-properties.c
 M	src/athena-file-management-properties.ui
 
@@ -17017,7 +17017,7 @@ M	libathena-private/athena-icon-container.h
 M	libathena-private/athena-metadata.c
 M	libathena-private/athena-metadata.h
 M	libathena-private/athena.convert
-M	libathena-private/org.gnome.athena.gschema.xml.in
+M	libathena-private/com.solusos.athena.gschema.xml.in
 M	src/athena-actions.h
 M	src/athena-convert-metadata.c
 M	src/athena-file-management-properties.c
@@ -17069,7 +17069,7 @@ Date:	2011-02-18
     of compact view useful (and compact) over the normal icon view.
     Having it off by default is just weird.
 
-M	libathena-private/org.gnome.athena.gschema.xml.in
+M	libathena-private/com.solusos.athena.gschema.xml.in
 
 commit 2d904c778ce5b30649c4789f35fcd3ea44e7fa59
 Author: Alexander Larsson <alexl@redhat.com>
@@ -17356,7 +17356,7 @@ Date:	2011-02-17
 
     Disable the status bar by default in new windows
 
-M	libathena-private/org.gnome.athena.gschema.xml.in
+M	libathena-private/com.solusos.athena.gschema.xml.in
 
 commit 055b16f45c4d3c7b5b543df5b8457702f2d3164e
 Author: Cosimo Cecchi <cosimoc@gnome.org>
@@ -18404,9 +18404,9 @@ commit 917a3e2097f52d2e8223011b672dffadc6674472
 Author: Cosimo Cecchi <cosimoc@gnome.org>
 Date:	2011-02-08
 
-    gsettings: rename our gschema path to /org/gnome/athena
+    gsettings: rename our gschema path to /com/solusos/athena
 
-M	libathena-private/org.gnome.athena.gschema.xml.in
+M	libathena-private/com.solusos.athena.gschema.xml.in
 
 commit fbabd8e4f13fb7312f3921f3a1633b586a4b048c
 Author: Cosimo Cecchi <cosimoc@gnome.org>
@@ -18882,7 +18882,7 @@ Date:	2011-01-30
 
 M	libathena-private/athena-file.c
 M	libathena-private/athena-file.h
-M	libathena-private/org.gnome.athena.gschema.xml.in
+M	libathena-private/com.solusos.athena.gschema.xml.in
 M	src/athena-file-management-properties.c
 M	src/athena-file-management-properties.ui
 
@@ -20940,7 +20940,7 @@ Date:	2010-12-13
 
 M	libathena-private/athena-global-preferences.h
 M	libathena-private/athena.convert
-M	libathena-private/org.gnome.athena.gschema.xml.in
+M	libathena-private/com.solusos.athena.gschema.xml.in
 
 commit 9ef4ac9ee428e7f7952efe33d0784d547ca7bdc6
 Author: Cosimo Cecchi <cosimoc@gnome.org>
@@ -21365,7 +21365,7 @@ Date:	2010-12-04
 
     settings: remove notes and history sidebar from GSettings schemas
 
-M	libathena-private/org.gnome.athena.gschema.xml.in
+M	libathena-private/com.solusos.athena.gschema.xml.in
 
 commit 69e432cf94d31f07cf1d193e1fd25a693cfdc173
 Author: Cosimo Cecchi <cosimoc@gnome.org>
@@ -22395,7 +22395,7 @@ Date:	2010-10-05
     Add possibility to register an external bulk rename tool
 
     If the new setting "bulk-rename-tool" in
-    org.gnome.athena.preferences
+    com.solusos.athena.preferences
     is set to a non-empty string, it is treated as a bulk renamer and
     gets invoked on a Rename action if multiple files are selected.
     Athena appends a space separated list of URIs of all selected
@@ -22404,7 +22404,7 @@ Date:	2010-10-05
     https://bugzilla.gnome.org/show_bug.cgi?id=306489
 
 M	libathena-private/athena-global-preferences.h
-M	libathena-private/org.gnome.athena.gschema.xml.in
+M	libathena-private/com.solusos.athena.gschema.xml.in
 M	src/file-manager/fm-directory-view.c
 
 commit b4aa3c083ab7616f321df4ade75e4d850142eff6
@@ -22992,7 +22992,7 @@ Date:	2010-10-19
 M	libathena-private/athena-global-preferences.c
 M	libathena-private/athena-global-preferences.h
 M	libathena-private/athena.convert
-M	libathena-private/org.gnome.athena.gschema.xml.in
+M	libathena-private/com.solusos.athena.gschema.xml.in
 M	src/athena-application.c
 
 commit c0e91e6a53dc3d920a25be1cf836c28730e193d8
@@ -23089,7 +23089,7 @@ Date:	2010-10-13
 
 M	libathena-private/athena-desktop-background.c
 M	libathena-private/athena-global-preferences.h
-M	libathena-private/org.gnome.athena.gschema.xml.in
+M	libathena-private/com.solusos.athena.gschema.xml.in
 
 commit 4cd72a64d67cdfd1d9351c52b2cf8463efd0c141
 Author: Cosimo Cecchi <cosimoc@gnome.org>
@@ -23107,7 +23107,7 @@ Date:	2010-10-13
 
 M	libathena-private/athena-global-preferences.h
 M	libathena-private/athena.convert
-M	libathena-private/org.gnome.athena.gschema.xml.in
+M	libathena-private/com.solusos.athena.gschema.xml.in
 
 commit d26ae7b60c07057c6fbf926a3a805c29a5cfc3b2
 Author: A S Alam <aalam@users.sf.net>
@@ -25609,7 +25609,7 @@ Date:	2010-08-05
 
     Remove unused gsettings schema keys
 
-M	libathena-private/org.gnome.athena.gschema.xml.in
+M	libathena-private/com.solusos.athena.gschema.xml.in
 
 commit 0c0d34f9cf2448303249122cd3baae6d1e32b93d
 Author: Tomas Bzatek <tbzatek@redhat.com>
@@ -25737,7 +25737,7 @@ Date:	2010-07-26
 
     Remove emblem references from the GSettings schema.
 
-M	libathena-private/org.gnome.athena.gschema.xml.in
+M	libathena-private/com.solusos.athena.gschema.xml.in
 
 commit 326e6b14fbb7c106b35993ad3db8f243e38b3e44
 Author: Cosimo Cecchi <cosimoc@gnome.org>
@@ -26180,7 +26180,7 @@ Date:	2010-07-23
     Move desktop-font preference to desktop settings
 
 M	libathena-private/athena-global-preferences.h
-M	libathena-private/org.gnome.athena.gschema.xml.in
+M	libathena-private/com.solusos.athena.gschema.xml.in
 M	src/file-manager/fm-desktop-icon-view.c
 
 commit 36c238331d19b9a33f13fcbaf49928f35b78ff8c
@@ -26208,7 +26208,7 @@ Date:	2010-07-23
     We already only have one UI setting that controls both, so it makes
     no sense to have two settings.
 
-M	libathena-private/org.gnome.athena.gschema.xml.in
+M	libathena-private/com.solusos.athena.gschema.xml.in
 
 commit 77207d5ff5bade458446d5783fe6a99fc38ac6de
 Author: Alexander Larsson <alexl@redhat.com>
@@ -26260,7 +26260,7 @@ M	libathena-private/athena-desktop-link.c
 M	libathena-private/athena-global-preferences.c
 M	libathena-private/athena-global-preferences.h
 M	libathena-private/athena-icon-container.c
-M	libathena-private/org.gnome.athena.gschema.xml.in
+M	libathena-private/com.solusos.athena.gschema.xml.in
 M	src/athena-file-management-properties.c
 M	src/athena-file-management-properties.ui
 
@@ -26671,7 +26671,7 @@ Date:	2010-07-21
 M	configure.in
 M	libathena-private/Makefile.am
 A	libathena-private/org.gnome.media-handling.gschema.xml.in
-A	libathena-private/org.gnome.athena.gschema.xml.in
+A	libathena-private/com.solusos.athena.gschema.xml.in
 
 commit ac038a0d90a4d59b564803be2698bc883672ab84
 Author: Tomas Bzatek <tbzatek@redhat.com>

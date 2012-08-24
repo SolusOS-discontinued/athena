@@ -1404,7 +1404,7 @@ athena_window_initialize_menus (AthenaWindow *window)
 			  G_CALLBACK (disconnect_proxy_cb), window);
 
 	/* add the UI */
-	gtk_ui_manager_add_ui_from_resource (ui_manager, "/org/gnome/athena/athena-shell-ui.xml", NULL);
+	gtk_ui_manager_add_ui_from_resource (ui_manager, "/com/solusos/athena/athena-shell-ui.xml", NULL);
 
 	athena_window_initialize_trash_icon_monitor (window);
 	athena_window_initialize_go_menu (window);

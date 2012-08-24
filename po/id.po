@@ -1510,440 +1510,440 @@ msgstr "Jadi Lagi Sunting"
 msgid "Redo the edit"
 msgstr "Mengembalikan suntingan"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:1
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:1
 msgid "A list of captions below an icon in the icon view and the desktop. The actual number of captions shown depends on the zoom level. Some possible values are: \"size\", \"type\", \"date_modified\", \"date_changed\", \"date_accessed\", \"owner\", \"group\", \"permissions\", \"octal_permissions\" and \"mime_type\"."
 msgstr "Daftar kapsi (teks keterangan) yang tampil pada bagian bawah ikon dan desktop. Banyaknya kapsi yang ditampilkan bergantung dari faktor zum atau tingkat perbesaran yang aktif. Nilai yang mungkin adalah: \"size\", \"date_modified\", \"date_changed\", \"date_accessed\", \"owner\", \"group\", \"permissions\", \"octal_permissions\", dan \"mime_type\"."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:2
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:2
 msgid "A string containing the saved geometry and coordinates string for navigation windows."
 msgstr "String yang berisikan geometri serta koordinat yang telah disimpan sebelumnya untuk jendela navigasi."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:4
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:4
 #, no-c-format
 msgid "A string specifying how parts of overlong file names should be replaced by ellipses, depending on the zoom level. Each of the list entries is of the form \"Zoom Level:Integer\". For each specified zoom level, if the given integer is larger than 0, the file name will not exceed the given number of lines. If the integer is 0 or smaller, no limit is imposed on the specified zoom level. A default entry of the form \"Integer\" without any specified zoom level is also allowed. It defines the maximum number of lines for all other zoom levels. Examples: 0 - always display overlong file names; 3 - shorten file names if they exceed three lines; smallest:5,smaller:4,0 - shorten file names if they exceed five lines for zoom level \"smallest\". Shorten file names if they exceed four lines for zoom level \"smaller\". Do not shorten file names for other zoom levels. Available zoom levels: smallest (33%), smaller (50%), small (66%), standard (100%), large (150%), larger (200%), largest (400%)"
 msgstr "String yang menyatakan bagaimana bagian dari nama berkas yang terlalu panjang mesti diganti dengan elipsis, bergantung kepada tingkat perbesaran. Setiap entri daftar dalam bentuk \"Tingkat Perbesaran:Bilangan Bulat\". Untuk setiap tingkat perbesaran, bila bilangan bulat yang diberikan lebih dari 0, nama berkas tidak akan melampaui cacah baris yang dinyatakan. Bila bilangan bulat adalah 0 atau kurang, tidak ada batas yang dipaksakan pada tingkat perbesaran yang dinyatakan. Entri baku dengan bentuk \"Bilangan Bulat\" tanpa menyatakan tingkat perbesaran juga diperbolehkan. Itu mendefinisikan cacah baris maksimum bagi semua tingkat perbesaran lainnya. Contoh: 0 - selalu tampilkan nama berkas panjang; 3 - pendekkan nama berkas apabila melebihi 3 baris; smallest:5,smaller:4,0 - pendekkan nama berkas apabila melebihi lima baris pada tingkat perbesaran \"smallest\". Pendekkan nama berkas apabila melebihi empat baris pada tingkat perbesaran \"smaller\". Jangan menyingkat nama berkas pada tingkat perbesaran lain. Tingkat perbesaran yang tersedia: smallest (33%), smaller (50%), small (66%), standard (100%), large (150%), larger (200%), largest (400%)"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:5
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:5
 msgid "All columns have same width"
 msgstr "Semua kolom mempunyai lebar yang sama"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:6
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:6
 msgid "Always use the location entry, instead of the pathbar"
 msgstr "Selalu menggunakan entri lokasi, bukan berupa tombol"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:7
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:7
 msgid "An integer specifying how parts of overlong file names should be replaced by ellipses on the desktop. If the number is larger than 0, the file name will not exceed the given number of lines. If the number is 0 or smaller, no limit is imposed on the number of displayed lines."
 msgstr "Sebuah bilangan bulat yang menyatakan bagaimana bagian dari nama berkas yang terlalu panjang mesti diganti dengan elips pada desktop. Bila bilangan bulat yang diberikan lebih dari 0, nama berkas tidak akan melampaui cacah baris yang dinyatakan. Bila bilangan bulat adalah 0 atau kurang, tidak ada batas yang dipaksakan pada cacah baris yang ditampilkan."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:8
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:8
 msgid "Bulk rename utility"
 msgstr "Utilitas pengganti nama massal"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:9
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:9
 msgid "Computer icon visible on desktop"
 msgstr "Menampilkan ikon Komputer pada desktop"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:10
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:10
 msgid "Date Format"
 msgstr "Format Tanggal"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:11
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:11
 msgid "Default Thumbnail Icon Size"
 msgstr "Ukuran Baku Ikon Miniatur"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:12
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:12
 msgid "Default column order in the list view"
 msgstr "Urutan baku untuk kolom pada tampilan tabel"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:13
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:13
 msgid "Default column order in the list view."
 msgstr "Urutan baku untuk kolom pada tampilan tabel."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:14
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:14
 msgid "Default compact view zoom level"
 msgstr "Tingkat perbesaran baku untuk tampilan kompak"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:15
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:15
 msgid "Default folder viewer"
 msgstr "Penampil folder utama"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:16
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:16
 msgid "Default icon zoom level"
 msgstr "Tingkat perbesaran baku untuk ikon"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:17
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:17
 msgid "Default list of columns visible in the list view"
 msgstr "Daftar kolom yang tampak pada tampilan tabel"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:18
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:18
 msgid "Default list of columns visible in the list view."
 msgstr "Daftar kolom yang tampak pada tampilan tabel."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:19
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:19
 msgid "Default list zoom level"
 msgstr "Tingkat perbesaran baku untuk tampilan tabel"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:20
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:20
 msgid "Default sort order"
 msgstr "Urutan baku"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:21
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:21
 msgid "Default zoom level used by the compact view."
 msgstr "Tingkat perbesaran baku untuk tampilan kompak."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:22
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:22
 msgid "Default zoom level used by the icon view."
 msgstr "Tingkat perbesaran baku untuk tampilan kompak."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:23
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:23
 msgid "Default zoom level used by the list view."
 msgstr "Tingkat perbesaran baku untuk tampilan tabel."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:24
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:24
 msgid "Desktop computer icon name"
 msgstr "Nama ikon komputer pada desktop"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:25
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:25
 msgid "Desktop font"
 msgstr "Fonta desktop"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:26
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:26
 msgid "Desktop home icon name"
 msgstr "Nama ikon rumah di desktop"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:27
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:27
 msgid "Desktop trash icon name"
 msgstr "Nama ikon tempat sampah di desktop"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:28
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:28
 msgid "Enables the classic Athena behavior, where all windows are browsers"
 msgstr "Mengaktifkan perilaku klasik Athena di mana semua jendela adalah peramban"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:29
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:29
 msgid "Fade the background on change"
 msgstr "Redupkan latar belakang saat berganti"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:30
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:30
 msgid "For users with mice that have \"Forward\" and \"Back\" buttons, this key will determine if any action is taken inside of Athena when either is pressed."
 msgstr "Bagi pengguna dengan tetikus yang memiliki tombol \"Maju\" serta \"Mundur\", kunci ini akan menentukan apakah aksi yang sesuai akan dilaksanakan oleh Nautilis apabila salah satu tombol tersebut ditekan."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:31
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:31
 msgid "For users with mice that have buttons for \"Forward\" and \"Back\", this key will set which button activates the \"Back\" command in a browser window. Possible values range between 6 and 14."
 msgstr "Bagi pengguna dengan tetikus yang memiliki tombol \"Maju\" serta \"Mundur\", kunci ini akan menentukan tombol mana yang membuat perintah \"Mundur\" menjadi aktif dalam jendela peramban. Nilai yang mungkin antara 6 dan 14."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:32
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:32
 msgid "For users with mice that have buttons for \"Forward\" and \"Back\", this key will set which button activates the \"Forward\" command in a browser window. Possible values range between 6 and 14."
 msgstr "Bagi pengguna dengan tetikus yang memiliki tombol \"Maju\" serta \"Mundur\", kunci ini akan menentukan tombol mana yang membuat perintah \"Maju\" menjadi aktif dalam jendela peramban. Nilai yang mungkin antara 6 dan 14."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:33
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:33
 msgid "Home icon visible on desktop"
 msgstr "Menampilkan ikon Rumah pada desktop"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:34
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:34
 msgid "If set to \"after-current-tab\", then new tabs are inserted after the current tab. If set to \"end\", then new tabs are appended to the end of the tab list."
 msgstr "Bila diisi \"after-current-tab\", maka tab baru akan disisipkan setelah tab kini. Bila diisi \"end\", maka tab baru akan ditambahkan di akhir daftar tab."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:35
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:35
 msgid "If set to true, Athena will only show folders in the tree side pane. Otherwise it will show both folders and files."
 msgstr "Apabila bernilai benar (true), Athena hanya akan menampilkan folder pada tampilan pohon panel samping. Jika sebaliknya, maka berkas dan folder akan ditampilkan."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:36
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:36
 msgid "If set to true, newly opened windows will have the location bar visible."
 msgstr "Apabila bernilai benar (true), maka jendela yang baru dibuka akan memiliki bilah lokasi."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:37
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:37
 msgid "If set to true, newly opened windows will have the side pane visible."
 msgstr "Apabila bernilai benar (true), maka jendela yang baru dibuka akan memiliki panel samping."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:38
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:38
 msgid "If set to true, newly opened windows will have the status bar visible."
 msgstr "Apabila bernilai benar (true), maka jendela yang baru dibuka akan memiliki baris status."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:39
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:39
 msgid "If set to true, newly opened windows will have toolbars visible."
 msgstr "Apabila bernilai benar (true), maka jenela yang baru dibuka akan memiliki bilah alat."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:40
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:40
 msgid "If set to true, then Athena browser windows will always use a textual input entry for the location toolbar, instead of the pathbar."
 msgstr "Jika diaktifkan, maka Athena akan menggunakan masukan teks pada kotak alat lokasi, dan bukan dari bilah lokasi."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:41
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:41
 msgid "If set to true, then Athena lets you edit and display file permissions in a more unix-like way, accessing some more esoteric options."
 msgstr "Jika diaktifkan, maka Athena akan mengizinkan Anda merubah dan menampilkan permisi berkas dalam cara lebih seperti unix, mengakses beberapa pilihan yang lebih esoteric."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:42
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:42
 msgid "If set to true, then Athena shows folders prior to showing files in the icon and list views."
 msgstr "Apabila bernilai benar (true), maka Athena akan menampilkan folder ketimbang berkas dalam mode tampilan ikon dan tabel."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:43
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:43
 msgid "If set to true, then Athena will ask for confirmation when you attempt to delete files, or empty the Trash."
 msgstr "Apabila bernilai benar (true), Athena akan meminta konfirmasi ketika menghapus berkas atau mengosongkan Tempat Sampah."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:44
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:44
 msgid "If set to true, then Athena will have a feature allowing you to delete a file immediately and in-place, instead of moving it to the trash. This feature can be dangerous, so use caution."
 msgstr "Jika diaktifkan, maka Athena akan memiliki fitur yang mengijinkan Anda menghapus berkas langsung, tanpa memindahkannya ke Tong Sampah. Fitur ini bisa berbahaya, gunakan dengan hati-hati."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:45
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:45
 msgid "If set to true, then Athena will use a fade effect to change the desktop background."
 msgstr "Apabila bernilai benar (true), maka Athena akan memakai efek melemah untuk mengubah latar belakang desktop."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:46
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:46
 msgid "If set to true, then Athena will use the user's home folder as the desktop. If it is false, then it will use ~/Desktop as the desktop."
 msgstr "Apabila bernilai benar (true), maka Athena akan memakai folder rumah pengguna sebagai desktop. Jika bernilai salah (false), maka yang dipakai adalah ~/Desktop sebagai desktopnya."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:47
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:47
 msgid "If set to true, then all Athena windows will be browser windows. This is how Athena used to behave before version 2.6, and some people prefer this behavior."
 msgstr "Bila diaktifkan, semua jendela Athena akan menjadi jendela penjelajah. Ini adalah perilaku standar Athena sebelum versi 2.6."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:48
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:48
 msgid "If set to true, then hidden files are shown by default in the file manager. Hidden files are either dotfiles, listed in the folder's .hidden file or backup files ending with a tilde (~)."
 msgstr "Jika bernilai benar (true), semua berkas tersembunyi akan ditampilkan secara baku pada jendela manajer berkas. Berkas-berkas tersembunyi adalah berkas yang diawali dengan karakter titik, atau berkas-berkas yang terdaftar pada berkas folder .hidden, atau berkas cadangan yang diakhiri karakter tilda (~)."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:49
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:49
 msgid "If set, Athena will append URIs of selected files and treat the result as a command line for bulk renaming. Bulk rename applications can register themselves in this key by setting the key to a space-separated string of their executable name and any command line options. If the executable name is not set to a full path, it will be searched for in the search path."
 msgstr "Bila diset, Athena akan menambahkan URI di belakang berkas-berkas yang dipilih dan menjadikan hasilnya sebagai baris perintah bagi penamaan ulang massal. Aplikasi pengganti nama massal dapat mendaftarkan diri pada kunci ini dengan menata kunci ke string yang dipisah spasi atas nama executable dan sebarang opsi baris perintah. Bila nama executable tidak ditata ke path lengkap, ini akan dicari dalam path pencarian."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:50
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:50
 msgid "If this is set to true, an icon linking to the Network Servers view will be put on the desktop."
 msgstr "Apabila bernilai benar (true), maka sebuah ikon yang terhubung pada tampilan Server Jaringan akan ditampilkan pada desktop."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:51
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:51
 msgid "If this is set to true, an icon linking to the computer location will be put on the desktop."
 msgstr "Apabila bernilai benar (true), maka sebuah ikon yang terhubung pada lokasi komputer akan ditampilkan pada desktop."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:52
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:52
 msgid "If this is set to true, an icon linking to the home folder will be put on the desktop."
 msgstr "Apabila bernilai benar (true), maka sebuah ikon yang terhubung pada folder rumah akan ditampilkan pada desktop."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:53
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:53
 msgid "If this is set to true, an icon linking to the trash will be put on the desktop."
 msgstr "Apabila bernilai benar (true), maka sebuah ikon yang terhubung ke tempat sampah akan ditampilkan pada desktop."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:54
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:54
 msgid "If this is set to true, icons linking to mounted volumes will be put on the desktop."
 msgstr "Apabila bernilai benar (true), maka sebuah ikon yang terhubung pada volume yang telah dikaitkan akan tampil pada desktop."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:55
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:55
 msgid "If this preference is set, all columns in the compact view have the same width. Otherwise, the width of each column is determined seperately."
 msgstr "Apabila bernilai benar (true), semua kolom pada tampilan tabel akan memiliki lebar yang sama. Sebaliknya, maka lebar tiap kolom ditentukan sendiri-sendiri."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:56
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:56
 msgid "If true, files in new windows will be sorted in reverse order. ie, if sorted by name, then instead of sorting the files from \"a\" to \"z\", they will be sorted from \"z\" to \"a\"; if sorted by size, instead of being incrementally they will be sorted decrementally."
 msgstr "Apabila bernilai benar (true), berkas pada jendela baru akan diurut berlawanan arah. Sebagai contoh, apabila diurutkan berdasar nama, ketimbang diurutkan dari \"a\" sampai \"z\", berkas-berkas itu justru diurutkan dari \"z\" ke \"a\"; apabila diurutkan berdasar ukuran berkas, akan diurut dari yang paling besar ke yang paling kecil."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:57
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:57
 msgid "If true, labels will be placed beside icons rather than underneath them."
 msgstr "Apabila bernilai benar (true), maka label akan ditampilkan pada samping ikon."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:58
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:58
 msgid "Images over this size (in bytes) won't be thumbnailed. The purpose of this setting is to avoid thumbnailing large images that may take a long time to load or use lots of memory."
 msgstr "Gambar yang ukurannya lebih besar dari ini (dalam bita) tidak akan dibuat miniaturnya. Tujuannya adalah untuk menghindari membuat miniatur gambar yang terlalu besar yang mungkin memakan waktu lama untuk dimuat atau menggunakan banyak memori."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:59
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:59
 msgid "List of possible captions on icons"
 msgstr "Daftar kapsi (label keterangan) yang munkin untuk ikon"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:60
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:60
 msgid "Maximum image size for thumbnailing"
 msgstr "Ukuran gambar maksimal untuk dibuatkan ikon miniaturnya"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:61
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:61
 msgid "Mouse button to activate the \"Back\" command in browser window"
 msgstr "Tombol tetikus untuk mengaktifkan fungsi \"Balik\" pada jendela peramban"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:62
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:62
 msgid "Mouse button to activate the \"Forward\" command in browser window"
 msgstr "Tombol tetikus untuk mengaktifkan fungsi \"Maju\" pada jendela peramban"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:63
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:63
 msgid "Athena uses the users home folder as the desktop"
 msgstr "Athena menggunakan folder rumah pengguna sebagai desktop"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:64
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:64
 msgid "Network Servers icon visible on the desktop"
 msgstr "Menampilkan ikon Server Jaringan pada desktop"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:65
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:65
 msgid "Network servers icon name"
 msgstr "Nama ikon server jaringan"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:66
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:66
 msgid "Only show folders in the tree side pane"
 msgstr "Hanya menampilkan folder untuk tampilan pohon pada panel samping"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:67
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:67
 msgid "Possible values are \"single\" to launch files on a single click, or \"double\" to launch them on a double click."
 msgstr "Nilai yang dapat digunakan adalah \"single\" untuk membuka berkas dengan sekali klik, atau \"double\" untuk dua kali klik."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:68
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:68
 msgid "Put labels beside icons"
 msgstr "Taruh label di samping ikon"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:69
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:69
 msgid "Reverse sort order in new windows"
 msgstr "Membalik urutan pada jendela baru"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:70
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:70
 msgid "Show advanced permissions in the file property dialog"
 msgstr "Menampilkan hak akses lanjuan pada dialog properti berkas"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:71
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:71
 msgid "Show folders first in windows"
 msgstr "Menampilkan folder lebih dahulu"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:72
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:72
 msgid "Show location bar in new windows"
 msgstr "Menampilkan bilah lokasi pada jendela baru"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:73
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:73
 msgid "Show mounted volumes on the desktop"
 msgstr "Menampilkan volume yang dikaitkan pada desktop"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:74
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:74
 msgid "Show side pane in new windows"
 msgstr "Menampilkan panel samping pada jendela baru"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:75
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:75
 msgid "Show status bar in new windows"
 msgstr "Menampilkan baris status pada jendela baru"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:76
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:76
 msgid "Show the package installer for unknown mime types"
 msgstr "Menampilkan pemasang paket untuk jenis mime yang tidak dikenal"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:77
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:77
 msgid "Show toolbar in new windows"
 msgstr "Menampilkan bilah alat pada jendela baru"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:78
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:78
 msgid "Side pane view"
 msgstr "Tampilan panel samping"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:79
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:79
 msgid "Speed tradeoff for when to show a preview of text file contents in the file's icon. If set to \"always\" then always show previews, even if the folder is on a remote server. If set to \"local-only\" then only show previews for local file systems. If set to \"never\" then never bother to read preview data."
 msgstr "Kompromi kecepatan ketika membuat pratinjau isi berkas teks sebagai ikon berkas. Jika diset \"always\" maka pratinjau akan ditampilkan meskipun lokasinya di server lain atau jarak jauh. Jika diset ke \"local-only\" maka pratinjau hanya tampil untuk berkas yang ada di komputer ini. Jika diset ke \"never\" maka pratinjau tidak ditampilkan."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:80
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:80
 msgid "Speed tradeoff for when to show an image file as a thumbnail. If set to \"always\" then always thumbnail, even if the folder is on a remote server. If set to \"local-only\" then only show thumbnails for local file systems. If set to \"never\" then never bother to thumbnail images, just use a generic icon."
 msgstr "Kompromi kecepatan ketika membuat miniatur gambar. Jika diset \"always\" maka miniatur selalu dibuat meskipun lokasinya di server jarak jauh atau komputer lain. Jika diset ke \"local-only\" maka hanya menampilkan miniatur untuk sistem berkas lokal atau di komputer ini. Jika diset ke \"never\" maka miniatur tidak akan dibuat, dan hanya ikon generik yang ditampilkan."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:81
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:81
 msgid "Speed tradeoff for when to show the number of items in a folder. If set to \"always\" then always show item counts, even if the folder is on a remote server. If set to \"local-only\" then only show counts for local file systems. If set to \"never\" then never bother to compute item counts."
 msgstr "Kompromi kecepatan saat menghitung jumlah objek dalam sebuah direktori. Jika diset \"always\" maka objek selalu dihitung meskipun lokasinya di server jarak jauh atau komputer lain. Jika diset ke \"local-only\" maka hanya menghitung objek untuk sistem berkas lokal atau di komputer ini. Jika diset ke \"never\" maka jumlah objek tidak akan dihitung."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:82
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:82
 msgid "Text Ellipsis Limit"
 msgstr "Batas Elipsis Teks"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:83
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:83
 msgid "The default size of an icon for a thumbnail in the icon view."
 msgstr "Ukuran baku miniatur untuk tampilan ikon."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:84
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:84
 msgid "The default sort-order for items in the icon view. Possible values are \"name\", \"size\", \"type\" and \"mtime\"."
 msgstr "Baku pengurutan objek pada tampilan ikon. Nilai yang mungkin adalah \"name\", \"size\", \"type\", dan \"mtime\"."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:85
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:85
 msgid "The default width of the side pane in new windows."
 msgstr "Lebar panel samping pada jendela baru."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:86
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:86
 msgid "The font _description used for the icons on the desktop."
 msgstr "_Deskripsi fonta untuk ikon pada desktop."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:87
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:87
 msgid "The format of file dates. Possible values are \"locale\", \"iso\", and \"informal\"."
 msgstr "Format penanggalan pada berkas. Nilai yang bisa digunakan adalah \"locale\", \"iso\", dan \"informal'."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:88
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:88
 msgid "The geometry string for a navigation window."
 msgstr "String geometri untuk jendela navigasi."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:89
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:89
 msgid "The side pane view to show in newly opened windows."
 msgstr "Tampilan panel samping yang ditampilkan pada jendela yang baru dibuka."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:90
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:90
 msgid "This name can be set if you want a custom name for the computer icon on the desktop."
 msgstr "Nama ini bisa ditentukan apabila Anda ingin mengubah nama ikon komputer pada desktop."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:91
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:91
 msgid "This name can be set if you want a custom name for the home icon on the desktop."
 msgstr "Nama ini bisa ditentukan apabila Anda ingin menguban nama ikon rumah pada desktop."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:92
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:92
 msgid "This name can be set if you want a custom name for the network servers icon on the desktop."
 msgstr "Nama ini bisa ditentukan apabila Anda ingin mengubah nama ikon server jaringan pada desktop."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:93
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:93
 msgid "This name can be set if you want a custom name for the trash icon on the desktop."
 msgstr "Nama ini bisa ditentukan apabila Anda ingin mengubah nama ikon tempat sampah pada desktop."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:94
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:94
 msgid "Trash icon visible on desktop"
 msgstr "Menampilkan ikon Tempat Sampah pada desktop"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:95
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:95
 msgid "Type of click used to launch/open files"
 msgstr "Jenis klik untuk membuka/mengeksekusi berkas"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:96
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:96
 msgid "Use extra mouse button events in Athena' browser window"
 msgstr "Memakai kejadian atau event ekstra tombol tetikus dalam jendela peramban Athena"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:97
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:97
 msgid "What to do with executable text files when activated"
 msgstr "Apa yang hendak dilakukan terhadap berkas teks eksekutabel saat diaktifkan"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:98
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:98
 msgid "What to do with executable text files when they are activated (single or double clicked). Possible values are \"launch\" to launch them as programs, \"ask\" to ask what to do via a dialog, and \"display\" to display them as text files."
 msgstr "Apa yang harus dilakukan terhadap berkas teks yang dapat dieksekusi (skrip) ketika diaktifkan (baik dengan klik tunggal atau ganda). Nilai yang mungkin adalah \"launch\" untuk menjalankannya sebagai program, \"ask\" untuk menanyakan apa yang harus dilakukan, dan \"display\" untuk menampilkannya sebagai berkas teks."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:99
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:99
 msgid "When a folder is visited this viewer is used unless you have selected another view for that particular folder. Possible values are \"list-view\", \"icon-view\" and \"compact-view\"."
 msgstr "Program penampil ini digunakan saat membuka folder ini, kecuali Anda memilih tampilan lain untuk folder tersebut. Nilai yang mungkin adalah \"list-view\", \"icon-view\", dan \"compact-view\"."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:100
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:100
 msgid "When to show number of items in a folder"
 msgstr "Saat untuk menampilkan jumlah objek dalam folder"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:101
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:101
 msgid "When to show preview text in icons"
 msgstr "Saat untuk menunjukkan pratinjau teks pada ikon (untuk berkas teks)"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:102
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:102
 msgid "When to show thumbnails of image files"
 msgstr "Saat untuk menampilkan miniatur berkas gambar"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:103
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:103
 msgid "Where to position newly open tabs in browser windows."
 msgstr "Lokasi tab yang baru dibuka pada jendela peramban."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:104
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:104
 msgid "Whether the navigation window should be maximized by default."
 msgstr "Apakah jendela navigasi ditampilkan dalam ukuran maksimal secara baku."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:105
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:105
 msgid "Whether the navigation window should be maximized."
 msgstr "Apakah jendela navigasi ditampilkan dengan ukuran maksimal."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:106
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:106
 msgid "Whether to ask for confirmation when deleting files, or emptying Trash"
 msgstr "Apakah akan meminta konfirmasi ketika menghapus berkas atau mengosongkan Tong Sampah"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:107
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:107
 msgid "Whether to enable immediate deletion"
 msgstr "Menentukan untuk menghapus langsung tanpa melewati tempat sampah"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:108
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:108
 msgid "Whether to show hidden files"
 msgstr "Menentukan untuk menampilkan berkas tersembunyi"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:109
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:109
 msgid "Whether to show the user a package installer dialog in case an unknown mime type is opened, in order to search for an application to handle it."
 msgstr "Apakah akan menayangkan ke pengguna suatu dialog pemasangan paket dalam hal suatu tipe mime yang tak dikenal dibuka, untuk mencari aplikasi yang menanganinya."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:110
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:110
 msgid "Width of the side pane"
 msgstr "Lebar panel samping"
 

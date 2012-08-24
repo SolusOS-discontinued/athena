@@ -1684,7 +1684,7 @@ msgstr "ସମ୍ପାଦନ କ୍ରିୟାକୁ ପୁଣିଥରେ କ
 msgid "Redo the edit"
 msgstr "ସମ୍ପାଦନ କ୍ରିୟାକୁ ପୁଣିଥରେ କରନ୍ତୁ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:1
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:1
 #| msgid ""
 #| "A list of captions below an icon in the icon view and the desktop. The "
 #| "actual number of captions shown depends on the zoom level. Possible "
@@ -1703,7 +1703,7 @@ msgstr ""
 "\"type\", \"date_modified\", \"date_changed\", \"date_accessed\", \"owner\", \"group\", "
 "\"permissions\", \"octal_permissions\" ଏବଂ \"mime_type\"."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:2
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:2
 msgid ""
 "A string containing the saved geometry and coordinates string for navigation "
 "windows."
@@ -1711,7 +1711,7 @@ msgstr ""
 "ପଥପ୍ରଦର୍ଶକ ୱିଣ୍ଡୋଗୁଡ଼ିକ ପାଇଁ ସଂରକ୍ଷିତ ଜ୍ୟାମିତି ଏବଂ ନିର୍ଦ୍ଦେଶାଙ୍କ ବାକ୍ୟ ଖଣ୍ଡ ଧାରଣ "
 "କରିଥିବା ଗୋଟିଏ ବାକ୍ୟ।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:4
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:4
 #, no-c-format
 msgid ""
 "A string specifying how parts of overlong file names should be replaced by "
@@ -1743,15 +1743,15 @@ msgstr ""
 "ସାନବଡ଼ ସ୍ତରଗୁଡ଼ିକ ପାଇଁ ଫାଇଲ ନାମକୁ ଛୋଟ କରନ୍ତୁ ନାହିଁ। ଉପଲବ୍ଧ ସାନବଡ଼ ସ୍ତରଗୁଡ଼ିକ: କ୍ଷୁଦ୍ରତମ (33%), "
 "କ୍ଷୁଦ୍ରତର (50%), କ୍ଷୁଦ୍ର (66%), ମାନକ (100%), ବୃହତ (150%), ବୃହତର (200%), ବୃହତମ (400%)"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:5
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:5
 msgid "All columns have same width"
 msgstr "ସମସ୍ତ ସ୍ତମ୍ଭଗୁଡ଼ିକରେ ସମାନ ଓସାର ଅଛି"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:6
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:6
 msgid "Always use the location entry, instead of the pathbar"
 msgstr "ପଥ ପଟି ପରିବର୍ତ୍ତେ, ସର୍ବଦା ଅବସ୍ଥାନ ପ୍ରବିଷ୍ଟିକୁ ବ୍ଯବହାର କରନ୍ତୁ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:7
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:7
 msgid ""
 "An integer specifying how parts of overlong file names should be replaced by "
 "ellipses on the desktop. If the number is larger than 0, the file name will "
@@ -1763,95 +1763,95 @@ msgstr ""
 "not exceed the given number of lines. If the number is 0 or smaller, no "
 "limit is imposed on the number of displayed lines."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:8
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:8
 msgid "Bulk rename utility"
 msgstr "ଏକସଙ୍ଗେ ନାମ ପରିବର୍ତ୍ତନ କରୁଥିବା ସାଧନ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:9
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:9
 msgid "Computer icon visible on desktop"
 msgstr "ଡେସ୍କଟପ୍ ରେ କମ୍ପୁଟର ଚିତ୍ରସଙ୍କେତ ଦୃଶ୍ଯମାନ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:10
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:10
 msgid "Date Format"
 msgstr "ତଥ୍ଯ ଶୈଳୀ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:11
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:11
 msgid "Default Thumbnail Icon Size"
 msgstr "ପୂର୍ବନିର୍ଦ୍ଧାରିତ କ୍ଷୁଦ୍ର ଚିତ୍ର ଆକାର"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:12
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:12
 msgid "Default column order in the list view"
 msgstr "ଏହି ତାଲିକା ପ୍ରଦର୍ଶନରେ ପୂର୍ବ ନିର୍ଦ୍ଧାରିତ ସ୍ତମ୍ଭ ଅନୁକ୍ରମ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:13
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:13
 msgid "Default column order in the list view."
 msgstr "ଏହି ତାଲିକା ପ୍ରଦର୍ଶନରେ ପୂର୍ବ ନିର୍ଦ୍ଧାରିତ ସ୍ତମ୍ଭ ଅନୁକ୍ରମ।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:14
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:14
 msgid "Default compact view zoom level"
 msgstr "ପୂର୍ବ ନିର୍ଦ୍ଧାରିତ ସୁସଂହତ ଦୃଶ୍ୟକୁ ସାନବଡ କରିବା ସ୍ତର"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:15
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:15
 msgid "Default folder viewer"
 msgstr "ପୂର୍ବ ନିର୍ଦ୍ଧାରିତ ଫୋଲଡର ପ୍ରଦର୍ଶକ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:16
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:16
 msgid "Default icon zoom level"
 msgstr "ପୂର୍ବ ନିର୍ଦ୍ଧାରିତ ଚିତ୍ରସଙ୍କେତକୁ ସାନବଡ କରିବା ସ୍ତର"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:17
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:17
 msgid "Default list of columns visible in the list view"
 msgstr "ଏହି ତାଲିକା ପ୍ରଦର୍ଶନରେ ଦୃଶ୍ଯମାନ ସ୍ତମ୍ଭ ମାନଙ୍କର ପୂର୍ବ ନିର୍ଦ୍ଧାରିତ ତାଲିକା"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:18
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:18
 msgid "Default list of columns visible in the list view."
 msgstr "ଏହି ତାଲିକା ପ୍ରଦର୍ଶନରେ ଦୃଶ୍ଯମାନ ସ୍ତମ୍ଭ ମାନଙ୍କର ପୂର୍ବ ନିର୍ଦ୍ଧାରିତ ତାଲିକା।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:19
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:19
 msgid "Default list zoom level"
 msgstr "ସାନବଡ କରିବା ସ୍ତରର ପୂର୍ବ ନିର୍ଦ୍ଧାରିତ ତାଲିକା"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:20
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:20
 msgid "Default sort order"
 msgstr "ସଜଡା ଯାଇଥିବା ପୂର୍ବ ନିର୍ଦ୍ଧାରିତ ଅନୁକ୍ରମ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:21
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:21
 msgid "Default zoom level used by the compact view."
 msgstr "ସୁସଂହତ ଦୃଶ୍ୟ ଦ୍ୱାରା ବ୍ୟବହୃତ ପୂର୍ବ ନିର୍ଦ୍ଧାରିତ ସାନବଡ କରିବା ସ୍ତର"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:22
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:22
 msgid "Default zoom level used by the icon view."
 msgstr "ଚିତ୍ରସଙ୍କେତ ପ୍ରଦର୍ଶନ ଦ୍ବାରା ବ୍ଯବହ୍ରୁତ ପୂର୍ବ ନିର୍ଦ୍ଧାରିତ ସାନବଡ କରିବା ସ୍ତର।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:23
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:23
 msgid "Default zoom level used by the list view."
 msgstr "ତାଲିକା ପ୍ରଦର୍ଶନ ଦ୍ବାରା ବ୍ଯବହ୍ରୁତ ପୂର୍ବ ନିର୍ଦ୍ଧାରିତ ସାନବଡ କରିବା ସ୍ତର।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:24
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:24
 msgid "Desktop computer icon name"
 msgstr "ଡେସ୍କଟପ୍ କମ୍ପୁଟର ଚିତ୍ରସଙ୍କେତ ର ନାମ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:25
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:25
 msgid "Desktop font"
 msgstr "ଡେସ୍କଟପ୍ ଅକ୍ଷରରୂପ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:26
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:26
 msgid "Desktop home icon name"
 msgstr "ଡେସ୍କଟପ ମୂଲସ୍ଥାନ ଚିତ୍ରସଙ୍କେତ ର ନାମ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:27
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:27
 msgid "Desktop trash icon name"
 msgstr "ଡେସ୍କଟପ ଆବର୍ଜନା ପାତ୍ର ଚିତ୍ରସଙ୍କେତ ର ନାମ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:28
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:28
 msgid "Enables the classic Athena behavior, where all windows are browsers"
 msgstr "ଉତ୍କୃଷ୍ଟ ନଟିଲସ ଆଚରଣକୁ ସକ୍ରିୟ କରିଥାଏ, ଯେଉଁଠି ସମସ୍ତ ୱିଣ୍ଡୋଗୁଡ଼ିକ ହେଉଛି ବ୍ରାଉଜର"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:29
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:29
 msgid "Fade the background on change"
 msgstr "ପରିବର୍ତ୍ତନ ସମୟରେ ପୃଷ୍ଠଭୂମିକୁ ରଙ୍ଗହୀନ କରନ୍ତୁ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:30
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:30
 msgid ""
 "For users with mice that have \"Forward\" and \"Back\" buttons, this key "
 "will determine if any action is taken inside of Athena when either is "
@@ -1860,7 +1860,7 @@ msgstr ""
 "\"Forward\" ଏବଂ \"Back\" ବଟନଗୁଡ଼ିକ ବିଶିଷ୍ଟ ମାଉସ ପାଇଁ ଚାଳକମାନେ, ଏହି କି ନିର୍ଦ୍ଧାରଣ କରିଥାଏ "
 "ଯଦି କୌଣସି କାର୍ଯ୍ୟ Athena ଭିତରେ ଗ୍ରହଣ କରାଯାଇଥାଏ ଯେତେବେଳେ କାହାକୁ ଦବାଯାଇଥାଏ।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:31
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:31
 msgid ""
 "For users with mice that have buttons for \"Forward\" and \"Back\", this key "
 "will set which button activates the \"Back\" command in a browser window. "
@@ -1870,7 +1870,7 @@ msgstr ""
 "\"Back\" ନିର୍ଦ୍ଦେଶକୁ ବ୍ରାଉଜର ୱିଣ୍ଡୋରେ ସକ୍ରିୟ କରିବ ତାହା ସେଟ କରିଥାଏ। ସମ୍ଭାବ୍ୟ ମୂଲ୍ୟଗୁଡ଼ିକ 6 ଏବଂ "
 "14 ମଧ୍ଯରେ ଥାଏ।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:32
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:32
 msgid ""
 "For users with mice that have buttons for \"Forward\" and \"Back\", this key "
 "will set which button activates the \"Forward\" command in a browser window. "
@@ -1880,11 +1880,11 @@ msgstr ""
 "\"Forward\" ନିର୍ଦ୍ଦେଶକୁ ବ୍ରାଉଜର ୱିଣ୍ଡୋରେ ସକ୍ରିୟ କରିବ ତାହା ସେଟ କରିଥାଏ। ସମ୍ଭାବ୍ୟ ମୂଲ୍ୟଗୁଡ଼ିକ 6 "
 "ଏବଂ 14 ମଧ୍ଯରେ ଥାଏ।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:33
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:33
 msgid "Home icon visible on desktop"
 msgstr "ଡେସ୍କଟପରେ ଦେଖା ଯାଉଥିବା ମୂଳସ୍ଥାନ ଚିତ୍ରସଙ୍କେତ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:34
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:34
 #| msgid ""
 #| "If set to \"after_current_tab\", then new tabs are inserted after the "
 #| "current tab. If set to \"end\", then new tabs are appended to the end of "
@@ -1898,7 +1898,7 @@ msgstr ""
 "କରାଯାଇଥାଏ। ଯଦି \"end\" ସେଟ କରାଯାଏ, ତେବେ ଟ୍ୟାବ ତାଲିକା ଅନ୍ତରେ ନୂତନ ଟ୍ୟାବଗୁଡ଼ିକ "
 "ଯୋଡ଼ିହୋଇଥାଏ।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:35
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:35
 msgid ""
 "If set to true, Athena will only show folders in the tree side pane. "
 "Otherwise it will show both folders and files."
@@ -1906,23 +1906,23 @@ msgstr ""
 "ଯଦି true ସେଟ କରାଯାଏ, ତେବେ କେବଳ Athena ଟ୍ରି ପାର୍ଶ୍ୱ ପ୍ୟାନରେ ଫୋଲଡ଼ର ଦର୍ଶାଇବ। ଅନ୍ୟଥା "
 "ଏହା ଉଭୟ ଫୋଲଡର ଏବଂ ଫାଇଲକୁ ଦର୍ଶାଇବ।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:36
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:36
 msgid "If set to true, newly opened windows will have the location bar visible."
 msgstr "ଯଦି true ସେଟ କରାଯାଏ, ତେବେ ନୂତନ ଭାବେ ଖୋଲାଯାଇଥିବା ୱିଣ୍ଡୋରେ ଅବସ୍ଥାନ ପଟି ଦୃଶ୍ଯମାନ ହେବ।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:37
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:37
 msgid "If set to true, newly opened windows will have the side pane visible."
 msgstr "ଯଦି true ସେଟ କରାଯାଏ, ତେବେ ନୂତନ ଭାବେ ଖୋଲାଯାଇଥିବା ୱିଣ୍ଡୋରେ ପାର୍ଶ୍ୱ ପ୍ୟାନ ଦୃଶ୍ଯମାନ ହେବ।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:38
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:38
 msgid "If set to true, newly opened windows will have the status bar visible."
 msgstr "ଯଦି true ସେଟ କରାଯାଏ, ତେବେ ନୂତନ ଭାବେ ଖୋଲାଯାଇଥିବା ୱିଣ୍ଡୋରେ ସ୍ଥିତି ପଟି ଦୃଶ୍ଯମାନ ହେବ।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:39
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:39
 msgid "If set to true, newly opened windows will have toolbars visible."
 msgstr "ଯଦି true ସେଟ କରାଯାଏ, ତେବେ ନୂତନ ଭାବେ ଖୋଲାଯାଇଥିବା ୱିଣ୍ଡୋରେ ସାଧନପଟି ଦୃଶ୍ଯମାନ ହେବ।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:40
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:40
 msgid ""
 "If set to true, then Athena browser windows will always use a textual "
 "input entry for the location toolbar, instead of the pathbar."
@@ -1930,7 +1930,7 @@ msgstr ""
 "ଯଦି true ସେଟ କରାଯାଏ, ତେବେ Athena ବ୍ରାଉଜର ୱିଣ୍ଡୋ ପଥପଟି ପରିବର୍ତ୍ତେ ସର୍ବଦା ଅବସ୍ଥାନ "
 "ସାଧନପଟି ପାଇଁ ପାଠ୍ୟ ନିବେଶ ଭରଣ ବ୍ୟବହାର କରିବ।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:41
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:41
 msgid ""
 "If set to true, then Athena lets you edit and display file permissions in "
 "a more unix-like way, accessing some more esoteric options."
@@ -1938,7 +1938,7 @@ msgstr ""
 "ଯଦି true ସେଟ କରାଯାଏ, ତେବେ Athena ଆପଣଙ୍କୁ ସମ୍ପାଦନ ଏବଂ ପ୍ରଦର୍ଶନ କରିବାକୁ unix-ସଦୃଶ "
 "ପଥରେ ଫାଇଲ ଅନୁମତି ପ୍ରଦାନ କରିଥାଏ,ଅଧିକ esoteric ବିକଳ୍ପଗୁଡ଼ିକୁ ବ୍ୟବହାର କରି।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:42
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:42
 msgid ""
 "If set to true, then Athena shows folders prior to showing files in the "
 "icon and list views."
@@ -1946,7 +1946,7 @@ msgstr ""
 "ଯଦି true ସେଟ କରାଯାଏ, ତେବେ Athena ଚିତ୍ରସଂକେତ ଏବଂ ତାଲିକା ଦୃଶ୍ୟଗୁଡ଼ିକଫାଇଲଗୁଡ଼ିକୁ ଦର୍ଶାଇବା "
 "ପୂର୍ବରୁ ଫୋଲଡ଼ର ଦର୍ଶାଇଥାଏ।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:43
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:43
 msgid ""
 "If set to true, then Athena will ask for confirmation when you attempt to "
 "delete files, or empty the Trash."
@@ -1954,7 +1954,7 @@ msgstr ""
 "ଯଦି true ସେଟ କରାଯାଏ, ତେବେ କୌଣସି ଫାଇଲ ଅପସାରଣ କରିବାକୁ ଚେଷ୍ଟା କରିବା ସମୟରେ, କିମ୍ବା "
 "ଆବର୍ଜନା ପାତ୍ରକୁ ଖାଲି କରିବା ପୂର୍ବରୁ Athena ନିଶ୍ଚିତକରଣ ମାଗିବ।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:44
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:44
 msgid ""
 "If set to true, then Athena will have a feature allowing you to delete a "
 "file immediately and in-place, instead of moving it to the trash. This "
@@ -1963,7 +1963,7 @@ msgstr ""
 "ଯଦି true ସେଟ କରାଯାଇଥାଏ, ତେବେ Athena ପାଖରେ ତୁରନ୍ତ ଫାଇଲକୁ ଆବର୍ଜନା ପାତ୍ରକୁ ପଠାଇବା "
 "ପରିବର୍ତ୍ତେ ଅପସାରଣ କରିବା ପାଇଁ ଗୋଟିଏ ଗୁଣ ଥିବ। ଏହି ଗୁଣଟି ବିପଦପୂର୍ଣ୍ଣ, ତେଣୁ ସାବଧାନତା ଅବଲମ୍ବନ କରନ୍ତୁ।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:45
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:45
 #| msgid "If set to true, then Athena will draw the icons on the desktop."
 msgid ""
 "If set to true, then Athena will use a fade effect to change the desktop "
@@ -1972,7 +1972,7 @@ msgstr ""
 "ଯଦି true ସେଟ କରାଯାଏ, ତେବେ Athena ଡେସ୍କଟପ ପୃଷ୍ଠଭୂମି ପରିବର୍ତ୍ତନ କରିବା ପାଇଁ ରଙ୍ଗହୀନ "
 "ପ୍ରଭାବକୁ ବ୍ୟବହାର କରିବ।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:46
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:46
 msgid ""
 "If set to true, then Athena will use the user's home folder as the "
 "desktop. If it is false, then it will use ~/Desktop as the desktop."
@@ -1980,7 +1980,7 @@ msgstr ""
 "ଯଦି true ସେଟ କରାଯାଇଥାଏ, ତେବେ Athena ଚାଳକର ନିଜସ୍ୱ ଫୋଲଡ଼ରକୁ ଡେସ୍କଟପ ଭାାବରେ ବ୍ୟବହାର "
 "କରି। ଯଦିs false,ତେବେ ଏହାe ~/Desktopକୁ ଡେସ୍କଟପ ଭାବରେ ବ୍ୟବହାର କରିବ।."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:47
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:47
 msgid ""
 "If set to true, then all Athena windows will be browser windows. This is "
 "how Athena used to behave before version 2.6, and some people prefer this "
@@ -1989,7 +1989,7 @@ msgstr ""
 "ଯଦି true ସେଟକରାଯାଇଥିବ, ତେବେ ସମସ୍ତ Athena ୱିଣ୍ଡୋଗୁଡ଼ିକ ବ୍ରାଉଜର ୱିଣ୍ଡୋ ହେବ। ଏହି ପ୍ରକାରେ "
 "Athena ସଂସ୍କରଣ 2.6 ପରେ ଆଚରଣ କରିଥାଏ, ଏବଂ କିଛି ବ୍ୟକ୍ତି ଏହି ଆଚରଣକୁ ପସନ୍ଦ କରିଥାନ୍ତି।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:48
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:48
 #| msgid ""
 #| "If set to true, then hidden files are shown in the file manager. Hidden "
 #| "files are either dotfiles or are listed in the folder's .hidden file."
@@ -2002,7 +2002,7 @@ msgstr ""
 "ଫାଇଲଗୁଡ଼ିକ ହେଉଛି ଡଟ ଫାଇଲ ଅଥବା ଫୋଲଡରର .hidden ଫାଇଲରେ ତାଲିକାଭୁକ୍ତ ଫାଇଲ କିମ୍ବା "
 "ଟିଲଡା (~) ଦ୍ୱାରା ସମାପ୍ତ ହେଉଥିବା ନକଲ ସଂରକ୍ଷଣ ଫାଇଲ।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:49
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:49
 msgid ""
 "If set, Athena will append URIs of selected files and treat the result as "
 "a command line for bulk renaming. Bulk rename applications can register "
@@ -2017,7 +2017,7 @@ msgstr ""
 "ସେହି "
 "ନିଷ୍ପାଦନ ଯୋଗ୍ୟ ନାମକୁ ଗୋଟିଏ ସମ୍ପୂର୍ଣ୍ଣ ପଥ ଦ୍ୱାରା ସେଟ କରାନଯାଏ, ତେବେ ଏହାକୁ ସନ୍ଧାନ ପଥରେ ଖୋଜାଯିବ।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:50
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:50
 msgid ""
 "If this is set to true, an icon linking to the Network Servers view will be "
 "put on the desktop."
@@ -2025,31 +2025,31 @@ msgstr ""
 "ଯଦି ଏହାକୁ true ସେଟ କରାଯାଏ, ତେବେ ନେଟୱର୍କ ସର୍ଭର ଦୃଶ୍ୟ ସହିତ ଗୋଟିଏ ଚିତ୍ରସଂକେତକୁ ଡେସ୍କଟପରେ "
 "ରଖାଯାଇଥାଏ।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:51
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:51
 msgid ""
 "If this is set to true, an icon linking to the computer location will be put "
 "on the desktop."
 msgstr "ଯଦି true ସେଟ କରାଯାଏ, ତେବେ କମ୍ପୁଟର ଅବସ୍ଥାନ ସହିତ ସଂଯୁକ୍ତ ଚିତ୍ରସଂକେତକୁ ଡେସ୍କଟପରେ ରଖିବ।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:52
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:52
 msgid ""
 "If this is set to true, an icon linking to the home folder will be put on "
 "the desktop."
 msgstr "ଯଦି true ସେଟ କରାଯାଏ, ତେବେ ମୂଳସ୍ଥାନ ଫୋଲଡ଼ର ସହିତ ସଂଯୁକ୍ତ ଚିତ୍ରସଂକେତକୁ ଡେସ୍କଟପରେ ରଖିବ।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:53
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:53
 msgid ""
 "If this is set to true, an icon linking to the trash will be put on the "
 "desktop."
 msgstr "ଯଦି true ସେଟ କରାଯାଏ, ତେବେ ଆବର୍ଜନା ପାତ୍ର ସହିତ ସଂଯୁକ୍ତ ଚିତ୍ରସଂକେତକୁ ଡେସ୍କଟପରେ ରଖିବ।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:54
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:54
 msgid ""
 "If this is set to true, icons linking to mounted volumes will be put on the "
 "desktop."
 msgstr "ଯଦି true ସେଟ କରାଯାଏ, ତେବେ ସ୍ଥାପିତ ଆକାର ସହିତ ସଂଯୁକ୍ତ ଚିତ୍ରସଂକେତକୁ ଡେସ୍କଟପରେ ରଖିବ।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:55
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:55
 msgid ""
 "If this preference is set, all columns in the compact view have the same "
 "width. Otherwise, the width of each column is determined seperately."
@@ -2057,7 +2057,7 @@ msgstr ""
 "ଯଦି ଏହି ପସନ୍ଦକୁ ସେଟ କରାଯାଇଥାଏ, ତେବେ ସୁସଂଗତ ଦୃଶ୍ୟରେ ସମସ୍ତ ସ୍ତମ୍ଭଗୁଡ଼ିକର ସମାନ ଓସାର ଥାଏ। "
 "ଅନ୍ୟଥା, ପ୍ରତ୍ୟେକ ସ୍ତମ୍ଭର ଓସାରକୁ ପୃଥକ ଭାବରେ ନିର୍ଦ୍ଧାରଣ କରାଯାଇଥାଏ।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:56
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:56
 msgid ""
 "If true, files in new windows will be sorted in reverse order. ie, if sorted "
 "by name, then instead of sorting the files from \"a\" to \"z\", they will be "
@@ -2069,11 +2069,11 @@ msgstr ""
 "କ୍ରମରେ ସଜଡ଼ାଯିବ; ଯଦି ଆକାର ଅନୁସାରେ ସଜଡ଼ା ଯାଏ, ତେବେ ବର୍ଦ୍ଧିତ କ୍ରମ ପରିବର୍ତ୍ତେ ସେମାନଙ୍କୁ ଆକାର "
 "ହ୍ରାସ କ୍ରମରେ ସଜଡ଼ା ଯିବ।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:57
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:57
 msgid "If true, labels will be placed beside icons rather than underneath them."
 msgstr "ଯଦି true, ତେବେ ନାମପଟିଗୁଡ଼ିକ ତଳେରଖିବା ପରିବର୍ତ୍ତେ ଚିତ୍ରସଂକେତ ପାଖରେ ରଖାଯିବ।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:58
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:58
 msgid ""
 "Images over this size (in bytes) won't be thumbnailed. The purpose of this "
 "setting is to avoid thumbnailing large images that may take a long time to "
@@ -2083,39 +2083,39 @@ msgstr ""
 "ପ୍ରତିଛବିଗୁଡ଼ିକୁ କ୍ଷୁଦ୍ରଚିତ୍ରରେ ପ୍ରକାଶ କରିବାରୁ ଅଟକାଇବା ଯାହାକି ଧାରଣ କରିବା ପାଇଁ ଅନେକ ସମୟ ନେଇଥାଏ "
 "ଅଥବା ଅଧିକ ସ୍ମୃତି ସ୍ଥାନ ବ୍ୟବହାର କରିଥାଏ।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:59
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:59
 msgid "List of possible captions on icons"
 msgstr "ଚିତ୍ରସଙ୍କେତର ସମ୍ଭାବ୍ଯ ଶିରୋନାମା ମାନଙ୍କ ତାଲିକା"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:60
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:60
 msgid "Maximum image size for thumbnailing"
 msgstr "କ୍ଷୁଦ୍ର ଚିତ୍ରଣ ପାଇଁ ସର୍ବାଧିକ ପ୍ରତିଛବି ଆକାର"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:61
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:61
 msgid "Mouse button to activate the \"Back\" command in browser window"
 msgstr "ବ୍ରାଉଜର ୱିଣ୍ଡୋରେ \"Back\" ନିର୍ଦ୍ଦେଶକୁ ସକ୍ରିୟ କରିବା ପାଇଁ ମାଉସ ବଟନ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:62
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:62
 msgid "Mouse button to activate the \"Forward\" command in browser window"
 msgstr "ବ୍ରାଉଜର ୱିଣ୍ଡୋରେ \"Forward\" ନିର୍ଦ୍ଦେଶକୁ ସକ୍ରିୟ କରିବା ପାଇଁ ମାଉସ ବଟନ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:63
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:63
 msgid "Athena uses the users home folder as the desktop"
 msgstr "Athena ମୂଳସ୍ଥାନ ପଞ୍ଜିକାକୁ ଡେସ୍କଟପ ଭାବରେ ବ୍ଯବହାର କରିଥାଏ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:64
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:64
 msgid "Network Servers icon visible on the desktop"
 msgstr "ଡେସ୍କଟପରେ ନେଟୱାର୍କ ସେବକ ଚିତ୍ରସଙ୍କେତ ଦୃଶ୍ଯମାନ ଅଟେ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:65
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:65
 msgid "Network servers icon name"
 msgstr "ନେଟୱାର୍କ ସର୍ଭର ଚିତ୍ରସଂକେତ ନାମ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:66
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:66
 msgid "Only show folders in the tree side pane"
 msgstr "କେବଳ ଟ୍ରି ପାର୍ଶ୍ବପଟିରେ ଫୋଲଡର ମାନଙ୍କୁ ଦର୍ଶାନ୍ତୁ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:67
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:67
 msgid ""
 "Possible values are \"single\" to launch files on a single click, or \"double"
 "\" to launch them on a double click."
@@ -2123,51 +2123,51 @@ msgstr ""
 "ସମ୍ଭାବ୍ୟ ମୂଲ୍ୟଗୁଡ଼ିକ ହେଉଛି ଗୋଟିଏ କ୍ଲିକରେ ଫାଇଲ ଆରମ୍ଭ କରିବା ପାଇଁ \"ଥରେ\", କିମ୍ବା ଦୁଇଥର କ୍ଲିକରେ "
 "ସେମାନଙ୍କୁ ଆରମ୍ଭ କରିବା ପାଇଁ \"ଦୁଇଥର\"।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:68
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:68
 msgid "Put labels beside icons"
 msgstr "ଚିତ୍ରସଙ୍କେତ ନିକଟରେ ସୂଚକ ପ୍ରଦାନ କରନ୍ତୁ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:69
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:69
 msgid "Reverse sort order in new windows"
 msgstr "ନୂତନ ୱିଣ୍ଡୋରେ ବିପରୀତ ସଜାଡିବା କ୍ରମ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:70
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:70
 msgid "Show advanced permissions in the file property dialog"
 msgstr "ଫାଇଲ ଗୁଣଧର୍ମ ସଂଳାପରେ ଉନ୍ନତ ଧରଣର ଅନୁମତି ପ୍ରଦର୍ଶନ କରନ୍ତୁ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:71
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:71
 msgid "Show folders first in windows"
 msgstr "ପ୍ରଥମେ ୱିଣ୍ଡୋରେ ଫୋଲଡର ମାନଙ୍କୁ ପ୍ରଦର୍ଶନ କରନ୍ତୁ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:72
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:72
 msgid "Show location bar in new windows"
 msgstr "ନୂତନ ୱିଣ୍ଡୋ ମାନଙ୍କରେ ଅବସ୍ଥାନ ପଟି ପ୍ରଦର୍ଶନ କରନ୍ତୁ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:73
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:73
 msgid "Show mounted volumes on the desktop"
 msgstr "ଡେସ୍କଟପରେ ଆରୋହଣ କରାଯାଇଥିବା ଘନଫଳ ମାନଙ୍କୁ ପ୍ରଦର୍ଶନ କରନ୍ତୁ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:74
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:74
 msgid "Show side pane in new windows"
 msgstr "ନୂତନ ୱିଣ୍ଡୋ ମାନଙ୍କରେ ପାର୍ଶ୍ବ ଫଳକକୁ ପ୍ରଦର୍ଶନ କରନ୍ତୁ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:75
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:75
 msgid "Show status bar in new windows"
 msgstr "ନୂତନ ୱିଣ୍ଡୋ ମାନଙ୍କରେ ଅବସ୍ଥିତି ପଟିକୁ ପ୍ରଦର୍ଶନ କରନ୍ତୁ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:76
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:76
 msgid "Show the package installer for unknown mime types"
 msgstr "ଯଦି ଅଜଣା ମାଇମ ପ୍ରକାର ପାଇଁ ପ୍ୟାକେଜ ସ୍ଥାପକ ଦର୍ଶାଯାଏ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:77
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:77
 msgid "Show toolbar in new windows"
 msgstr "ନୂତନ ୱିଣ୍ଡୋ ମାନଙ୍କରେ ସାଧନ ପଟି ପ୍ରଦର୍ଶନ କରନ୍ତୁ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:78
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:78
 msgid "Side pane view"
 msgstr "ପାର୍ଶ୍ବ ଫଳକ ପ୍ରଦର୍ଶନ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:79
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:79
 #| msgid ""
 #| "Speed tradeoff for when to preview a sound file when mousing over a files "
 #| "icon. If set to \"always\" then always plays the sound, even if the file "
@@ -2185,7 +2185,7 @@ msgstr ""
 "କରାଯାଇଥାଏ ତେବେ କେବଳ ପ୍ରାକଦର୍ଶନକୁ ସ୍ଥାନୀୟ ପାଇଲ ତନ୍ତ୍ରରେ ଚଲାଇଥାଏ। ଯଦି \"never\" ସେଟ "
 "କରାଯାଇଥାଏ ତେବେ ଏହା କଦାପି ଧ୍ୱନିକୁ ପ୍ରାକଦର୍ଶନ କରେନାହିଁ।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:80
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:80
 #| msgid ""
 #| "Speed tradeoff for when to show a preview of text file contents in the "
 #| "file's icon. If set to \"always\" then always show previews, even if the "
@@ -2205,7 +2205,7 @@ msgstr ""
 "କରାଯାଇଥାଏ ତେବେ କେବଳ ପ୍ରାକଦର୍ଶନକୁ ସ୍ଥାନୀୟ ପାଇଲ ତନ୍ତ୍ରରେ ଚଲାଇଥାଏ। ଯଦି \"never\" ସେଟ "
 "କରାଯାଇଥାଏ ତେବେ ଏହା କଦାପି ତଥ୍ୟକୁ ପ୍ରାକଦର୍ଶନ କରେନାହିଁ।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:81
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:81
 #| msgid ""
 #| "Speed tradeoff for when to show an image file as a thumbnail. If set to "
 #| "\"always\" then always thumbnail, even if the folder is on a remote "
@@ -2226,7 +2226,7 @@ msgstr ""
 "କରାଯାଇଥାଏ ତେବେ ଏହା କଦାପି କ୍ଷୁଦ୍ରଚିତ୍ରକୁ ପ୍ରାକଦର୍ଶନ କରେନାହିଁ, କେବଳ ଗୋଟିଏ ସାଧାରଣ ଚିତ୍ରସଂକେତ "
 "ବ୍ୟବହାର କରିଥାଏ।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:82
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:82
 #| msgid ""
 #| "Speed tradeoff for when to show the number of items in a folder. If set "
 #| "to \"always\" then always show item counts, even if the folder is on a "
@@ -2245,15 +2245,15 @@ msgstr ""
 "କରାଯାଇଥାଏ ତେବେ କେବଳ ପ୍ରାକଦର୍ଶନକୁ ସ୍ଥାନୀୟ ପାଇଲ ତନ୍ତ୍ରରେ ଚଲାଇଥାଏ। ଯଦି \"never\" ସେଟ "
 "କରାଯାଇଥାଏ ତେବେ ଏହା କଦାପି କମ୍ପୁଟର ବସ୍ତୁକୁ ଗଣିନା ଉପରେ ଧ୍ଯାନ ଦେଇନଥାଏ।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:83
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:83
 msgid "Text Ellipsis Limit"
 msgstr "ପାଠ୍ୟ ଅଧ୍ୟାହାର ସୀମା"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:84
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:84
 msgid "The default size of an icon for a thumbnail in the icon view."
 msgstr "ଏହି ଚିତ୍ରସଂକେତ ପ୍ରଦର୍ଶନରେ ଦୃଶ୍ଯମାନ କ୍ଷୁଦ୍ରଚିତ୍ରର ପୂର୍ବ ନିର୍ଦ୍ଧାରିତ ଚିତ୍ରସଂକେତ ଆକାର।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:85
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:85
 #| msgid ""
 #| "The default sort-order for the items in the list view. Possible values "
 #| "are \"name\", \"size\", \"type\", and \"modification_date\"."
@@ -2264,31 +2264,31 @@ msgstr ""
 "ଚିତ୍ରସଂକେତ ଦୃଶ୍ୟରେ ବସ୍ତୁଗୁଡ଼ିକ ପାଇଁ ପୂର୍ବନିର୍ଦ୍ଧାରିତ କ୍ରମ-ସଜ୍ଜା। ସମ୍ଭାବ୍ୟ ମୂଲ୍ୟଗୁଡ଼ିକ ହେଉଛି \"ନାମ\", "
 "\"ଆକାର\", \"ପ୍ରକାର\", \"mtime\"।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:86
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:86
 msgid "The default width of the side pane in new windows."
 msgstr "ନୂତନ ୱିଣ୍ଡୋଗୁଡ଼ିକରେ ପୂର୍ବନିର୍ଦ୍ଧାରିତ ପାର୍ଶ୍ୱ ପ୍ୟାନର ପୂର୍ବନିର୍ଦ୍ଧାରିତ ଓସାର।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:87
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:87
 #| msgid "The font description used for the icons on the desktop."
 msgid "The font _description used for the icons on the desktop."
 msgstr "ଡେସ୍କଟପ ଉପରେ ଥିବା ଚିତ୍ରସଂକେତଗୁଡ଼ିକ ପାଇଁ ବ୍ୟବହୃତ ଅକ୍ଷରରୂପ ବର୍ଣ୍ଣନା (_d)।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:88
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:88
 msgid ""
 "The format of file dates. Possible values are \"locale\", \"iso\", and "
 "\"informal\"."
 msgstr "ଫାଇଲ ତାରିଖଗୁଡ଼ିକର ଶୈଳୀ। ସମ୍ଭାବ୍ୟ ମୂଲ୍ୟଗୁଡ଼ିକ ହେଉଛି \"ସ୍ଥାନ\", \"iso\", ଏବଂ\"ଅନିୟମିତ\"।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:89
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:89
 #| msgid "Open this folder in a navigation window"
 msgid "The geometry string for a navigation window."
 msgstr "ଗୋଟିଏ ପଥପ୍ରଦର୍ଶକ ୱିଣ୍ଡୋରେ ଏହି ଜ୍ୟାମିତି ବାକ୍ୟଖଣ୍ଡକୁ ଖୋଲନ୍ତୁ।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:90
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:90
 msgid "The side pane view to show in newly opened windows."
 msgstr "ନୂତନଭାବରେ ଖୋଲାଯାଇଥିବା ୱିଣ୍ଡୋରେ ଦର୍ଶାଇବା ପାଇଁ ପାର୍ଶ୍ୱ ପ୍ୟାନ ଦୃଶ୍ୟ।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:91
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:91
 msgid ""
 "This name can be set if you want a custom name for the computer icon on the "
 "desktop."
@@ -2296,7 +2296,7 @@ msgstr ""
 "ଡେସ୍କଟପରେ କମ୍ପୁଟର ଚିତ୍ରସଂକେତ ପାଇଁ ଯଦି ଆପଣ ଗୋଟିଏ ଇଚ୍ଛାମୁତାବକ ନାମ ଚାହାନ୍ତି ତେବେ ଏହି ନାମକୁ "
 "ସେଟ କରାଯାଇପାରିବ।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:92
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:92
 msgid ""
 "This name can be set if you want a custom name for the home icon on the "
 "desktop."
@@ -2304,7 +2304,7 @@ msgstr ""
 "ଡେସ୍କଟପରେ ମୂଳସ୍ଥାନ ଚିତ୍ରସଂକେତ ପାଇଁ ଯଦି ଆପଣ ଗୋଟିଏ ଇଚ୍ଛାମୁତାବକ ନାମ ଚାହାନ୍ତି ତେବେ ଏହି ନାମକୁ "
 "ସେଟ କରାଯାଇପାରିବ।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:93
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:93
 msgid ""
 "This name can be set if you want a custom name for the network servers icon "
 "on the desktop."
@@ -2312,7 +2312,7 @@ msgstr ""
 "ଡେସ୍କଟପରେ ନେଟୱର୍କ ସର୍ଭର ଚିତ୍ରସଂକେତ ପାଇଁ ଯଦି ଆପଣ ଗୋଟିଏ ଇଚ୍ଛାମୁତାବକ ନାମ ଚାହାନ୍ତି ତେବେ ଏହି "
 "ନାମକୁ ସେଟ କରାଯାଇପାରିବ।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:94
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:94
 msgid ""
 "This name can be set if you want a custom name for the trash icon on the "
 "desktop."
@@ -2320,23 +2320,23 @@ msgstr ""
 "ଡେସ୍କଟପରେ ଆବର୍ଜନା ପାତ୍ର ଚିତ୍ରସଂକେତ ପାଇଁ ଯଦି ଆପଣ ଗୋଟିଏ ଇଚ୍ଛାମୁତାବକ ନାମ ଚାହାନ୍ତି ତେବେ ଏହି "
 "ନାମକୁ ସେଟ କରାଯାଇପାରିବ।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:95
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:95
 msgid "Trash icon visible on desktop"
 msgstr "ଆବର୍ଜନା ପାତ୍ର ଚିତ୍ରସଂକେତ ଡେସ୍କଟପରେ ଦୃଶ୍ଯମାନ "
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:96
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:96
 msgid "Type of click used to launch/open files"
 msgstr "ଫାଇଲଗୁଡ଼ିକୁ ଆରମ୍ଭ କରିବା/ଖୋଲିବା ପାଇଁ ବ୍ୟବହୃତ କ୍ଲିକର ପ୍ରକାର"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:97
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:97
 msgid "Use extra mouse button events in Athena' browser window"
 msgstr "Athena ବ୍ରାଉଜର ୱିଣ୍ଡୋଗୁଡ଼ିକରେ ଅତିରିକ୍ତ ମାଉସ ବଟନ ଘଟଣାଗୁଡ଼ିକୁ ବ୍ୟବହାର କରନ୍ତୁ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:98
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:98
 msgid "What to do with executable text files when activated"
 msgstr "ସକ୍ରିୟ ହେବା ପରେ ନିଷ୍ପାଦ୍ୟ ପାଠ୍ୟ ଫାଇଲଗୁଡ଼ିକ ସହିତ କଣ କରିବା ଉଚିତ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:99
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:99
 msgid ""
 "What to do with executable text files when they are activated (single or "
 "double clicked). Possible values are \"launch\" to launch them as programs, "
@@ -2348,7 +2348,7 @@ msgstr ""
 "\"launch\", ଗୋଟିଏ ସଂଳାପ ମାଧ୍ଯମରେ କଣ କରିବାକୁ ହେବ ତାହା ପଚାରିବା ପାଇଁ \"ask\", ଏବଂ "
 "ସେମାନଙ୍କୁ ପାଠ୍ଯ ଫାଇଲ ଭାବରେ ଦର୍ଶାଇବା ପାଇଁ \"display\"।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:100
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:100
 #| msgid ""
 #| "When a folder is visited this viewer is used unless you have selected "
 #| "another view for that particular folder. Possible values are \"list_view"
@@ -2361,47 +2361,47 @@ msgstr ""
 "ଯେତେବେଳେ ଫୋଲଡରଟି ଏହି ଦୃଶ୍ୟକୁ ପରିଦର୍ଶନ କରିଥାଏ ଅନ୍ୟଥା ଆପଣ ସେହି ଫୋଲଡର ପାଇଁ ଅନ୍ୟ ଏକ ଦୃଶ୍ୟକୁ "
 "ବାଛିଥାଏ। ସମ୍ଭାବ୍ୟ ମୂଲ୍ୟଟି ହେଉଛି  \"list-view\", \"icon-view\" ଏବଂ \"compact-view\"."
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:101
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:101
 msgid "When to show number of items in a folder"
 msgstr "ଗୋଟିଏ ଫୋଲଡ଼ରରେ ଥିବା ବସ୍ତୁଗୁଡ଼ିକର ସଂଖ୍ୟାକୁ କେତେବେଳେ ଦର୍ଶାଯିବା ଉଚିତ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:102
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:102
 msgid "When to show preview text in icons"
 msgstr "ଗୋଟିଏ ଚିତ୍ରସଂକେତଗୁଡ଼ିକରେ ପାଠ୍ୟ ପ୍ରାକଦର୍ଶନ କେତେବେଳେ ଦର୍ଶାଯିବା ଉଚିତ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:103
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:103
 msgid "When to show thumbnails of image files"
 msgstr "ଗୋଟିଏ ପ୍ରତିଛବି ଫାଇଲଗୁଡ଼ିକର କ୍ଷୁଦ୍ରଚିତ୍ରକୁ କେତେବେଳେ ଦର୍ଶାଯିବା ଉଚିତ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:104
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:104
 msgid "Where to position newly open tabs in browser windows."
 msgstr "ବ୍ରାଉଜର ୱିଣ୍ଡୋରେ ଖୋଲାଯାଇଥିବା ଟ୍ୟାବଗୁଡ଼ିକୁ କେତେବେଳେ ରଖିବା ଉଚିତ।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:105
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:105
 msgid "Whether the navigation window should be maximized by default."
 msgstr "ପଥପ୍ରଦର୍ଶକ ୱିଣ୍ଡୋର ଆକାର ପୂର୍ବନିର୍ଦ୍ଧାରିତ ଭାବରେ ବୃଦ୍ଧି କରିବା ଉଚିତ କି ନୁହଁ।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:106
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:106
 msgid "Whether the navigation window should be maximized."
 msgstr "ପଥପ୍ରଦର୍ଶକ ୱିଣ୍ଡୋର ଆକାର ବୃଦ୍ଧି କରିବା ଉଚିତ କି ନୁହଁ।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:107
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:107
 msgid "Whether to ask for confirmation when deleting files, or emptying Trash"
 msgstr "ଫାଇଲ ଅପସାରଣ କରିବା ସମୟରେ କିମ୍ବା ଆବର୍ଜନାପାତ୍ରକୁ ଖାଲି କରିବା ସମୟରେ କେଉଁଠି ପଚାରିବ ଉଚିତ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:108
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:108
 msgid "Whether to enable immediate deletion"
 msgstr "ଅବିଳମ୍ବ ଅପସାରଣକୁ ସକ୍ରିୟ କରାଯିବ କି"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:109
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:109
 msgid "Whether to preview sounds when mousing over an icon"
 msgstr "ଗୋଟିଏ ଚିତ୍ରସଂକେତ ଉପରେ ମାଉସ ଚଲାଇବା ଫଳରେ କେଉଁଠି ଧ୍ୱନୀ ପ୍ରାକଦର୍ଶନ କରିବ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:110
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:110
 msgid "Whether to show hidden files"
 msgstr "ଲୁକ୍କାୟିତ ଫାଇଲକୁ ପ୍ରଦର୍ଶିତ କରାଯିବ କି ନାହିଁ"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:111
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:111
 msgid ""
 "Whether to show the user a package installer dialog in case an unknown mime "
 "type is opened, in order to search for an application to handle it."
@@ -2409,7 +2409,7 @@ msgstr ""
 "ନିୟନ୍ତ୍ରଣ କରିବା ପାଇଁ ଗୋଟିଏ ପ୍ରୟୋଗକୁ ସନ୍ଧାନ କରିବା ପାଇଁ, ଚାଳକକୁ ଗୋଟିଏ ପ୍ୟାକେଜ ସ୍ଥାପକ ସଂଳାପ "
 "ଦର୍ଶାଇବା ଉଚିତ କି ନୁହଁ ଯେତେବେଳେ ଗୋଟିଏ ଅଜଣା ମାଇମ ପ୍ରକାର ଖୋଲାହୋଇଥାଏ।"
 
-#: ../libathena-private/org.gnome.athena.gschema.xml.in.h:112
+#: ../libathena-private/com.solusos.athena.gschema.xml.in.h:112
 msgid "Width of the side pane"
 msgstr "ପାର୍ଶ୍ବପଟିର ଓସାର"
 

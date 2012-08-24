@@ -871,7 +871,7 @@ athena_file_management_properties_dialog_show (GtkWindow *window)
 	builder = gtk_builder_new ();
 
 	gtk_builder_add_from_resource (builder,
-				       "/org/gnome/athena/athena-file-management-properties.ui",
+				       "/com/solusos/athena/athena-file-management-properties.ui",
 				       NULL);
 
 	athena_file_management_properties_dialog_setup (builder, window);

@@ -255,7 +255,7 @@ create_bookmarks_window (AthenaBookmarkList *list, GObject *undo_manager_source)
 
 	builder = gtk_builder_new ();
 	if (!gtk_builder_add_from_resource (builder,
-					    "/org/gnome/athena/athena-bookmarks-window.ui",
+					    "/com/solusos/athena/athena-bookmarks-window.ui",
 					    NULL)) {
 		return NULL;
 	}

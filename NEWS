@@ -202,7 +202,7 @@ Major changes in 2.91.90 are:
 * Remove the spatial mode
 * Updated tracker search engine to use libtracker-sparql
 * Consistently use "Home" instead of the username
-* Rename the GSettings schema path to /org/gnome/athena
+* Rename the GSettings schema path to /com/solusos/athena
 * Remove the ability for extensions to create toolbar items
 
 Major changes in 2.91.9 are:

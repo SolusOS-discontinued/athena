@@ -2646,7 +2646,7 @@ athena_list_view_merge_menus (AthenaView *view)
 	g_object_unref (action_group); /* owned by ui manager */
 
 	list_view->details->list_merge_id =
-		gtk_ui_manager_add_ui_from_resource (ui_manager, "/org/gnome/athena/athena-list-view-ui.xml", NULL);
+		gtk_ui_manager_add_ui_from_resource (ui_manager, "/com/solusos/athena/athena-list-view-ui.xml", NULL);
 
 	list_view->details->menus_ready = TRUE;
 }

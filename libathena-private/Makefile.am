@@ -202,7 +202,7 @@ nodist_libathena_private_la_SOURCES =\
 
 $(lib_LTLIBRARIES): $(dependency_static_libs)
 
-gsettingsschema_in_files = org.gnome.athena.gschema.xml.in
+gsettingsschema_in_files = com.solusos.athena.gschema.xml.in
 gsettings_SCHEMAS = $(gsettingsschema_in_files:.xml.in=.xml)
 .PRECIOUS: $(gsettings_SCHEMAS)
 

@@ -1,4 +1,4 @@
-[org.gnome.athena.preferences]
+[com.solusos.athena.preferences]
 tabs-open-position = /desktop/gnome/file_views/tabs_open_position
 always-use-browser = /apps/athena/preferences/always_use_browser
 always-use-location-entry = /apps/athena/preferences/always_use_location_entry
@@ -30,26 +30,26 @@ default-folder-viewer = /apps/athena/preferences/default_folder_viewer
 date-format = /apps/athena/preferences/date_format
 show-hidden-files = /desktop/gnome/file_views/show_hidden_files
 
-[org.gnome.athena.icon-view]
+[com.solusos.athena.icon-view]
 captions = /apps/athena/icon_view/captions
 labels-beside-icons = /apps/athena/icon_view/labels_beside_icons
 default-zoom-level = /apps/athena/icon_view/default_zoom_level
 thumbnail-size = /apps/athena/icon_view/thumbnail_size
 text-ellipsis-limit = /apps/athena/icon_view/text_ellipsis_limit
 
-[org.gnome.athena.compact-view]
+[com.solusos.athena.compact-view]
 default-zoom-level = /apps/athena/compact_view/default_zoom_level
 all-columns-have-same-width = /apps/athena/compact_view/all_columns_have_same_width
 
-[org.gnome.athena.list-view]
+[com.solusos.athena.list-view]
 default-zoom-level = /apps/athena/list_view/default_zoom_level
 default-visible-columns = /apps/athena/list_view/default_visible_columns
 default-column-order = /apps/athena/list_view/default_column_order
 
-[org.gnome.athena.sidebar-panels.tree]
+[com.solusos.athena.sidebar-panels.tree]
 show-only-directories = /apps/athena/sidebar_panels/tree/show_only_directories
 
-[org.gnome.athena.desktop]
+[com.solusos.athena.desktop]
 font = /apps/athena/preferences/desktop_font
 home-icon-visible = /apps/athena/desktop/home_icon_visible
 computer-icon-visible = /apps/athena/desktop/computer_icon_visible
@@ -62,7 +62,7 @@ trash-icon-name = /apps/athena/desktop/trash_icon_name
 network-icon-name = /apps/athena/desktop/network_icon_name
 text-ellipsis-limit = /apps/athena/desktop/text_ellipsis_limit
 
-[org.gnome.athena.window-state]
+[com.solusos.athena.window-state]
 geometry = /apps/athena/preferences/navigation_window_saved_geometry
 maximized = /apps/athena/preferences/navigation_window_saved_maximized
 sidebar-width = /apps/athena/preferences/sidebar_width

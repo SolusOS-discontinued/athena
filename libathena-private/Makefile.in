@@ -616,7 +616,7 @@ nodist_libathena_private_la_SOURCES = \
 	$(BUILT_SOURCES) \
 	$(NULL)
 
-gsettingsschema_in_files = org.gnome.athena.gschema.xml.in
+gsettingsschema_in_files = com.solusos.athena.gschema.xml.in
 gsettings_SCHEMAS = $(gsettingsschema_in_files:.xml.in=.xml)
 convertdir = $(datadir)/GConf/gsettings
 convert_DATA = athena.convert
