@@ -23,9 +23,9 @@ servicedir = $(datadir)/dbus-1/services
 service_DATA = $(service_in_files:.service.in=.service)
 service_in_files = 				\
 	org.freedesktop.FileManager1.service.in	\
-	org.gnome.Athena.service.in
+	com.solusos.Athena.service.in
 
-org.gnome.Athena.service: org.gnome.Athena.service.in Makefile
+com.solusos.Athena.service: com.solusos.Athena.service.in Makefile
 	$(AM_V_GEN) sed -e "s|\@bindir\@|$(bindir)|" $< > $@
 
 org.freedesktop.FileManager1.service: org.freedesktop.FileManager1.service.in Makefile

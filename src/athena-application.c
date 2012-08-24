@@ -1229,7 +1229,7 @@ AthenaApplication *
 athena_application_get_singleton (void)
 {
 	return g_object_new (ATHENA_TYPE_APPLICATION,
-			     "application-id", "org.gnome.AthenaApplication",
+			     "application-id", "com.solusos.AthenaApplication",
 			     "flags", G_APPLICATION_HANDLES_OPEN,
 			     NULL);
 }

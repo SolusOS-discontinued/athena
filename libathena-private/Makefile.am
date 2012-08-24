@@ -21,7 +21,7 @@ INCLUDES = 						\
 dbus_built_sources = athena-generated.c athena-generated.h
 $(dbus_built_sources) : Makefile.am $(top_srcdir)/data/dbus-interfaces.xml
 	gdbus-codegen									\
-		--interface-prefix org.gnome.Athena.					\
+		--interface-prefix com.solusos.Athena.					\
 		--c-namespace AthenaDBus						\
 		--c-generate-object-manager						\
 		--generate-c-code athena-generated					\

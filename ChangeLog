@@ -11102,7 +11102,7 @@ Date:	2011-12-06
     Add declaration for the org.freedesktop.FileManager1 DBus interface
 
     This is not in dbus-interfaces.xml as that one has a different
-    namespace (org.gnome.Athena), and that makes the generated
+    namespace (com.solusos.Athena), and that makes the generated
     code from gdbus-codegen really ugly.  By keeping a separate
     file for this interface, we can get pretty generated code.
 
@@ -16609,7 +16609,7 @@ Date:	2011-02-22
     dbus-manager: install a DBus service file
 
 M	data/Makefile.am
-A	data/org.gnome.Athena.service.in
+A	data/com.solusos.Athena.service.in
 
 commit b76e3c666d1da08cc70bd09a293c2ed319861bcd
 Author: Cosimo Cecchi <cosimoc@gnome.org>

@@ -30,9 +30,9 @@
 
 G_DEFINE_TYPE (AthenaPreviewer, athena_previewer, G_TYPE_OBJECT);
 
-#define PREVIEWER_DBUS_NAME "org.gnome.AthenaPreviewer"
-#define PREVIEWER_DBUS_IFACE "org.gnome.AthenaPreviewer"
-#define PREVIEWER_DBUS_PATH "/org/gnome/AthenaPreviewer"
+#define PREVIEWER_DBUS_NAME "com.solusos.AthenaPreviewer"
+#define PREVIEWER_DBUS_IFACE "com.solusos.AthenaPreviewer"
+#define PREVIEWER_DBUS_PATH "/com/solusos/AthenaPreviewer"
 
 static AthenaPreviewer *singleton = NULL;
 
