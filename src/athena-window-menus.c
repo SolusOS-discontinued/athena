@@ -1047,7 +1047,7 @@ static const GtkActionEntry main_entries[] = {
 				 "<alt>Right", N_("Go to the next visited location"),
 				 G_CALLBACK (action_forward_callback) },
   /* name, stock id, label */  { "Go to Location", NULL, N_("Toggle _Location bar / Path bar"),
-                                 "F12", N_("Specify a location to open"),
+                                 "<control>L", N_("Specify a location to open"),
                                  G_CALLBACK (action_go_to_location_callback) },
   /* name, stock id, label */  { "SplitViewNextPane", NULL, N_("S_witch to Other Pane"),
 				 "F6", N_("Move focus to the other pane in a split view window"),
