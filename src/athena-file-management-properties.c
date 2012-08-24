@@ -68,7 +68,6 @@
 #define ATHENA_FILE_MANAGEMENT_PROPERTIES_SHOW_HOME_ICON_TOOLBAR_WIDGET "show_home_icon_toolbar_checkbutton"
 #define ATHENA_FILE_MANAGEMENT_PROPERTIES_SHOW_COMPUTER_ICON_TOOLBAR_WIDGET "show_computer_icon_toolbar_checkbutton"
 #define ATHENA_FILE_MANAGEMENT_PROPERTIES_SHOW_SEARCH_ICON_TOOLBAR_WIDGET "show_search_icon_toolbar_checkbutton"
-#define ATHENA_FILE_MANAGEMENT_PROPERTIES_SHOW_LABEL_SEARCH_ICON_TOOLBAR_WIDGET "show_label_search_icon_toolbar_checkbutton"
 
 
 /* int enums */
@@ -749,9 +748,6 @@ athena_file_management_properties_dialog_setup (GtkBuilder *builder, GtkWindow *
 	bind_builder_bool (builder, athena_preferences,
 			   ATHENA_FILE_MANAGEMENT_PROPERTIES_SHOW_SEARCH_ICON_TOOLBAR_WIDGET,
 			   ATHENA_PREFERENCES_SHOW_SEARCH_ICON_TOOLBAR);
-	bind_builder_bool (builder, athena_preferences,
-			   ATHENA_FILE_MANAGEMENT_PROPERTIES_SHOW_LABEL_SEARCH_ICON_TOOLBAR_WIDGET,
-			   ATHENA_PREFERENCES_SHOW_LABEL_SEARCH_ICON_TOOLBAR);
 
 	/* setup preferences */
 	bind_builder_bool (builder, athena_icon_view_preferences,

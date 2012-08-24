@@ -1126,7 +1126,6 @@ static const GtkRadioActionEntry main_radio_entries[] = {
 GtkActionGroup *
 athena_window_create_toolbar_action_group (AthenaWindow *window)
 {
-	gboolean show_label_search_icon_toolbar;
 
 	AthenaNavigationState *navigation_state;
 	GtkActionGroup *action_group;
@@ -1247,10 +1246,6 @@ athena_window_create_toolbar_action_group (AthenaWindow *window)
  
   	gtk_action_group_add_action (action_group, action);
   	gtk_action_set_icon_name (GTK_ACTION (action), "edit-find");
- 
- 
- 	show_label_search_icon_toolbar = g_settings_get_boolean (athena_preferences, ATHENA_PREFERENCES_SHOW_LABEL_SEARCH_ICON_TOOLBAR);
- 	gtk_action_set_is_important (GTK_ACTION (action), show_label_search_icon_toolbar);
   
   	g_object_unref (action);
 

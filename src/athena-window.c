@@ -2102,7 +2102,6 @@ athena_window_split_view_on (AthenaWindow *window)
 void
 athena_window_split_view_off (AthenaWindow *window)
 {
-	gboolean show_label_search_icon_toolbar;
 	AthenaWindowPane *pane, *active_pane;
 	GList *l, *next;
 
@@ -2122,9 +2121,6 @@ athena_window_split_view_off (AthenaWindow *window)
 					      active_pane->action_group);
 
 	athena_window_update_show_hide_menu_items (window);
-
-	show_label_search_icon_toolbar = g_settings_get_boolean (athena_preferences, ATHENA_PREFERENCES_SHOW_LABEL_SEARCH_ICON_TOOLBAR);
-	window_set_search_action_text (window, show_label_search_icon_toolbar);
 }
 
 gboolean

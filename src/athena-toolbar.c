@@ -301,9 +301,6 @@ athena_toolbar_constructed (GObject *obj)
 	g_signal_connect_swapped (athena_preferences,
 				  "changed::" ATHENA_PREFERENCES_SHOW_SEARCH_ICON_TOOLBAR,
 				  G_CALLBACK (toolbar_update_appearance), self);
-	g_signal_connect_swapped (athena_preferences,
-				  "changed::" ATHENA_PREFERENCES_SHOW_LABEL_SEARCH_ICON_TOOLBAR,
-				  G_CALLBACK (toolbar_update_appearance), self);
 
 	toolbar_update_appearance (self);
 
