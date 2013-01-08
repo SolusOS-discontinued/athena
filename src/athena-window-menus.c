@@ -312,7 +312,8 @@ static void
 action_about_athena_callback (GtkAction *action,
 				gpointer user_data)
 {
-	const gchar *authors[] = {
+	// These guys are gonna get their own page :)
+	/*const gchar *authors[] = {
 		"Alexander Larsson",
 		"Ali Abdin",
 		"Anders Carlsson",
@@ -353,6 +354,11 @@ action_about_athena_callback (GtkAction *action,
 		"Susan Kare",
 		"Tomas Bzatek",
 		NULL
+	};*/
+	const gchar *authors[] = {
+		"Ikey Doherty <ikey.doherty@gmail.com>",
+		"The Nautilus Developers (3.4.2)",
+		NULL
 	};
 	const gchar *documenters[] = {
 		"GNOME Documentation Team",
@@ -384,7 +390,7 @@ action_about_athena_callback (GtkAction *action,
 	 * e.g. 1999-2011.
 	 */
 	copyright_str = g_strdup_printf (_("Copyright \xC2\xA9 %Id\xE2\x80\x93%Id "
-					   "The Athena authors"), 1999, g_date_time_get_year (date));
+					   "The Athena authors"), 2013, g_date_time_get_year (date));
 
 	gtk_show_about_dialog (GTK_WINDOW (user_data),
 			       "program-name", _("Athena"),
