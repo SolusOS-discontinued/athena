@@ -1,3 +1,6 @@
+Tue 8 Jan, 2013:
+* Athena development restarted
+
 Major changes in 3.4.2 are:
 * Fix a crasher when using network devices
 * Fix a crasher when entering "http" addresses manually in the location bar
