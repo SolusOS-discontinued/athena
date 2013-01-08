@@ -61,6 +61,10 @@
 #include <libathena-private/athena-trash-monitor.h>
 #include <string.h>
 
+// Solely for the iconview switching
+#include "athena-icon-view.h"
+#include "athena-list-view.h"
+
 #define MENU_PATH_EXTENSION_ACTIONS                     "/MenuBar/File/Extension Actions"
 #define POPUP_PATH_EXTENSION_ACTIONS                     "/background/Before Zoom Items/Extension Actions"
 
@@ -780,6 +784,146 @@ static const char* icon_entries[] = {
 	"/MenuBar/Other Menus/Go/Go to Location"
 };
 
+enum {
+    ICON_VIEW,
+    LIST_VIEW,
+    COMPACT_VIEW,
+    NULL_VIEW
+};
+
+// Begin iconview cruft
+static void
+action_icon_view_callback (GtkAction *action,
+                           gpointer user_data)
+{
+    AthenaWindow *window;
+    AthenaWindowSlot *slot;
+    window = ATHENA_WINDOW (user_data);
+    slot = athena_window_get_active_slot (window);
+    athena_window_slot_set_content_view (slot, ATHENA_ICON_VIEW_ID);
+    toolbar_set_view_button (ICON_VIEW, athena_window_get_active_pane(window));
+}
+
+
+static void
+action_list_view_callback (GtkAction *action,
+                           gpointer user_data)
+{
+    AthenaWindow *window;
+    AthenaWindowSlot *slot;
+    window = ATHENA_WINDOW (user_data);
+    slot = athena_window_get_active_slot (window);
+    athena_window_slot_set_content_view (slot, ATHENA_LIST_VIEW_ID);
+    toolbar_set_view_button (LIST_VIEW, athena_window_get_active_pane(window));
+}
+
+
+static void
+action_details_view_callback (GtkAction *action,
+                           gpointer user_data)
+{
+    AthenaWindow *window;
+    AthenaWindowSlot *slot;
+    window = ATHENA_WINDOW (user_data);
+    slot = athena_window_get_active_slot (window);
+    athena_window_slot_set_content_view (slot, FM_COMPACT_VIEW_ID);
+    toolbar_set_view_button (COMPACT_VIEW, athena_window_get_active_pane(window));
+}
+
+guint
+toolbar_action_for_view_id (const char *view_id)
+{
+    if (g_strcmp0(view_id, ATHENA_ICON_VIEW_ID) == 0) {
+        return ICON_VIEW;
+    } else if (g_strcmp0(view_id, ATHENA_LIST_VIEW_ID) == 0) {
+        return LIST_VIEW;
+    } else if (g_strcmp0(view_id, FM_COMPACT_VIEW_ID) == 0) {
+        return COMPACT_VIEW;
+    } else {
+        return NULL_VIEW;
+    }
+}
+
+void
+toolbar_set_view_button (guint action_id, AthenaWindowPane *pane)
+{
+    GtkAction *action, *action1, *action2;
+    GtkActionGroup *action_group;
+    if (action_id == NULL_VIEW) {
+        return;
+    }
+    action_group = pane->action_group;
+
+    action = gtk_action_group_get_action(action_group,
+                                         ATHENA_ACTION_VIEW_ICONS);
+    action1 = gtk_action_group_get_action(action_group,
+                                         ATHENA_ACTION_VIEW_LIST);
+    action2 = gtk_action_group_get_action(action_group,
+                                         ATHENA_ACTION_VIEW_DETAILS);
+
+    g_signal_handlers_block_matched (action,
+                         G_SIGNAL_MATCH_FUNC,
+                         0, 0,
+                         NULL,
+                         action_icon_view_callback,
+                         NULL);
+
+    g_signal_handlers_block_matched (action1,
+                         G_SIGNAL_MATCH_FUNC,
+                         0, 0,
+                         NULL,
+                         action_list_view_callback,
+                         NULL);
+    g_signal_handlers_block_matched (action2,
+                         G_SIGNAL_MATCH_FUNC,
+                         0, 0,
+                         NULL,
+                         action_details_view_callback,
+                         NULL);
+
+    if (action_id != ICON_VIEW) {
+        gtk_toggle_action_set_active(GTK_TOGGLE_ACTION(action), FALSE);
+    } else {
+        gtk_toggle_action_set_active(GTK_TOGGLE_ACTION(action), TRUE);
+    }
+
+    if (action_id != LIST_VIEW) {
+        gtk_toggle_action_set_active(GTK_TOGGLE_ACTION(action1), FALSE);
+    } else {
+        gtk_toggle_action_set_active(GTK_TOGGLE_ACTION(action1), TRUE);
+    }
+
+    if (action_id != COMPACT_VIEW) {
+        gtk_toggle_action_set_active(GTK_TOGGLE_ACTION(action2), FALSE);
+    } else {
+        gtk_toggle_action_set_active(GTK_TOGGLE_ACTION(action2), TRUE);
+    }
+
+    g_signal_handlers_unblock_matched (action,
+                           G_SIGNAL_MATCH_FUNC,
+                           0, 0,
+                           NULL,
+                           action_icon_view_callback,
+                           NULL);
+
+
+    g_signal_handlers_unblock_matched (action1,
+                           G_SIGNAL_MATCH_FUNC,
+                           0, 0,
+                           NULL,
+                           action_list_view_callback,
+                           NULL);
+
+
+    g_signal_handlers_unblock_matched (action2,
+                           G_SIGNAL_MATCH_FUNC,
+                           0, 0,
+                           NULL,
+                           action_details_view_callback,
+                           NULL);
+
+} // End actionview stuff
+
 /**
  * refresh_go_menu:
  * 
@@ -1239,6 +1383,41 @@ athena_window_create_toolbar_action_group (AthenaWindow *window)
    	gtk_action_group_add_action (action_group, action);
   
    	g_object_unref (action);
+
+	action = GTK_ACTION (gtk_toggle_action_new (ATHENA_ACTION_VIEW_ICONS,
+		         _("Icons"),
+		         _("Icon View"),
+		         NULL));
+	g_signal_connect (action, "activate",
+		      G_CALLBACK (action_icon_view_callback),
+		      window);
+	gtk_action_group_add_action (action_group, action);
+	gtk_action_set_icon_name (GTK_ACTION (action), "view-grid-symbolic");
+	g_object_unref (action);
+
+	action = GTK_ACTION (gtk_toggle_action_new (ATHENA_ACTION_VIEW_LIST,
+		         _("List"),
+		         _("List View"),
+		         NULL));
+	g_signal_connect (action, "activate",
+		      G_CALLBACK (action_list_view_callback),
+		      window);
+	gtk_action_group_add_action (action_group, action);
+	gtk_action_set_icon_name (GTK_ACTION (action), "view-list-symbolic");
+
+	g_object_unref (action);
+
+	action = GTK_ACTION (gtk_toggle_action_new (ATHENA_ACTION_VIEW_DETAILS,
+		         _("Compact"),
+		         _("Compact View"),
+		         NULL));
+	g_signal_connect (action, "activate",
+		      G_CALLBACK (action_details_view_callback),
+		      window);
+	gtk_action_group_add_action (action_group, action);
+	gtk_action_set_icon_name (GTK_ACTION (action), "view-compact-symbolic");
+
+	g_object_unref (action);
 
  	action = GTK_ACTION (gtk_toggle_action_new (ATHENA_ACTION_SEARCH,
  				_("Search"),_("Search documents and folders by name"),
