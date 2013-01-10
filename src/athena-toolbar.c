@@ -193,11 +193,11 @@ athena_toolbar_constructed (GObject *obj)
 	box = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 0);
 
 	/* Back */
-	tool_button = toolbar_create_toolbutton (self,  FALSE, ATHENA_ACTION_BACK, "go-previous");
+	tool_button = toolbar_create_toolbutton (self,  FALSE, ATHENA_ACTION_BACK, "go-previous-symbolic");
 	gtk_container_add (GTK_CONTAINER (box), GTK_WIDGET (tool_button));
 
 	/* Forward */
-	tool_button = toolbar_create_toolbutton (self, FALSE, ATHENA_ACTION_FORWARD, "go-next");
+	tool_button = toolbar_create_toolbutton (self, FALSE, ATHENA_ACTION_FORWARD, "go-next-symbolic");
 	gtk_container_add (GTK_CONTAINER (box), GTK_WIDGET (tool_button));
 
 	gtk_style_context_add_class (gtk_widget_get_style_context (box),
