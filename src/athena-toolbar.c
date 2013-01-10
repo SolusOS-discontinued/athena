@@ -182,8 +182,8 @@ athena_toolbar_constructed (GObject *obj)
 
 	toolbar = gtk_ui_manager_get_widget (self->priv->ui_manager, "/Toolbar");
 	self->priv->toolbar = toolbar;
-	/** Remove this, should be up to the user what the icon size is.
-	gtk_toolbar_set_icon_size (GTK_TOOLBAR (toolbar), GTK_ICON_SIZE_SMALL_TOOLBAR); */
+	/** Use the small toolbar again, large icons look stupid */
+	gtk_toolbar_set_icon_size (GTK_TOOLBAR (toolbar), GTK_ICON_SIZE_SMALL_TOOLBAR);
 
 	context = gtk_widget_get_style_context (toolbar);
 	gtk_style_context_add_class (context, GTK_STYLE_CLASS_PRIMARY_TOOLBAR);
