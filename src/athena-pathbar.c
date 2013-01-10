@@ -348,6 +348,13 @@ athena_path_bar_init (AthenaPathBar *path_bar)
                           G_CALLBACK (trash_state_changed_cb),
                           path_bar);
 
+	/**
+	 * Link all items in the pathbar. We do need to fix how the end and start buttons
+	 * are used so that every theme will be able to render this correctly */
+	gtk_style_context_add_class (gtk_widget_get_style_context (GTK_WIDGET (path_bar)),
+                                     GTK_STYLE_CLASS_LINKED);
+	gtk_style_context_add_class (gtk_widget_get_style_context (GTK_WIDGET (path_bar)),
+                                     GTK_STYLE_CLASS_RAISED);
 }
 
 static void
