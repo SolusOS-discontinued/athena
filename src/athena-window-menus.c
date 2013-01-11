@@ -853,80 +853,81 @@ toolbar_action_for_view_id (const char *view_id)
 void
 toolbar_set_view_button (guint action_id, AthenaWindowPane *pane)
 {
-    GtkAction *action, *action1, *action2;
-    GtkActionGroup *action_group;
-    if (action_id == NULL_VIEW) {
-        return;
-    }
-    action_group = pane->action_group;
+	GtkAction *action, *action1, *action2;
+	GtkActionGroup *action_group;
+	if (action_id == NULL_VIEW) {
+		return;
+	}
+	action_group = pane->action_group;
 
-    action = gtk_action_group_get_action(action_group,
-                                         ATHENA_ACTION_VIEW_ICONS);
-    action1 = gtk_action_group_get_action(action_group,
-                                         ATHENA_ACTION_VIEW_LIST);
-    action2 = gtk_action_group_get_action(action_group,
-                                         ATHENA_ACTION_VIEW_DETAILS);
+	action = gtk_action_group_get_action(action_group,
+		                         ATHENA_ACTION_VIEW_ICONS);
+	action1 = gtk_action_group_get_action(action_group,
+		                         ATHENA_ACTION_VIEW_LIST);
+	action2 = gtk_action_group_get_action(action_group,
+		                         ATHENA_ACTION_VIEW_DETAILS);
 
-    g_signal_handlers_block_matched (action,
-                         G_SIGNAL_MATCH_FUNC,
-                         0, 0,
-                         NULL,
-                         action_icon_view_callback,
-                         NULL);
+	g_signal_handlers_block_matched (action,
+		         G_SIGNAL_MATCH_FUNC,
+		         0, 0,
+		         NULL,
+		         action_icon_view_callback,
+		         NULL);
 
-    g_signal_handlers_block_matched (action1,
-                         G_SIGNAL_MATCH_FUNC,
-                         0, 0,
-                         NULL,
-                         action_list_view_callback,
-                         NULL);
-    g_signal_handlers_block_matched (action2,
-                         G_SIGNAL_MATCH_FUNC,
-                         0, 0,
-                         NULL,
-                         action_details_view_callback,
-                         NULL);
-
-    if (action_id != ICON_VIEW) {
-        gtk_toggle_action_set_active(GTK_TOGGLE_ACTION(action), FALSE);
-    } else {
-        gtk_toggle_action_set_active(GTK_TOGGLE_ACTION(action), TRUE);
-    }
-
-    if (action_id != LIST_VIEW) {
-        gtk_toggle_action_set_active(GTK_TOGGLE_ACTION(action1), FALSE);
-    } else {
-        gtk_toggle_action_set_active(GTK_TOGGLE_ACTION(action1), TRUE);
-    }
-
-    if (action_id != COMPACT_VIEW) {
-        gtk_toggle_action_set_active(GTK_TOGGLE_ACTION(action2), FALSE);
-    } else {
-        gtk_toggle_action_set_active(GTK_TOGGLE_ACTION(action2), TRUE);
-    }
-
-    g_signal_handlers_unblock_matched (action,
-                           G_SIGNAL_MATCH_FUNC,
-                           0, 0,
-                           NULL,
-                           action_icon_view_callback,
-                           NULL);
+	g_signal_handlers_block_matched (action1,
+		         G_SIGNAL_MATCH_FUNC,
+		         0, 0,
+		         NULL,
+		         action_list_view_callback,
+		         NULL);
+	g_signal_handlers_block_matched (action2,
+		         G_SIGNAL_MATCH_FUNC,
+		         0, 0,
+		         NULL,
+		         action_details_view_callback,
+		         NULL);
 
 
-    g_signal_handlers_unblock_matched (action1,
-                           G_SIGNAL_MATCH_FUNC,
-                           0, 0,
-                           NULL,
-                           action_list_view_callback,
-                           NULL);
+	if (action_id != ICON_VIEW) {
+		gtk_toggle_action_set_active(GTK_TOGGLE_ACTION(action), FALSE);
+	} else {
+		gtk_toggle_action_set_active(GTK_TOGGLE_ACTION(action), TRUE);
+	}
+
+	if (action_id != LIST_VIEW) {
+		gtk_toggle_action_set_active(GTK_TOGGLE_ACTION(action1), FALSE);
+	} else {
+		gtk_toggle_action_set_active(GTK_TOGGLE_ACTION(action1), TRUE);
+	}
+
+	if (action_id != COMPACT_VIEW) {
+		gtk_toggle_action_set_active(GTK_TOGGLE_ACTION(action2), FALSE);
+	} else {
+		gtk_toggle_action_set_active(GTK_TOGGLE_ACTION(action2), TRUE);
+	}
+
+	g_signal_handlers_unblock_matched (action,
+		           G_SIGNAL_MATCH_FUNC,
+		           0, 0,
+		           NULL,
+		           action_icon_view_callback,
+		           NULL);
 
 
-    g_signal_handlers_unblock_matched (action2,
-                           G_SIGNAL_MATCH_FUNC,
-                           0, 0,
-                           NULL,
-                           action_details_view_callback,
-                           NULL);
+	g_signal_handlers_unblock_matched (action1,
+		           G_SIGNAL_MATCH_FUNC,
+		           0, 0,
+		           NULL,
+		           action_list_view_callback,
+		           NULL);
+
+
+	g_signal_handlers_unblock_matched (action2,
+		           G_SIGNAL_MATCH_FUNC,
+		           0, 0,
+		           NULL,
+		           action_details_view_callback,
+		           NULL);
 
 } // End actionview stuff
 
