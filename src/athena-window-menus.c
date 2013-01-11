@@ -633,11 +633,17 @@ action_show_hide_menubar_callback (GtkAction *action,
 
 	window = ATHENA_WINDOW (user_data);
 
+	if (gtk_widget_get_visible (GTK_WIDGET (window->details->menubar))) {
+		athena_window_hide_menubar (window);
+	} else {
+		athena_window_show_menubar (window);
+	}
+	/*
 	if (gtk_toggle_action_get_active (GTK_TOGGLE_ACTION (action))) {
 		athena_window_show_menubar (window);
 	} else {
 		athena_window_hide_menubar (window);
-	}
+	}*/
 }
 
 static void
