@@ -1275,6 +1275,10 @@ athena_window_sync_view_as_menus (AthenaWindow *window)
 	GList *node;
 	GtkAction *action;
 
+	// Update the Window view toggle stuffs
+	AthenaWindowPane *pane;
+	const char *view_id;
+
 	g_assert (ATHENA_IS_WINDOW (window));
 
 	slot = athena_window_get_active_slot (window);
@@ -1314,6 +1318,10 @@ athena_window_sync_view_as_menus (AthenaWindow *window)
 					   NULL,
 					   action_view_as_callback,
 					   NULL);
+
+	pane = athena_window_get_active_pane (window);
+	view_id = athena_window_slot_get_content_view_id (slot);
+	toolbar_set_view_button (toolbar_action_for_view_id (view_id), pane);
 }
 
 static void
