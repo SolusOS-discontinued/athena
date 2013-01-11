@@ -89,6 +89,7 @@ typedef enum
 #define ATHENA_WINDOW_STATE_START_WITH_STATUS_BAR		"start-with-status-bar"
 #define ATHENA_WINDOW_STATE_START_WITH_SIDEBAR		"start-with-sidebar"
 #define ATHENA_WINDOW_STATE_START_WITH_TOOLBAR		"start-with-toolbar"
+#define ATHENA_WINDOW_STATE_START_WITH_MENUBAR		"start-with-menubar"
 #define ATHENA_WINDOW_STATE_SIDE_PANE_VIEW                    "side-pane-view"
 #define ATHENA_WINDOW_STATE_GEOMETRY				"geometry"
 #define ATHENA_WINDOW_STATE_MAXIMIZED				"maximized"
