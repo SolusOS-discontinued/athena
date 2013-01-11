@@ -2,6 +2,7 @@ NULL =
 
 public_icons_themes = \
 	hicolor	\
+	gnome \
 	$(NULL)
 
 public_icons = \
@@ -10,6 +11,7 @@ public_icons = \
 	hicolor_apps_24x24_athena.png \
 	hicolor_apps_32x32_athena.png \
 	hicolor_apps_scalable_athena.svg \
+	gnome_actions_scalable_view-details-symbolic.svg \
 	$(NULL)
 
 private_icons = \
