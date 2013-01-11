@@ -888,22 +888,24 @@ toolbar_set_view_button (guint action_id, AthenaWindowPane *pane)
 		         NULL);
 
 
-	if (action_id != ICON_VIEW) {
-		gtk_toggle_action_set_active(GTK_TOGGLE_ACTION(action), FALSE);
-	} else {
-		gtk_toggle_action_set_active(GTK_TOGGLE_ACTION(action), TRUE);
-	}
-
-	if (action_id != LIST_VIEW) {
-		gtk_toggle_action_set_active(GTK_TOGGLE_ACTION(action1), FALSE);
-	} else {
-		gtk_toggle_action_set_active(GTK_TOGGLE_ACTION(action1), TRUE);
-	}
-
-	if (action_id != COMPACT_VIEW) {
-		gtk_toggle_action_set_active(GTK_TOGGLE_ACTION(action2), FALSE);
-	} else {
-		gtk_toggle_action_set_active(GTK_TOGGLE_ACTION(action2), TRUE);
+	switch (action_id) {
+		case ICON_VIEW:
+			gtk_toggle_action_set_active(GTK_TOGGLE_ACTION(action), TRUE);
+			gtk_toggle_action_set_active(GTK_TOGGLE_ACTION(action1), FALSE);
+			gtk_toggle_action_set_active(GTK_TOGGLE_ACTION(action2), FALSE);
+			break;
+		case LIST_VIEW:
+			gtk_toggle_action_set_active(GTK_TOGGLE_ACTION(action), FALSE);
+			gtk_toggle_action_set_active(GTK_TOGGLE_ACTION(action1), TRUE);
+			gtk_toggle_action_set_active(GTK_TOGGLE_ACTION(action2), FALSE);
+			break;
+		case COMPACT_VIEW:
+			gtk_toggle_action_set_active(GTK_TOGGLE_ACTION(action), FALSE);
+			gtk_toggle_action_set_active(GTK_TOGGLE_ACTION(action1), FALSE);
+			gtk_toggle_action_set_active(GTK_TOGGLE_ACTION(action2), TRUE);
+			break;
+		default:
+			break;
 	}
 
 	g_signal_handlers_unblock_matched (action,
