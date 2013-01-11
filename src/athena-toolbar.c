@@ -244,7 +244,7 @@ athena_toolbar_constructed (GObject *obj)
 				     GTK_STYLE_CLASS_LINKED);
 
 	// View buttons.
-	tool_button = toolbar_create_toolbutton (self, TRUE, ATHENA_ACTION_VIEW_LIST, "view-list-details-symbolic");
+	tool_button = toolbar_create_toolbutton (self, TRUE, ATHENA_ACTION_VIEW_LIST, "view-details-symbolic");
 	gtk_container_add (GTK_CONTAINER (box), GTK_WIDGET (tool_button));
 	tool_button = toolbar_create_toolbutton (self, TRUE, ATHENA_ACTION_VIEW_ICONS, "view-grid-symbolic");
 	gtk_container_add (GTK_CONTAINER (box), GTK_WIDGET (tool_button));
