@@ -145,7 +145,7 @@ toolbar_create_toolbutton (AthenaToolbar *self,
 					GTK_ICON_SIZE_SMALL_TOOLBAR);
 
 	gtk_container_add (GTK_CONTAINER (button), image); // Force image to show
-	g_object_set (image, "margin", 3, NULL); // 3px margin around the image
+	//g_object_set (image, "margin", 3, NULL); // 3px margin around the image
 	gtk_widget_show (GTK_WIDGET (image));
 
 	action = gtk_action_group_get_action (self->priv->action_group, name);
