@@ -630,6 +630,15 @@ athena_window_constructed (GObject *self)
 				      athena_window_disable_chrome_mapping, NULL,
 				      window, NULL);
 
+	// Menubar hiding/showing
+	g_settings_bind_with_mapping (athena_window_state,
+				      ATHENA_WINDOW_STATE_START_WITH_MENUBAR,
+				      window->details->menubar,
+				      "visible",
+				      G_SETTINGS_BIND_DEFAULT,
+				      athena_window_disable_chrome_mapping, NULL,
+				      window, NULL);
+
 	pane = athena_window_pane_new (window);
 	window->details->panes = g_list_prepend (window->details->panes, pane);
 
