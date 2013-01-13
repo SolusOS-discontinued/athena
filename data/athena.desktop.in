@@ -2,7 +2,7 @@
 _Name=Files
 _Comment=Access and organize files
 Exec=athena %U
-Icon=system-file-manager
+Icon=athena
 Terminal=false
 Type=Application
 StartupNotify=true

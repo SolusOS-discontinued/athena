@@ -408,7 +408,7 @@ action_about_athena_callback (GtkAction *action,
 				 * box to give credit to the translator(s).
 				 */
 			      "translator-credits", _("translator-credits"),
-			      "logo-icon-name", "system-file-manager",
+			      "logo-icon-name", "athena",
 			      "website", "http://www.solusos.com/Athena",
 			      "website-label", _("Athena Web Site"),
 			      NULL);
