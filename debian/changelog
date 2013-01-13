@@ -1,3 +1,17 @@
+athena (1.0.1) two; urgency=low
+
+  * Initial import into SolusOS 2 repositories
+  * View-mode toggle
+  * Complete branding
+  * Use some symbolic icons
+  * Smaller buttons
+  * Code cleanups
+  * Menubar state tracking
+  * Better pathbar
+  * etc.
+
+ -- Ikey Doherty <ikey@solusos.com>  Sun, 13 Jan 2013 13:44:12 +0000
+
 athena (1.0) two; urgency=low
 
   * Fixed filesystem icon and improved the xdg icon support in the pathbar
