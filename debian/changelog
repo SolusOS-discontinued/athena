@@ -1,3 +1,9 @@
+athena (1.0.2) two; urgency=low
+
+  * Swap view-toggler location
+
+ -- Ikey Doherty <ikey@solusos.com>  Mon, 14 Jan 2013 18:35:32 +0000
+
 athena (1.0.1) two; urgency=low
 
   * Initial import into SolusOS 2 repositories
