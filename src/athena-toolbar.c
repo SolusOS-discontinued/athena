@@ -193,11 +193,11 @@ athena_toolbar_constructed (GObject *obj)
 	box = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 0);
 
 	/* Back */
-	tool_button = toolbar_create_toolbutton (self,  FALSE, ATHENA_ACTION_BACK, "go-previous-symbolic");
+	tool_button = toolbar_create_toolbutton (self,  FALSE, ATHENA_ACTION_BACK, "athena-go-previous-symbolic");
 	gtk_container_add (GTK_CONTAINER (box), GTK_WIDGET (tool_button));
 
 	/* Forward */
-	tool_button = toolbar_create_toolbutton (self, FALSE, ATHENA_ACTION_FORWARD, "go-next-symbolic");
+	tool_button = toolbar_create_toolbutton (self, FALSE, ATHENA_ACTION_FORWARD, "athena-go-next-symbolic");
 	gtk_container_add (GTK_CONTAINER (box), GTK_WIDGET (tool_button));
 
 	gtk_style_context_add_class (gtk_widget_get_style_context (box),
@@ -244,7 +244,7 @@ athena_toolbar_constructed (GObject *obj)
 				     GTK_STYLE_CLASS_LINKED);
 
 	// View buttons.
-	tool_button = toolbar_create_toolbutton (self, TRUE, ATHENA_ACTION_VIEW_ICONS, "view-grid-symbolic");
+	tool_button = toolbar_create_toolbutton (self, TRUE, ATHENA_ACTION_VIEW_ICONS, "athena-view-grid-symbolic");
 	gtk_container_add (GTK_CONTAINER (box), GTK_WIDGET (tool_button));
 	tool_button = toolbar_create_toolbutton (self, TRUE, ATHENA_ACTION_VIEW_LIST, "view-details-symbolic");
 	gtk_container_add (GTK_CONTAINER (box), GTK_WIDGET (tool_button));
