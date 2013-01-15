@@ -13,6 +13,9 @@ public_icons = \
 	hicolor_apps_scalable_athena.svg \
 	gnome_actions_scalable_view-details-symbolic.svg \
 	gnome_actions_scalable_athena-edit-find-symbolic.svg \
+	gnome_actions_scalable_athena-go-next-symbolic.svg \
+	gnome_actions_scalable_athena-go-previous-symbolic.svg \
+	gnome_actions_scalable_athena-view-grid-symbolic.svg \
 	$(NULL)
 
 private_icons = \
