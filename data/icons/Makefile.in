@@ -256,6 +256,7 @@ public_icons = \
 	hicolor_apps_32x32_athena.png \
 	hicolor_apps_scalable_athena.svg \
 	gnome_actions_scalable_view-details-symbolic.svg \
+	gnome_actions_scalable_athena-edit-find-symbolic.svg \
 	$(NULL)
 
 private_icons = \
