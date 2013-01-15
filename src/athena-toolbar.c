@@ -213,7 +213,7 @@ athena_toolbar_constructed (GObject *obj)
 	/* End of back/forward button */
 
 	/* Search button */
-	tool_button = toolbar_create_toolbutton (self, TRUE, ATHENA_ACTION_SEARCH, "edit-find");
+	tool_button = toolbar_create_toolbutton (self, TRUE, ATHENA_ACTION_SEARCH, "athena-edit-find-symbolic");
 	search_item = gtk_tool_item_new ();
 	gtk_container_add (GTK_CONTAINER (search_item), GTK_WIDGET (tool_button));
 	gtk_widget_show_all (GTK_WIDGET (search_item));
