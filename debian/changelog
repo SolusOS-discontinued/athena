@@ -1,3 +1,9 @@
+athena (1.0.3) two; urgency=low
+
+  * Use latest 3.6 symbolic icons
+
+ -- Ikey Doherty <ikey@solusos.com>  Wed, 16 Jan 2013 15:24:12 +0000
+
 athena (1.0.2) two; urgency=low
 
   * Swap view-toggler location
