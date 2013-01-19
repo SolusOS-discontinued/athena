@@ -145,7 +145,7 @@ Package: athena-data
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: athena
-Provides: athena-data
+Provides: nautilus-data
 Description: data files for athena
  Athena is the official file manager and graphical shell for the
  GNOME desktop.
