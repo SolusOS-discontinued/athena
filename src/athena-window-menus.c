@@ -357,6 +357,8 @@ action_about_athena_callback (GtkAction *action,
 	};*/
 	const gchar *authors[] = {
 		"Ikey Doherty <ikey.doherty@gmail.com>",
+		"Georgi Karavasilev",
+		"Reda Lazri",
 		"The Nautilus Developers (3.4.2)",
 		NULL
 	};
