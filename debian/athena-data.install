@@ -1,0 +1,8 @@
+usr/share/icons/hicolor
+usr/share/icons/gnome
+usr/share/athena
+usr/share/locale
+usr/share/mime/packages/athena.xml
+usr/share/GConf
+usr/share/glib-2.0/schemas/com.solusos.athena.gschema.xml
+debian/athena.xpm /usr/share/pixmaps
